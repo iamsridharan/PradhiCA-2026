@@ -48,3 +48,9 @@ dist/
 build/
 *.min.js
 *.min.css
+
+# Large files
+Archive.zip
+*.zip
+*.tar.gz
+*.rar
