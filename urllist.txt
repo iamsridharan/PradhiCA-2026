@@ -1,3 +1,7 @@
+# PradhiCA URL List - Updated 2026-02-16
+# 136 pages
+
+# Main Pages
 https://pradhica.com/
 https://pradhica.com/index.html
 https://pradhica.com/course-overview.html
@@ -6,122 +10,194 @@ https://pradhica.com/registration.html
 https://pradhica.com/sitemap.html
 
 # Test Schedules
-https://pradhica.com/test-schedule-foundation-Jan26.html
-https://pradhica.com/test-schedule-foundation-Sep25.html
-https://pradhica.com/test-schedule-Inter-Jan26.html
-https://pradhica.com/test-schedule-Inter-Sep25.html
-https://pradhica.com/test-schedule-final-Jan26.html
-https://pradhica.com/test-schedule-final-Nov24.html
-https://pradhica.com/test-schedule-final-Sep25.html
+https://pradhica.com/test-schedule-Inter-Jan27.html
+https://pradhica.com/test-schedule-Inter-May26.html
+https://pradhica.com/test-schedule-Inter-Sep26.html
+https://pradhica.com/test-schedule-final-Jan27.html
+https://pradhica.com/test-schedule-final-May26.html
+https://pradhica.com/test-schedule-final-Sep26.html
+https://pradhica.com/test-schedule-foundation-May26.html
+https://pradhica.com/test-schedule-foundation-Sep26.html
 
-# Foundation Course Pages
+# Foundation Pages
 https://pradhica.com/Foundation-ABC-Homepage_Jan26.html
-https://pradhica.com/Foundation-ABC-Homepage_Sep25.html
 https://pradhica.com/Foundation-ABC-Online-With-model-Jan26.html
 https://pradhica.com/Foundation-ABC-Online-With-model-Sep25.html
 https://pradhica.com/Foundation-ABC-Online_Jan26.html
 https://pradhica.com/Foundation-ABC-Online_SEP25.html
-https://pradhica.com/foundation-dot3-Homepage-Sep25.html
+https://pradhica.com/ca-foundation-test-series.html
+https://pradhica.com/foundation-Dot2-May26-direct.html
+https://pradhica.com/foundation-Dot2-May26-online.html
 https://pradhica.com/foundation-Dot3-Sep25-direct.html
 https://pradhica.com/foundation-Dot3-Sep25-online.html
-https://pradhica.com/foundation-dotM-Homepage-Sep25.html
+https://pradhica.com/foundation-DotM-Jan26-direct.html
+https://pradhica.com/foundation-DotM-Jan26-online.html
 https://pradhica.com/foundation-DotM-Sep25-direct.html
 https://pradhica.com/foundation-DotM-Sep25-online.html
+https://pradhica.com/foundation-dot2-Homepage-may26.html
+https://pradhica.com/foundation-dot3-Homepage-Sep25.html
+https://pradhica.com/foundation-dotM-Homepage-Jan26.html
+https://pradhica.com/foundation-dotM-Homepage-Sep25.html
+https://pradhica.com/test-schedule-foundation-May26.html
+https://pradhica.com/test-schedule-foundation-Sep26.html
 
-# Intermediate Course Pages
-https://pradhica.com/Inter-ABC-Homepage_Jan26.html
-https://pradhica.com/Inter-ABC-Homepage_Sep25.html
-https://pradhica.com/Inter-ABC-Online-With-model-Jan26.html
-https://pradhica.com/Inter-ABC-Online-With-model-Sep25.html
-https://pradhica.com/Inter-ABC-Online_Jan26.html
-https://pradhica.com/Inter-ABC-Online_Sep25.html
-https://pradhica.com/Inter-dot2.O-Homepage_sep25.html
-https://pradhica.com/Inter-Dot2.O-sep25-Direct.html
-https://pradhica.com/Inter-Dot2.O-sep25-Online.html
-https://pradhica.com/Inter-dot3.O-Homepage_sep25.html
-https://pradhica.com/Inter-Dot3.O-sep25-Direct.html
-https://pradhica.com/Inter-Dot3.O-sep25-Online.html
-https://pradhica.com/Inter-Dot-Marathon-Jan26-Homepage.html
-https://pradhica.com/Inter-Dot-Marathon-Jan26-Direct.html
-https://pradhica.com/Inter-Dot-Marathon-Jan26-Online.html
-https://pradhica.com/Inter-Dot-Marathon-Sep25-Homepage.html
-https://pradhica.com/Inter-Dot-Marathon-Sep25-Direct.html
-https://pradhica.com/Inter-Dot-Marathon-Sep25-Online.html
-https://pradhica.com/Inter-Model-1set_Direct_Sep25.html
-https://pradhica.com/Inter-Model-1set_Online_Sep25.html
-https://pradhica.com/Inter-Model-2set_Direct_Sep25.html
-https://pradhica.com/Inter-Model-2set_Online_Sep25.html
-https://pradhica.com/Inter-Model-3set_Direct_Sep25.html
-https://pradhica.com/Inter-Model-3set_Online_Sep25.html
+# Intermediate Pages
+https://pradhica.com/01-Inter-new-wModel-Direct_Single_New-Jan27.html
+https://pradhica.com/01-Inter-new-wModel-Direct_Single_New-May26.html
+https://pradhica.com/01-Inter-new-wModel-Direct_Single_New-Sep26.html
+https://pradhica.com/01-Inter-new-wModel-Online_Single_New-Jan27.html
+https://pradhica.com/01-Inter-new-wModel-Online_Single_New-May26.html
+https://pradhica.com/01-Inter-new-wModel-Online_Single_New-Sep26.html
+https://pradhica.com/01-Inter-new-woModel-Direct_Single_New-Jan27.html
+https://pradhica.com/01-Inter-new-woModel-Direct_Single_New-May26.html
+https://pradhica.com/01-Inter-new-woModel-Direct_Single_New-Sep26.html
+https://pradhica.com/01-Inter-new-woModel-Online_Single_New-Jan27.html
+https://pradhica.com/01-Inter-new-woModel-Online_Single_New-May26.html
+https://pradhica.com/01-Inter-new-woModel-Online_Single_New-Sep26.html
+https://pradhica.com/02-Inter-Rapid-Revison-Direct-JAN26.html
+https://pradhica.com/02-Inter-Rapid-Revison-Online--JAN26.html
+https://pradhica.com/Inter-ABC-Direct-With-model-Jan27.html
+https://pradhica.com/Inter-ABC-Direct-With-model-May26.html
+https://pradhica.com/Inter-ABC-Direct-With-model-Sep26.html
+https://pradhica.com/Inter-ABC-Direct_Jan27.html
+https://pradhica.com/Inter-ABC-Direct_May26.html
+https://pradhica.com/Inter-ABC-Direct_Sep26.html
+https://pradhica.com/Inter-ABC-Homepage_Jan27.html
+https://pradhica.com/Inter-ABC-Homepage_May26.html
+https://pradhica.com/Inter-ABC-Homepage_Sep26.html
+https://pradhica.com/Inter-ABC-Online-With-model-Jan27.html
+https://pradhica.com/Inter-ABC-Online-With-model-May26.html
+https://pradhica.com/Inter-ABC-Online-With-model-Sep26.html
+https://pradhica.com/Inter-ABC-Online_Jan27.html
+https://pradhica.com/Inter-ABC-Online_May26.html
+https://pradhica.com/Inter-ABC-Online_Sep26.html
+https://pradhica.com/Inter-Dot-Marathon-May26-Direct.html
+https://pradhica.com/Inter-Dot-Marathon-May26-Homepage.html
+https://pradhica.com/Inter-Dot-Marathon-May26-Online.html
+https://pradhica.com/Inter-Dot3.O-jan26-Direct.html
+https://pradhica.com/Inter-Dot3.O-jan26-Online.html
+https://pradhica.com/Inter-Model-1set_Direct_May26.html
+https://pradhica.com/Inter-Model-1set_Online_May26.html
+https://pradhica.com/Inter-Model-2set_Direct_May26.html
+https://pradhica.com/Inter-Model-2set_Online_May26.html
+https://pradhica.com/Inter-Model-3set_Direct_May26.html
+https://pradhica.com/Inter-Model-3set_Online_May26.html
+https://pradhica.com/Inter-dot2-may26-Direct.html
+https://pradhica.com/Inter-dot2-may26-Online.html
+https://pradhica.com/Inter-dot2.O-Homepage_May26.html
+https://pradhica.com/Inter-dot3.O-Homepage_jan26.html
+https://pradhica.com/PradhiCA-Inter-Model-Registration-mainpage--May26.html
+https://pradhica.com/PradhiCA-Inter-Rapid-Revision-Registration-mainpage-JAN26.html
+https://pradhica.com/PradhiCA-Inter-Single-Subject-Registration-mainpage-Jan26.html
+https://pradhica.com/PradhiCA-Inter-Single-Subject-Registration-mainpage-May26.html
+https://pradhica.com/test-schedule-Inter-Jan27.html
+https://pradhica.com/test-schedule-Inter-May26.html
+https://pradhica.com/test-schedule-Inter-Sep26.html
 
-# Final Course Pages
-https://pradhica.com/Final-ABC-Homepage_Jan26.html
-https://pradhica.com/Final-ABC-Homepage_SEP25.html
-https://pradhica.com/Final-ABC-Online-With-model-Jan26.html
-https://pradhica.com/Final-ABC-Online-With-model-Sep25.html
-https://pradhica.com/Final-ABC-Online_Jan26.html
-https://pradhica.com/Final-ABC-Online_Sep25.html
-https://pradhica.com/Final-dot-2.0-i-sep25.html
-https://pradhica.com/Final-dot-2.0-ii-sep25.html
-https://pradhica.com/Final-new-dot-3.0-i-sep25.html
-https://pradhica.com/Final-new-dot-3.0-ii-nov24.html
-https://pradhica.com/Final-new-dot-3.0-ii-sep25.html
-https://pradhica.com/Final-Dot-Marathon-Jan26-Homepage.html
-https://pradhica.com/Final-Dot-Marathon-Jan26-Direct.html
-https://pradhica.com/Final-Dot-Marathon-Jan26-Online.html
-https://pradhica.com/Final-Dot-Marathon-Sep25-Homepage.html
-https://pradhica.com/Final-Dot-Marathon-Sep25-Direct.html
-https://pradhica.com/Final-Dot-Marathon-Sep25-Online.html
-https://pradhica.com/Final-Model-1set_Direct_Sep25.html
-https://pradhica.com/Final-Model-1set_Online_Sep25.html
-https://pradhica.com/Final-Model-2set_Direct_Sep25.html
-https://pradhica.com/Final-Model-2set_Online_Sep25.html
-https://pradhica.com/Final-Model-3set_Direct_Sep25.html
-https://pradhica.com/Final-Model-3set_Online_Sep25.html
+# Final Pages
+https://pradhica.com/01-Final-new-wModel-Direct_Single_New-Jan27.html
+https://pradhica.com/01-Final-new-wModel-Direct_Single_New-May26.html
+https://pradhica.com/01-Final-new-wModel-Direct_Single_New-Sep26.html
+https://pradhica.com/01-Final-new-wModel-Online_Single_New-Jan27.html
+https://pradhica.com/01-Final-new-wModel-Online_Single_New-May26.html
+https://pradhica.com/01-Final-new-wModel-Online_Single_New-Sep26.html
+https://pradhica.com/01-Final-new-woModel-Direct_Single_New-Jan27.html
+https://pradhica.com/01-Final-new-woModel-Direct_Single_New-May26.html
+https://pradhica.com/01-Final-new-woModel-Direct_Single_New-Sep26.html
+https://pradhica.com/01-Final-new-woModel-Online_Single_New-Jan27.html
+https://pradhica.com/01-Final-new-woModel-Online_Single_New-May26.html
+https://pradhica.com/01-Final-new-woModel-Online_Single_New-Sep26.html
+https://pradhica.com/02-Final-Rapid-Revison-Direct-JAN26.html
+https://pradhica.com/02-Final-Rapid-Revison-Online--JAN26.html
+https://pradhica.com/Final-ABC-Direct-With-model-Jan27.html
+https://pradhica.com/Final-ABC-Direct-With-model-May26.html
+https://pradhica.com/Final-ABC-Direct-With-model-Sep26.html
+https://pradhica.com/Final-ABC-Direct_Jan27.html
+https://pradhica.com/Final-ABC-Direct_May26.html
+https://pradhica.com/Final-ABC-Direct_Sep26.html
+https://pradhica.com/Final-ABC-Homepage_Jan27.html
+https://pradhica.com/Final-ABC-Homepage_May26.html
+https://pradhica.com/Final-ABC-Homepage_Sep26.html
+https://pradhica.com/Final-ABC-Online-With-model-Jan27.html
+https://pradhica.com/Final-ABC-Online-With-model-May26.html
+https://pradhica.com/Final-ABC-Online-With-model-Sep26.html
+https://pradhica.com/Final-ABC-Online_Jan27.html
+https://pradhica.com/Final-ABC-Online_May26.html
+https://pradhica.com/Final-ABC-Online_Sep26.html
+https://pradhica.com/Final-Dot-2-May26-Homepage.html
+https://pradhica.com/Final-Dot-Marathon-May26-Direct.html
+https://pradhica.com/Final-Dot-Marathon-May26-Homepage.html
+https://pradhica.com/Final-Dot-Marathon-May26-Online.html
+https://pradhica.com/Final-Model-1set_Direct_May26.html
+https://pradhica.com/Final-Model-1set_Online_May26.html
+https://pradhica.com/Final-Model-2set_Direct_May26.html
+https://pradhica.com/Final-Model-2set_Online_May26.html
+https://pradhica.com/Final-Model-3set_Direct_May26.html
+https://pradhica.com/Final-Model-3set_Online_May26.html
+https://pradhica.com/Final-dot-2.0-i-may26.html
+https://pradhica.com/Final-dot-2.0-ii-may26.html
+https://pradhica.com/Final-new-dot-3.0-i-jan26.html
+https://pradhica.com/Final-new-dot-3.0-ii-jan26.html
+https://pradhica.com/PradhiCA-Final-Model-Registration-mainpage-May26.html
+https://pradhica.com/PradhiCA-Final-Rapid-Revision-Registration-mainpage-JAN26.html
+https://pradhica.com/PradhiCA-Final-Single-Subject-Registration-mainpage-May26.html
 
 # Single Subject Test Pages
-https://pradhica.com/01-Inter-new-wModel-Direct_Single_New-Sep25.html
-https://pradhica.com/01-Inter-new-wModel-Online_Single_New-Sep25.html
-https://pradhica.com/01-Inter-new-woModel-Direct_Single_New-Sep25.html
-https://pradhica.com/01-Inter-new-woModel-Online_Single_New-Sep25.html
-https://pradhica.com/01-Final-new-wModel-Direct_Single_New-Sep25.html
-https://pradhica.com/01-Final-new-wModel-Online_Single_New-Sep25.html
-https://pradhica.com/01-Final-new-woModel-Direct_Single_New-Sep25.html
-https://pradhica.com/01-Final-new-woModel-Online_Single_New-Sep25.html
+https://pradhica.com/01-Final-new-wModel-Direct_Single_New-Jan27.html
+https://pradhica.com/01-Final-new-wModel-Direct_Single_New-May26.html
+https://pradhica.com/01-Final-new-wModel-Direct_Single_New-Sep26.html
+https://pradhica.com/01-Final-new-wModel-Online_Single_New-Jan27.html
+https://pradhica.com/01-Final-new-wModel-Online_Single_New-May26.html
+https://pradhica.com/01-Final-new-wModel-Online_Single_New-Sep26.html
+https://pradhica.com/01-Final-new-woModel-Direct_Single_New-Jan27.html
+https://pradhica.com/01-Final-new-woModel-Direct_Single_New-May26.html
+https://pradhica.com/01-Final-new-woModel-Direct_Single_New-Sep26.html
+https://pradhica.com/01-Final-new-woModel-Online_Single_New-Jan27.html
+https://pradhica.com/01-Final-new-woModel-Online_Single_New-May26.html
+https://pradhica.com/01-Final-new-woModel-Online_Single_New-Sep26.html
+https://pradhica.com/01-Inter-new-wModel-Direct_Single_New-Jan27.html
+https://pradhica.com/01-Inter-new-wModel-Direct_Single_New-May26.html
+https://pradhica.com/01-Inter-new-wModel-Direct_Single_New-Sep26.html
+https://pradhica.com/01-Inter-new-wModel-Online_Single_New-Jan27.html
+https://pradhica.com/01-Inter-new-wModel-Online_Single_New-May26.html
+https://pradhica.com/01-Inter-new-wModel-Online_Single_New-Sep26.html
+https://pradhica.com/01-Inter-new-woModel-Direct_Single_New-Jan27.html
+https://pradhica.com/01-Inter-new-woModel-Direct_Single_New-May26.html
+https://pradhica.com/01-Inter-new-woModel-Direct_Single_New-Sep26.html
+https://pradhica.com/01-Inter-new-woModel-Online_Single_New-Jan27.html
+https://pradhica.com/01-Inter-new-woModel-Online_Single_New-May26.html
+https://pradhica.com/01-Inter-new-woModel-Online_Single_New-Sep26.html
 
 # Rapid Revision Pages
-https://pradhica.com/02-Inter-Rapid-Revison-Direct-Sep25.html
-https://pradhica.com/02-Inter-Rapid-Revison-Online--Sep25.html
-https://pradhica.com/02-Final-Rapid-Revison-Direct-Sep25.html
-https://pradhica.com/02-Final-Rapid-Revison-Online--Sep25.html
+https://pradhica.com/02-Final-Rapid-Revison-Direct-JAN26.html
+https://pradhica.com/02-Final-Rapid-Revison-Online--JAN26.html
+https://pradhica.com/02-Inter-Rapid-Revison-Direct-JAN26.html
+https://pradhica.com/02-Inter-Rapid-Revison-Online--JAN26.html
 
 # Registration Pages
-https://pradhica.com/PradhiCA-Inter-Single-Subject-Registration-mainpage-Sep25.html
-https://pradhica.com/PradhiCA-Inter-Model-Registration-mainpage-Sep25.html
-https://pradhica.com/PradhiCA-Inter-Rapid-Revision-Registration-mainpage-Sep25.html
-https://pradhica.com/PradhiCA-Final-Single-Subject-Registration-mainpage-Sep25.html
-https://pradhica.com/PradhiCA-Final-Model-Registration-mainpage-Sep25.html
-https://pradhica.com/PradhiCA-Final-Model-Registration-mainpage-Online-Nov-24.html
-https://pradhica.com/PradhiCA-Final-Rapid-Revision-Registration-mainpage-Sep25.html
-https://pradhica.com/PradhiCA-final-Dot-2.0-Registration-mainpage-sep25.html
-https://pradhica.com/PradhiCA-final-Dot-3.0-Registration-mainpage-Sep25.html
+https://pradhica.com/PradhiCA-Final-Model-Registration-mainpage-May26.html
+https://pradhica.com/PradhiCA-Final-Rapid-Revision-Registration-mainpage-JAN26.html
+https://pradhica.com/PradhiCA-Final-Single-Subject-Registration-mainpage-May26.html
+https://pradhica.com/PradhiCA-Inter-Model-Registration-mainpage--May26.html
+https://pradhica.com/PradhiCA-Inter-Rapid-Revision-Registration-mainpage-JAN26.html
+https://pradhica.com/PradhiCA-Inter-Single-Subject-Registration-mainpage-Jan26.html
+https://pradhica.com/PradhiCA-Inter-Single-Subject-Registration-mainpage-May26.html
 
-# Legal and Policy Pages
-https://pradhica.com/Privacy-Policy.html
+# Legal & Policy Pages
 https://pradhica.com/Terms-and-Conditions.html
+https://pradhica.com/Privacy-Policy.html
 https://pradhica.com/Refund-Policy.html
 
-# Competitive Strategy Pages (NEW)
-https://pradhica.com/vs-institute-tests.html
-https://pradhica.com/switch-from-institute.html
-https://pradhica.com/why-institute-tests-fail-ca-students.html
-https://pradhica.com/ca-foundation-test-series.html
-
 # Other Pages
-https://pradhica.com/Scheduled-download.html
 https://pradhica.com/404.html
+https://pradhica.com/Scheduled-download.html
+https://pradhica.com/ca-foundation-test-series.html
+https://pradhica.com/switch-from-institute.html
+https://pradhica.com/vs-institute-tests.html
+https://pradhica.com/why-institute-tests-fail-ca-students.html
+https://pradhica.com/testingg.html
+https://pradhica.com/update-page.html
 
 # WordPress Blog
 https://pradhica.com/blog/
-https://pradhica.com/blog/index.php/feed/
-https://pradhica.com/blog/index.php/comments/feed/
+https://pradhica.com/blog/index.php
