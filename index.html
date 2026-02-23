@@ -54,8 +54,8 @@
     <!-- Open Graph / Facebook Meta Tags -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://pradhica.com/">
-    <meta property="og:title" content="Best CA Test Series India 2025 | PradhiCA - Chennai, Mumbai, Delhi">
-    <meta property="og:description" content="India's Best CA Test Series 2025 - Foundation, Intermediate & Final. Top-rated ICAI-aligned mock tests for CA students in Chennai, Mumbai, Delhi, Tamil Nadu, Kerala, Andhra Pradesh, Telangana. 7500+ successful students across India.">
+    <meta property="og:title" content="Best CA Test Series India 2026 | PradhiCA - Chennai, Mumbai, Delhi">
+    <meta property="og:description" content="India's Best CA Test Series 2026 - Foundation, Intermediate & Final. Top-rated ICAI-aligned mock tests for CA students in Chennai, Mumbai, Delhi, Tamil Nadu, Kerala, Andhra Pradesh, Telangana. 7500+ successful students across India.">
     <meta property="og:image" content="https://pradhica.com/assets/img/logo-black.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -65,8 +65,8 @@
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://pradhica.com/">
-    <meta name="twitter:title" content="Best CA Test Series India 2025 | PradhiCA - Chennai, Mumbai, Delhi">
-    <meta name="twitter:description" content="India's Best CA Test Series 2025 - Foundation, Intermediate & Final. Top-rated ICAI-aligned mock tests for CA students across India. 7500+ successful students.">
+    <meta name="twitter:title" content="Best CA Test Series India 2026 | PradhiCA - Chennai, Mumbai, Delhi">
+    <meta name="twitter:description" content="India's Best CA Test Series 2026 - Foundation, Intermediate & Final. Top-rated ICAI-aligned mock tests for CA students across India. 7500+ successful students.">
     <meta name="twitter:image" content="https://pradhica.com/assets/img/logo-black.png">
     <meta name="twitter:creator" content="@PradhiCA">
     <meta name="twitter:site" content="@PradhiCA">
@@ -284,13 +284,13 @@
           "@type": "Website",
           "@id": "https://pradhica.com/#website",
           "url": "https://pradhica.com",
-          "name": "PradhiCA - Best CA Test Series 2025",
+          "name": "PradhiCA - Best CA Test Series 2026",
           "description": "Superior CA test series alternative to institute offerings. Premium mock tests for Foundation, Intermediate & Final levels. Trusted by 7500+ smart students who chose quality over average institute tests.",
           "publisher": {
             "@id": "https://pradhica.com/#organization"
           },
           "inLanguage": "en-IN",
-          "copyrightYear": 2025,
+          "copyrightYear": 2026,
           "copyrightHolder": {
             "@id": "https://pradhica.com/#organization"
           }
@@ -308,7 +308,7 @@
             "@id": "https://pradhica.com/#organization"
           },
           "datePublished": "2019-01-01",
-          "dateModified": "2025-01-08",
+          "dateModified": "2026-01-08",
           "breadcrumb": {
             "@type": "BreadcrumbList",
             "itemListElement": [
@@ -348,7 +348,7 @@
             "@type": "Offer",
             "category": "Educational Service",
             "availability": "https://schema.org/InStock",
-            "validFrom": "2025-01-01"
+            "validFrom": "2026-01-01"
           }
         },
         {
@@ -810,6 +810,278 @@
         box-shadow: 0 10px 25px rgba(0, 123, 255, 0.4);
         color: white;
       }
+
+      /* Test Series Carousel */
+      .pg-home .test-series-carousel-section {
+        padding: 60px 0 80px;
+        background: linear-gradient(135deg, #e8eef5 0%, #d4dce8 50%, #e2e8f0 100%);
+        position: relative;
+      }
+
+      .pg-home .test-series-carousel-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.15'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        opacity: 0.5;
+        pointer-events: none;
+      }
+
+      .pg-home .test-series-carousel-section .container {
+        position: relative;
+        z-index: 1;
+      }
+
+      .pg-home .test-series-carousel-section .section-title {
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+      }
+
+      .pg-home .test-series-carousel-section .section-subtitle {
+        color: #5a6c7d;
+        margin-bottom: 2.5rem;
+      }
+
+      .pg-home .test-series-carousel-item {
+        position: relative;
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        box-shadow: var(--shadow-soft);
+        transition: var(--transition);
+        cursor: pointer;
+        background: #fff;
+      }
+
+      .pg-home .test-series-carousel-item:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-hover);
+      }
+
+      .pg-home .test-series-carousel-item .carousel-img-wrap {
+        width: 100%;
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+        background: #fff;
+      }
+
+      .pg-home .test-series-carousel-item img {
+        width: 100%;
+        height: auto;
+        max-height: 280px;
+        object-fit: contain;
+        display: block;
+      }
+
+      .pg-home .test-series-carousel-item .carousel-hover-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 20px 16px;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.6) 50%, transparent 100%);
+        color: #fff;
+        opacity: 0;
+        transform: translateY(10px);
+        transition: all 0.35s ease;
+      }
+
+      .pg-home .test-series-carousel-item:hover .carousel-hover-overlay {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .pg-home .test-series-carousel-item .carousel-hover-overlay .hover-title {
+        font-weight: 700;
+        font-size: 1rem;
+        margin-bottom: 4px;
+        text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+      }
+
+      .pg-home .test-series-carousel-item .carousel-hover-overlay .hover-desc {
+        font-size: 0.85rem;
+        opacity: 0.95;
+        line-height: 1.4;
+      }
+
+      .pg-home .test-series-carousel .owl-item {
+        padding: 0 8px;
+      }
+
+      .pg-home .test-series-carousel .owl-nav button {
+        background: var(--gradient-primary) !important;
+        color: white !important;
+        width: 44px;
+        height: 44px;
+        border-radius: 50% !important;
+        transition: var(--transition);
+      }
+
+      .pg-home .test-series-carousel .owl-nav button:hover {
+        transform: scale(1.1);
+      }
+
+      /* Test Series Image Lightbox Modal */
+      .test-series-lightbox {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 9999;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.92);
+        backdrop-filter: blur(8px);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      .test-series-lightbox.active {
+        display: flex;
+        opacity: 1;
+      }
+
+      .test-series-lightbox .lightbox-content {
+        max-width: 95vw;
+        max-height: 95vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        animation: lightboxZoomIn 0.35s ease;
+      }
+
+      @keyframes lightboxZoomIn {
+        from { opacity: 0; transform: scale(0.9); }
+        to { opacity: 1; transform: scale(1); }
+      }
+
+      .test-series-lightbox .lightbox-img-wrap {
+        max-height: 85vh;
+        overflow: auto;
+        border-radius: 12px;
+        box-shadow: 0 25px 80px rgba(0,0,0,0.5);
+      }
+
+      .test-series-lightbox .lightbox-img-wrap img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        vertical-align: middle;
+      }
+
+      .test-series-lightbox .lightbox-caption {
+        margin-top: 16px;
+        padding: 12px 20px;
+        background: rgba(255,255,255,0.08);
+        border-radius: 8px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 1rem;
+        text-align: center;
+      }
+
+      .test-series-lightbox .lightbox-close {
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        width: 48px;
+        height: 48px;
+        border: 2px solid rgba(255,255,255,0.4);
+        border-radius: 50%;
+        background: rgba(255,255,255,0.1);
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.25s ease;
+      }
+
+      .test-series-lightbox .lightbox-close:hover {
+        background: rgba(255,255,255,0.2);
+        border-color: rgba(255,255,255,0.8);
+      }
+
+      .test-series-lightbox .lightbox-actions {
+        display: flex;
+        gap: 12px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .test-series-lightbox .lightbox-btn {
+        display: inline-flex;
+        align-items: center;
+        padding: 14px 28px;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 1rem;
+        text-decoration: none;
+        transition: all 0.25s ease;
+      }
+
+      .test-series-lightbox .lightbox-btn-primary {
+        background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+        color: #fff;
+        border: 2px solid transparent;
+      }
+
+      .test-series-lightbox .lightbox-btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0, 123, 255, 0.4);
+        color: #fff;
+      }
+
+      .test-series-lightbox .lightbox-btn-secondary {
+        background: rgba(255,255,255,0.15);
+        color: #fff;
+        border: 2px solid rgba(255,255,255,0.5);
+      }
+
+      .test-series-lightbox .lightbox-btn-secondary:hover {
+        background: rgba(255,255,255,0.25);
+        border-color: rgba(255,255,255,0.8);
+        color: #fff;
+      }
+
+      .test-series-lightbox .lightbox-btn-whatsapp {
+        background: #25D366;
+        color: #fff !important;
+        border: 2px solid #25D366;
+      }
+
+      .test-series-lightbox .lightbox-btn-whatsapp:hover {
+        background: #20bd5a;
+        border-color: #20bd5a;
+        color: #fff !important;
+      }
+
+      .test-series-lightbox .lightbox-btn-whatsapp i {
+        margin-right: 8px;
+      }
+
+      .test-series-lightbox .lightbox-batch-btns {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      @media (max-width: 768px) {
+        .pg-home .test-series-carousel-item img {
+          max-height: 220px;
+        }
+      }
     </style>
    
     
@@ -1113,12 +1385,104 @@
   </div> <!-- END container-->
 </section>
 
-   
-    
-    
-    
- <!-- END container-->
+<!-- Test Series Image Carousel -->
+<section class="test-series-carousel-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-4">
+        <h2 class="section-title">Our Test Series</h2>
+        <p class="section-subtitle">Explore our ICAI-aligned mock exams for CA Foundation, Intermediate & Final</p>
+      </div>
+    </div>
+    <div class="test-series-carousel owl-carousel owl-theme arrow-black arrow-square" 
+         data-items="4" 
+         data-items-tablet="2" 
+         data-items-mobile="1" 
+         data-space="16"
+         data-autoplay="true" 
+         data-autospeed="4000"
+         data-loop="true"
+         data-arrow="true"
+         data-dots="false">
+      
+      <div class="test-series-carousel-item" data-full-img="assets/img/test-series/single-subject.png" data-title="Single Subject Test Series" data-link-may26="test-schedule-Inter-May26.html" data-link-sep26="test-schedule-Inter-Sep26.html" data-link-jan27="test-schedule-Inter-Jan27.html">
+        <div class="carousel-img-wrap">
+          <img src="assets/img/test-series/single-subject.png" alt="Single Subject Test Series - CA Foundation, Intermediate, Final" loading="lazy">
+        </div>
+        <div class="carousel-hover-overlay">
+          <div class="hover-title">Single Subject Test Series</div>
+          <div class="hover-desc">CA Foundation | Intermediate | Final · May/Sep 26 & Jan 27 · Online/Offline · Click to view</div>
+        </div>
+      </div>
+      
+      <div class="test-series-carousel-item" data-full-img="assets/img/test-series/abc-test-series.png" data-title="ABC Test Series" data-link-may26="Inter-ABC-Homepage_May26.html" data-link-sep26="Inter-ABC-Homepage_Sep26.html" data-link-jan27="Inter-ABC-Homepage_Jan27.html">
+        <div class="carousel-img-wrap">
+          <img src="assets/img/test-series/abc-test-series.png" alt="ABC Test Series - Chapterwise Unscheduled" loading="lazy">
+        </div>
+        <div class="carousel-hover-overlay">
+          <div class="hover-title">ABC Test Series</div>
+          <div class="hover-desc">Chapterwise Unscheduled · May/Sep 26 & Jan 27 · Direct/Online Mode · Click to view</div>
+        </div>
+      </div>
+      
+      <div class="test-series-carousel-item" data-full-img="assets/img/test-series/rapid-revision.png" data-title="Rapid Revision Test Series" data-link-may26="PradhiCA-Inter-Rapid-Revision-Registration-mainpage-May26.html" data-link-sep26="PradhiCA-Inter-Rapid-Revision-Registration-mainpage-Sep26.html" data-link-jan27="PradhiCA-Inter-Rapid-Revision-Registration-mainpage-Jan27.html">
+        <div class="carousel-img-wrap">
+          <img src="assets/img/test-series/rapid-revision.png" alt="Rapid Revision Test Series May 2026" loading="lazy">
+        </div>
+        <div class="carousel-hover-overlay">
+          <div class="hover-title">Rapid Revision Test Series</div>
+          <div class="hover-desc">May 2026 · CA Foundation | Intermediate | Final · 3 Tests + Model Exam · Click to view</div>
+        </div>
+      </div>
+      
+      <div class="test-series-carousel-item" data-full-img="assets/img/test-series/model-exam-may26.png" data-title="Model Exam May 2026" data-link-may26="PradhiCA-Final-Model-Registration-mainpage-May26.html">
+        <div class="carousel-img-wrap">
+          <img src="assets/img/test-series/model-exam-may26.png" alt="Model Exam May 2026 - CA Final & Intermediate" loading="lazy">
+        </div>
+        <div class="carousel-hover-overlay">
+          <div class="hover-title">Model Exam May 2026</div>
+          <div class="hover-desc">CA Final & Intermediate · Direct/Online · Weekend Batches · 20% Concession · Click to view</div>
+        </div>
+      </div>
+      
+      <div class="test-series-carousel-item" data-full-img="assets/img/test-series/model-exam-set3-4.png" data-title="Model Exam Set 3 & 4" data-link-may26="PradhiCA-Final-Model-Registration-mainpage-May26.html">
+        <div class="carousel-img-wrap">
+          <img src="assets/img/test-series/model-exam-set3-4.png" alt="Model Exam Set 3 & 4 - April & May 2026" loading="lazy">
+        </div>
+        <div class="carousel-hover-overlay">
+          <div class="hover-title">Model Exam Set 3 & 4</div>
+          <div class="hover-desc">CA Foundation | Inter | Final · April & May Batches · Alternative Days · Click to view</div>
+        </div>
+      </div>
+      
+      <div class="test-series-carousel-item" data-full-img="assets/img/test-series/may26-unscheduled.png" data-title="May 26 Unscheduled Model Exam" data-link-may26="registration.html">
+        <div class="carousel-img-wrap">
+          <img src="assets/img/test-series/may26-unscheduled.png" alt="May 26 Unscheduled Model Exam" loading="lazy">
+        </div>
+        <div class="carousel-hover-overlay">
+          <div class="hover-title">May 26 Unscheduled Model Exam</div>
+          <div class="hover-desc">CA Final | Foundation | Intermediate · Flexible testing from 12.02.2026 · Click to view</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 </section>
+
+<!-- Test Series Image Lightbox -->
+<div id="testSeriesLightbox" class="test-series-lightbox" role="dialog" aria-modal="true" aria-label="View full image">
+  <button class="lightbox-close" onclick="closeTestSeriesLightbox()" aria-label="Close">&times;</button>
+  <div class="lightbox-content">
+    <div class="lightbox-img-wrap">
+      <img id="lightboxFullImg" src="" alt="">
+    </div>
+    <div id="lightboxCaption" class="lightbox-caption"></div>
+    <div id="lightboxActions" class="lightbox-actions">
+      <div id="lightboxBatchBtns" class="lightbox-batch-btns"></div>
+      <a id="lightboxWhatsAppBtn" href="https://api.whatsapp.com/send?phone=918072653948&text=Hi%2C%20I'm%20interested%20in%20PradhiCA%20Test%20Series" class="lightbox-btn lightbox-btn-whatsapp" target="_blank" rel="noopener"><i class="fa fa-whatsapp"></i> General Enquiry via WhatsApp</a>
+    </div>
+  </div>
+</div>
 
    
     
@@ -1418,6 +1782,75 @@ Corrected answer sheet along with the correction teams remarks and suggestions w
      
     <script src="assets/js/vendors.bundle.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <script>
+      (function() {
+        document.addEventListener('DOMContentLoaded', function() {
+          var items = document.querySelectorAll('.test-series-carousel-item');
+          var lightbox = document.getElementById('testSeriesLightbox');
+          var fullImg = document.getElementById('lightboxFullImg');
+          var caption = document.getElementById('lightboxCaption');
+          var batchBtns = document.getElementById('lightboxBatchBtns');
+          var whatsAppBtn = document.getElementById('lightboxWhatsAppBtn');
+
+          var batches = [
+            { key: 'may26', label: 'May 26' },
+            { key: 'sep26', label: 'Sep 26' },
+            { key: 'jan27', label: 'Jan 27' }
+          ];
+
+          items.forEach(function(item) {
+            item.addEventListener('click', function(e) {
+              e.preventDefault();
+              var imgSrc = this.getAttribute('data-full-img');
+              var title = this.getAttribute('data-title');
+              if (imgSrc && fullImg && caption && lightbox) {
+                fullImg.src = imgSrc;
+                fullImg.alt = title;
+                caption.textContent = title;
+
+                if (batchBtns) {
+                  batchBtns.innerHTML = '';
+                  batches.forEach(function(b) {
+                    var link = this.getAttribute('data-link-' + b.key);
+                    if (link) {
+                      var a = document.createElement('a');
+                      a.href = link;
+                      a.className = 'lightbox-btn lightbox-btn-primary';
+                      a.textContent = b.label;
+                      batchBtns.appendChild(a);
+                    }
+                  }.bind(this));
+                }
+
+                if (whatsAppBtn) {
+                  var msg = "Hi, I'm interested in " + (title || 'PradhiCA Test Series');
+                  whatsAppBtn.href = 'https://api.whatsapp.com/send?phone=918072653948&text=' + encodeURIComponent(msg);
+                }
+
+                lightbox.classList.add('active');
+                document.body.style.overflow = 'hidden';
+              }
+            });
+          });
+
+          lightbox.addEventListener('click', function(e) {
+            if (e.target === lightbox) closeTestSeriesLightbox();
+          });
+
+          document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') closeTestSeriesLightbox();
+          });
+        });
+
+        window.closeTestSeriesLightbox = function() {
+          var lightbox = document.getElementById('testSeriesLightbox');
+          if (lightbox) {
+            lightbox.classList.remove('active');
+            document.body.style.overflow = '';
+          }
+        };
+      })();
+    </script>
 	<script>
   (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
     t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
