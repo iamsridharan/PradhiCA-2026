@@ -1,5 +1,7 @@
 # 🚀 Comprehensive SEO Optimization Report for PradhiCA Index.html
 
+> **Maintenance (2026-02-10):** `sitemap.xml`, `sitemap.html`, `urllist.txt`, `llms.txt`, and `robots.txt` were regenerated/synced to match all root HTML pages (~160). Discovery URLs: `/llms.txt`, `/urllist.txt`, `/sitemap.xml`.
+
 ## 📊 **Executive Summary**
 
 Your index.html page has been **completely transformed** with exhaustive SEO optimization specifically designed for maximum visibility across all AI LLM models and search engines. This is a **military-grade SEO implementation** that will dominate search results.

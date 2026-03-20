@@ -1,5 +1,7 @@
 # 🎯 **COMPETITIVE SEO STRATEGY: STEAL STUDENTS FROM CA INSTITUTES**
 
+> **Ops note (2026-02-10):** `sitemap.xml` / `urllist.txt` / `llms.txt` / `robots.txt` synced to current site root.
+
 ## 💡 **BUSINESS MODEL CLARITY**
 
 **✅ CORRECT UNDERSTANDING:**

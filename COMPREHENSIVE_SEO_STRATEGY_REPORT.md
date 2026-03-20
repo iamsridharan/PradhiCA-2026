@@ -1,10 +1,12 @@
 # 🚀 COMPREHENSIVE SEO STRATEGY REPORT
 ## India's Best CA Test Series - PradhiCA SEO Optimization
 
+> **Update 2026-02-10:** Root HTML inventory is **~160 pages**. `sitemap.xml`, `urllist.txt`, `llms.txt`, and `robots.txt` are kept in sync for crawlers and LLMs.
+
 ### 📊 EXECUTIVE SUMMARY
 **Objective**: Transform PradhiCA's SEO from "superior to institute tests" messaging to "India's Best CA Test Series" with aggressive geo-targeting for major CA student hubs.
 
-**Result**: Successfully applied comprehensive SEO optimization to **104 HTML pages** across the entire website with location-specific targeting for Chennai, Mumbai, Delhi, Tamil Nadu, Kerala, Andhra Pradesh, and Telangana.
+**Result**: Successfully applied comprehensive SEO optimization across the website (now **~160 root HTML pages**) with location-specific targeting for Chennai, Mumbai, Delhi, Tamil Nadu, Kerala, Andhra Pradesh, and Telangana.
 
 ---
 

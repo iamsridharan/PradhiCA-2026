@@ -1,0 +1,592 @@
+/**
+ * PradhiCA — Test schedule pages (Final/Inter batches)
+ * body.pg-test-schedule · optional .pg-test-schedule--sep26 for Sep batch accent
+ */
+html {
+  scroll-padding-top: 88px;
+}
+
+body.pg-test-schedule {
+  --primary-color: #2563eb;
+  --primary-dark: #1d4ed8;
+  --neutral-50: #f8fafc;
+  --neutral-100: #f1f5f9;
+  --neutral-200: #e2e8f0;
+  --neutral-600: #475569;
+  --neutral-700: #334155;
+  --neutral-800: #1e293b;
+  --neutral-900: #0f172a;
+  --success-color: #059669;
+  --warning-color: #d97706;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --radius: 12px;
+  --radius-lg: 16px;
+  --transition: all 0.2s ease-in-out;
+}
+
+.pg-test-schedule--sep26 {
+  --primary-color: #0891b2;
+  --primary-dark: #0e7490;
+}
+
+.pg-test-schedule .enhanced-breadcrumb {
+  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 55%, #38bdf8 100%);
+  padding: 3.5rem 0 4rem;
+  position: relative;
+}
+
+.pg-test-schedule--sep26 .enhanced-breadcrumb {
+  background: linear-gradient(125deg, #0f172a 0%, #134e4a 35%, #0d9488 70%, #14b8a6 100%);
+}
+
+.pg-test-schedule .page-title {
+  font-size: clamp(1.85rem, 4vw, 2.75rem);
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 1rem;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+}
+
+.pg-test-schedule .page-subtitle {
+  font-size: 1.08rem;
+  color: rgba(255, 255, 255, 0.92);
+  margin-bottom: 2rem;
+  font-weight: 500;
+  max-width: 40rem;
+}
+
+.pg-test-schedule .batch-info {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  backdrop-filter: blur(12px);
+}
+
+.pg-test-schedule .enhanced-breadcrumb .breadcrumb-item a,
+.pg-test-schedule .enhanced-breadcrumb .breadcrumb-item {
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-size: 0.9rem;
+}
+
+.pg-test-schedule .enhanced-breadcrumb .action-btn {
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.pg-test-schedule .ts-schedule-section {
+  background: var(--neutral-100);
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.pg-test-schedule .enhanced-tab-nav {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  padding: 1.75rem 1.5rem 2rem;
+  margin: -2rem 0 2.5rem;
+  position: relative;
+  z-index: 10;
+  border: 1px solid var(--neutral-200);
+}
+
+.pg-test-schedule .tab-nav-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.pg-test-schedule .tab-nav-title {
+  font-size: clamp(1.35rem, 3vw, 1.75rem);
+  font-weight: 800;
+  color: var(--neutral-900);
+  margin-bottom: 0.35rem;
+}
+
+.pg-test-schedule .tab-nav-subtitle {
+  font-size: 0.98rem;
+  color: var(--neutral-600);
+  margin: 0;
+}
+
+.pg-test-schedule .nav-pills {
+  border: 1px solid var(--neutral-200);
+  border-radius: var(--radius);
+  padding: 0.35rem;
+  background: var(--neutral-50);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  justify-content: center;
+}
+
+.pg-test-schedule .nav-pills .nav-item {
+  flex: 1 1 auto;
+  min-width: 140px;
+  max-width: 280px;
+}
+
+.pg-test-schedule .nav-pills .nav-link {
+  background: transparent;
+  border: none;
+  color: var(--neutral-700);
+  font-weight: 700;
+  padding: 0.8rem 1rem;
+  border-radius: calc(var(--radius) - 2px);
+  transition: var(--transition);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  font-size: 0.88rem;
+}
+
+.pg-test-schedule .nav-pills .nav-link:hover {
+  background: #fff;
+  color: var(--primary-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.pg-test-schedule .nav-pills .nav-link.active {
+  background: var(--primary-color);
+  color: #fff;
+  box-shadow: var(--shadow-md);
+}
+
+.pg-test-schedule .enhanced-tab-content {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  border: 1px solid var(--neutral-200);
+}
+
+/* Legacy tab bodies (Sep26 etc.) */
+.pg-test-schedule .enhanced-tab-content .tab-pane {
+  padding: 2rem 1.5rem 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .pg-test-schedule .enhanced-tab-content .tab-pane {
+    padding: 2.25rem 2.25rem 3rem;
+  }
+}
+
+.pg-test-schedule .enhanced-tab-content .tab-pane > h4.text-center {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--neutral-900);
+  margin-bottom: 1rem;
+  line-height: 1.35;
+}
+
+.pg-test-schedule .enhanced-tab-content .tab-pane > p.text-center {
+  max-width: 52rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--neutral-600);
+  font-size: 1.02rem;
+  line-height: 1.65;
+}
+
+.pg-test-schedule .enhanced-tab-content font[color="orange"],
+.pg-test-schedule .enhanced-tab-content font[color="Orange"] {
+  color: #ea580c !important;
+}
+
+.pg-test-schedule .enhanced-tab-content font[color="green"],
+.pg-test-schedule .enhanced-tab-content font[color="Green"] {
+  color: var(--success-color) !important;
+}
+
+.pg-test-schedule .enhanced-tab-content font[color="red"],
+.pg-test-schedule .enhanced-tab-content font[color="Red"] {
+  color: #dc2626 !important;
+}
+
+.pg-test-schedule .enhanced-tab-content .iconbox.iconbox-lg {
+  border-radius: var(--radius);
+  border: 1px solid var(--neutral-200);
+  background: linear-gradient(180deg, #fff, var(--neutral-50)) !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+.pg-test-schedule .enhanced-tab-content .media-body h5 {
+  color: var(--neutral-900);
+  font-weight: 700;
+}
+
+.pg-test-schedule .enhanced-tab-content .media-body p {
+  color: var(--neutral-600);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+/* —— Premium CTA row (Fee / Schedule / Register) —— */
+.pg-test-schedule .enhanced-tab-content .container.padding {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.pg-test-schedule .enhanced-tab-content .container.padding .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem 1rem;
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
+}
+
+.pg-test-schedule .enhanced-tab-content .container.padding .row > [class*="col-"] {
+  display: flex;
+  justify-content: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-top: 0 !important;
+}
+
+.pg-test-schedule .enhanced-tab-content .container.padding .row a.btn,
+.pg-test-schedule .enhanced-tab-content .container.padding .row button.btn {
+  border-radius: 14px !important;
+  font-weight: 800 !important;
+  font-size: 0.92rem !important;
+  letter-spacing: 0.02em;
+  padding: 0.95rem 1.35rem !important;
+  min-height: 52px;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 280px;
+  text-decoration: none !important;
+  border-width: 2px !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
+}
+
+.pg-test-schedule .enhanced-tab-content .container.padding .row a.btn:hover,
+.pg-test-schedule .enhanced-tab-content .container.padding .row button.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.12);
+}
+
+/* Fee — outlined slate */
+.pg-test-schedule .enhanced-tab-content .container.padding .row > .col-md-4:nth-child(1) a.btn-outline-success,
+.pg-test-schedule .enhanced-tab-content .container.padding .row > .col-md-4:nth-child(1) button.btn-outline-primary {
+  background: #fff !important;
+  border-color: #cbd5e1 !important;
+  color: #334155 !important;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+}
+
+.pg-test-schedule .enhanced-tab-content .container.padding .row > .col-md-4:nth-child(1) a.btn-outline-success::before,
+.pg-test-schedule .enhanced-tab-content .container.padding .row > .col-md-4:nth-child(1) button.btn-outline-primary::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f156";
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.pg-test-schedule .enhanced-tab-content .container.padding .row > .col-md-4:nth-child(1) a.btn-outline-success:hover,
+.pg-test-schedule .enhanced-tab-content .container.padding .row > .col-md-4:nth-child(1) button.btn-outline-primary:hover {
+  background: #f8fafc !important;
+  border-color: var(--primary-color) !important;
+  color: var(--primary-dark) !important;
+}
+
+/* Schedule — solid primary tint */
+.pg-test-schedule .enhanced-tab-content .container.padding .row > .col-md-4:nth-child(2) a.btn-outline-success {
+  background: linear-gradient(180deg, rgba(37, 99, 235, 0.12), rgba(37, 99, 235, 0.06)) !important;
+  border-color: var(--primary-color) !important;
+  color: var(--primary-dark) !important;
+}
+
+.pg-test-schedule--sep26 .enhanced-tab-content .container.padding .row > .col-md-4:nth-child(2) a.btn-outline-success {
+  background: linear-gradient(180deg, rgba(13, 148, 136, 0.15), rgba(13, 148, 136, 0.06)) !important;
+  border-color: #0d9488 !important;
+  color: #115e59 !important;
+}
+
+.pg-test-schedule .enhanced-tab-content .container.padding .row > .col-md-4:nth-child(2) a.btn-outline-success::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f073";
+  font-size: 0.9rem;
+}
+
+.pg-test-schedule .enhanced-tab-content .container.padding .row > .col-md-4:nth-child(2) a.btn-outline-success:hover {
+  background: var(--primary-color) !important;
+  color: #fff !important;
+  border-color: var(--primary-color) !important;
+}
+
+.pg-test-schedule--sep26 .enhanced-tab-content .container.padding .row > .col-md-4:nth-child(2) a.btn-outline-success:hover {
+  background: #0d9488 !important;
+  border-color: #0d9488 !important;
+  color: #fff !important;
+}
+
+/* Register — conversion primary */
+.pg-test-schedule .enhanced-tab-content .container.padding .row > .col-md-4:nth-child(3) a.btn-outline-success {
+  background: linear-gradient(180deg, #fde047, #facc15) !important;
+  border-color: #eab308 !important;
+  color: #1c1917 !important;
+  box-shadow: 0 6px 22px rgba(234, 179, 8, 0.45);
+}
+
+.pg-test-schedule .enhanced-tab-content .container.padding .row > .col-md-4:nth-child(3) a.btn-outline-success::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f234";
+  font-size: 0.88rem;
+}
+
+.pg-test-schedule .enhanced-tab-content .container.padding .row > .col-md-4:nth-child(3) a.btn-outline-success:hover {
+  background: linear-gradient(180deg, #fbbf24, #f59e0b) !important;
+  border-color: #d97706 !important;
+  color: #0f172a !important;
+  box-shadow: 0 10px 32px rgba(245, 158, 11, 0.5);
+}
+
+/* Other outline CTAs in tab panes (lower specificity than .container.padding .row nth-child rules) */
+.pg-test-schedule .enhanced-tab-content .tab-pane a.btn-outline-success {
+  border-radius: 14px !important;
+  font-weight: 800 !important;
+  padding: 0.85rem 1.25rem !important;
+  border-width: 2px !important;
+  border-color: var(--primary-color) !important;
+  color: var(--primary-color) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, color 0.2s ease;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.07);
+}
+
+.pg-test-schedule .enhanced-tab-content .tab-pane a.btn-outline-success:hover {
+  transform: translateY(-2px);
+  background: var(--primary-color) !important;
+  color: #fff !important;
+  border-color: var(--primary-color) !important;
+}
+
+/* May26-style structured tabs (if used) */
+.pg-test-schedule .tab-header {
+  background: var(--neutral-50);
+  border-bottom: 1px solid var(--neutral-200);
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+
+.pg-test-schedule .test-series-icon {
+  width: 64px;
+  height: 64px;
+  background: var(--primary-color);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  box-shadow: var(--shadow-md);
+}
+
+.pg-test-schedule .test-series-icon i {
+  font-size: 1.75rem;
+  color: #fff;
+}
+
+.pg-test-schedule .test-series-title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--neutral-900);
+  margin-bottom: 0.75rem;
+}
+
+.pg-test-schedule .test-series-subtitle {
+  font-size: 1rem;
+  color: var(--neutral-600);
+  margin-bottom: 1.5rem;
+}
+
+.pg-test-schedule .status-badges {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.pg-test-schedule .status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  font-size: 0.875rem;
+  font-weight: 600;
+  border: 1px solid;
+}
+
+.pg-test-schedule .status-badge.registration {
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--primary-color);
+  border-color: rgba(37, 99, 235, 0.2);
+}
+
+.pg-test-schedule .status-badge.active {
+  background: rgba(5, 150, 105, 0.1);
+  color: var(--success-color);
+  border-color: rgba(5, 150, 105, 0.2);
+}
+
+.pg-test-schedule .status-badge.upcoming {
+  background: rgba(217, 119, 6, 0.1);
+  color: var(--warning-color);
+  border-color: rgba(217, 119, 6, 0.2);
+}
+
+.pg-test-schedule .features-grid {
+  padding: 3rem 2rem;
+  background: var(--neutral-50);
+}
+
+.pg-test-schedule .feature-description-text {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  font-size: 1.1rem;
+  color: var(--neutral-600);
+  line-height: 1.6;
+}
+
+.pg-test-schedule .feature-card {
+  background: #fff;
+  border: 1px solid var(--neutral-200);
+  border-radius: var(--radius);
+  padding: 2rem;
+  height: 100%;
+  transition: var(--transition);
+}
+
+.pg-test-schedule .feature-card:hover {
+  border-color: var(--primary-color);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.pg-test-schedule .feature-icon {
+  width: 56px;
+  height: 56px;
+  background: var(--primary-color);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.pg-test-schedule .feature-icon i {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.pg-test-schedule .feature-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--neutral-900);
+  margin-bottom: 1rem;
+}
+
+.pg-test-schedule .feature-description {
+  color: var(--neutral-600);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.pg-test-schedule .action-buttons {
+  background: #fff;
+  padding: 3rem 2rem;
+  border-top: 1px solid var(--neutral-200);
+}
+
+.pg-test-schedule .action-buttons h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--neutral-900);
+  margin-bottom: 2rem;
+}
+
+.pg-test-schedule .action-btn {
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+  min-height: 48px;
+}
+
+.pg-test-schedule .action-btn:hover {
+  background: var(--primary-dark);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+  color: #fff;
+  text-decoration: none;
+}
+
+.pg-test-schedule .action-btn.btn-fee {
+  background: var(--warning-color);
+}
+
+.pg-test-schedule .action-btn.btn-fee:hover {
+  background: #b45309;
+}
+
+.pg-test-schedule .action-btn.btn-schedule {
+  background: var(--neutral-600);
+}
+
+.pg-test-schedule .action-btn.btn-schedule:hover {
+  background: var(--neutral-700);
+}
+
+@media (max-width: 768px) {
+  .pg-test-schedule .nav-pills .nav-item {
+    min-width: calc(50% - 0.25rem);
+    max-width: none;
+  }
+
+  .pg-test-schedule .nav-pills .nav-link {
+    padding: 0.65rem 0.75rem;
+    font-size: 0.8rem;
+  }
+
+  .pg-test-schedule .enhanced-tab-nav {
+    padding: 1.25rem 1rem 1.5rem;
+    margin: -1.5rem 0 2rem;
+  }
+}
+
+@keyframes pg-ts-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.04);
+  }
+}
+
+.pg-test-schedule .pulse-animation {
+  animation: pg-ts-pulse 2s ease-in-out infinite;
+}

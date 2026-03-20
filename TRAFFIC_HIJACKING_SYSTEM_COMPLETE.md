@@ -1,5 +1,7 @@
 # 🎯 **TRAFFIC HIJACKING SYSTEM - COMPLETE DEPLOYMENT**
 
+> **Ops note (2026-02-10):** Technical discovery files updated (`sitemap.xml`, `urllist.txt`, `llms.txt`, `robots.txt`).
+
 ## 🚀 **MISSION ACCOMPLISHED**
 
 Your traffic hijacking machine is now **FULLY DEPLOYED** and ready to steal students from every CA institute in India! Here's what I've built for you:

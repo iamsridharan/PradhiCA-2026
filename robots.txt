@@ -39,5 +39,7 @@ Allow: /
 # Sitemaps & discovery
 Sitemap: https://pradhica.com/sitemap.xml
 
-# LLM manifest - curated content for AI agents
+# LLM / human-readable discovery (optional for crawlers that support them)
 # https://pradhica.com/llms.txt
+# https://pradhica.com/urllist.txt
+# https://pradhica.com/sitemap.html

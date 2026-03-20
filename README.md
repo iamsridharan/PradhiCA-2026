@@ -89,7 +89,7 @@
 |---------|---------|
 | **Phone** | +91 80726 53948 |
 | **Email** | pradhica4u@gmail.com |
-| **Address** | No. 20, Chakrapani St Ext, Rangarajapuram, West Mambalam, Chennai, Tamil Nadu 600033 |
+| **Address** | No: 20, 1st floor, Chakrapani St Ext, Rangarajapuram, West Mambalam, Chennai, Tamil Nadu 600033 |
 | **Maps** | [Google Maps](https://maps.app.goo.gl/TyxXNAXrTxPPZhPT8) |
 | **WhatsApp** | [Send message](https://api.whatsapp.com/send?phone=918072653948) |
 
@@ -114,17 +114,22 @@
 ### Project Structure
 ```
 ├── index.html              # Homepage
-├── course-overview.html    # Course structure
+├── course-overview.html    # Course journey + test series (premium layout)
 ├── contact-us.html
 ├── registration.html
-├── sitemap.xml             # XML sitemap (136 URLs)
+├── sitemap.xml             # XML sitemap (~160 root HTML URLs + home)
 ├── sitemap.html            # Human-readable sitemap
-├── urllist.txt             # Categorized URL list
-├── robots.txt              # Crawler permissions
+├── urllist.txt             # Categorized URL list + discovery links
+├── robots.txt              # Crawler permissions + sitemap pointer
 ├── llms.txt                # AI/LLM manifest
 ├── assets/                 # Images, CSS, JS, fonts
 │   ├── img/
 │   ├── css/
+│   │   ├── header-premium.css
+│   │   ├── footer-premium.css
+│   │   ├── course-overview-premium.css
+│   │   ├── contact-page-premium.css
+│   │   └── registration-page-premium.css
 │   ├── js/
 │   └── fonts/
 ├── blog/                   # WordPress blog
@@ -154,6 +159,7 @@
 | v1.1.0 | Jan27/Sep26 updates, new pages |
 | v1.2.0 | AI/LLM crawler support (llms.txt, robots.txt) |
 | v1.3.0 | Release |
+| **v2026.03-redesign** | Premium header/footer sitewide; course overview + test-series UX; contact & registration refresh; sitemap/urllist/llms synced |
 
 ---
 

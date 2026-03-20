@@ -83,451 +83,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/footer-premium.css">
     <link rel="stylesheet" href="assets/css/header-premium.css">
-    
-    <!-- Professional Minimalistic Design System -->
-    <style>
-    .pg-test-schedule {
-      /* Professional Design Variables */
-      --primary-color: #2563eb;
-      --primary-dark: #1d4ed8;
-      --secondary-color: #64748b;
-      --success-color: #059669;
-      --warning-color: #d97706;
-      --danger-color: #dc2626;
-      --neutral-50: #f8fafc;
-      --neutral-100: #f1f5f9;
-      --neutral-200: #e2e8f0;
-      --neutral-300: #cbd5e1;
-      --neutral-400: #94a3b8;
-      --neutral-500: #64748b;
-      --neutral-600: #475569;
-      --neutral-700: #334155;
-      --neutral-800: #1e293b;
-      --neutral-900: #0f172a;
-      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-      --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-      --border-radius: 12px;
-      --border-radius-lg: 16px;
-      --transition: all 0.2s ease-in-out;
-      --font-weight-medium: 500;
-      --font-weight-semibold: 600;
-      --font-weight-bold: 700;
-    }
+    <link rel="stylesheet" href="assets/css/test-schedule-premium.css">
 
-    /* Clean Hero Section */
-    .pg-test-schedule .enhanced-breadcrumb {
-      background: var(--primary-color);
-      padding: 4rem 0;
-      position: relative;
-    }
-
-    .pg-test-schedule .breadcrumb-content {
-      position: relative;
-      z-index: 2;
-    }
-
-    .pg-test-schedule .page-title {
-      font-size: 3rem;
-      font-weight: var(--font-weight-bold);
-      color: white;
-      margin-bottom: 1rem;
-      line-height: 1.1;
-    }
-
-    .pg-test-schedule .page-subtitle {
-      font-size: 1.125rem;
-      color: rgba(255, 255, 255, 0.9);
-      margin-bottom: 2rem;
-      font-weight: var(--font-weight-medium);
-    }
-
-    .pg-test-schedule .batch-info {
-      background: rgba(255, 255, 255, 0.1);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      border-radius: var(--border-radius);
-      padding: 1.5rem;
-      backdrop-filter: blur(10px);
-    }
-
-    /* Professional Tab Navigation */
-    .pg-test-schedule .enhanced-tab-nav {
-      background: white;
-      border-radius: var(--border-radius-lg);
-      box-shadow: var(--shadow-lg);
-      padding: 2rem;
-      margin: -2rem 0 3rem 0;
-      position: relative;
-      z-index: 10;
-    }
-
-    .pg-test-schedule .tab-nav-header {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-
-    .pg-test-schedule .tab-nav-title {
-      font-size: 2rem;
-      font-weight: var(--font-weight-bold);
-      color: var(--neutral-900);
-      margin-bottom: 0.5rem;
-    }
-
-    .pg-test-schedule .tab-nav-subtitle {
-      font-size: 1rem;
-      color: var(--neutral-600);
-      font-weight: var(--font-weight-medium);
-    }
-
-    .pg-test-schedule .nav-pills {
-      border: 1px solid var(--neutral-200);
-      border-radius: var(--border-radius);
-      padding: 0.25rem;
-      background: var(--neutral-50);
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.25rem;
-    }
-
-    .pg-test-schedule .nav-pills .nav-link {
-      background: transparent;
-      border: none;
-      color: var(--neutral-700);
-      font-weight: var(--font-weight-semibold);
-      padding: 0.875rem 1.5rem;
-      border-radius: calc(var(--border-radius) - 2px);
-      transition: var(--transition);
-      flex: 1;
-      text-align: center;
-      min-width: 140px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.5rem;
-    }
-
-    .pg-test-schedule .nav-pills .nav-link:hover {
-      background: white;
-      color: var(--primary-color);
-      box-shadow: var(--shadow-sm);
-    }
-
-    .pg-test-schedule .nav-pills .nav-link.active {
-      background: var(--primary-color);
-      color: white;
-      box-shadow: var(--shadow-md);
-    }
-
-    .pg-test-schedule .nav-pills .nav-link i {
-      font-size: 1rem;
-    }
-
-    /* Professional Tab Content */
-    .pg-test-schedule .enhanced-tab-content {
-      background: white;
-      border-radius: var(--border-radius-lg);
-      box-shadow: var(--shadow-lg);
-      overflow: hidden;
-      min-height: 600px;
-    }
-
-    .pg-test-schedule .tab-pane {
-      min-height: 600px;
-    }
-
-    .pg-test-schedule .tab-header {
-      background: var(--neutral-50);
-      border-bottom: 1px solid var(--neutral-200);
-      padding: 2.5rem 2rem;
-      text-align: center;
-    }
-
-    .pg-test-schedule .test-series-icon {
-      width: 64px;
-      height: 64px;
-      background: var(--primary-color);
-      border-radius: var(--border-radius);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 0 auto 1.5rem;
-      box-shadow: var(--shadow-md);
-    }
-
-    .pg-test-schedule .test-series-icon i {
-      font-size: 1.75rem;
-      color: white;
-    }
-
-    .pg-test-schedule .test-series-title {
-      font-size: 2rem;
-      font-weight: var(--font-weight-bold);
-      color: var(--neutral-900);
-      margin-bottom: 0.75rem;
-      line-height: 1.2;
-    }
-
-    .pg-test-schedule .test-series-subtitle {
-      font-size: 1rem;
-      color: var(--neutral-600);
-      font-weight: var(--font-weight-medium);
-      margin-bottom: 1.5rem;
-    }
-
-    .pg-test-schedule .status-badges {
-      display: flex;
-      justify-content: center;
-      gap: 0.75rem;
-      flex-wrap: wrap;
-    }
-
-    /* Professional Feature Cards */
-    .pg-test-schedule .features-grid {
-      padding: 3rem 2rem;
-      background: var(--neutral-50);
-    }
-
-    .pg-test-schedule .feature-description-text {
-      text-align: center;
-      max-width: 800px;
-      margin: 0 auto 3rem;
-      font-size: 1.125rem;
-      color: var(--neutral-600);
-      line-height: 1.6;
-    }
-
-    .pg-test-schedule .feature-card {
-      background: white;
-      border: 1px solid var(--neutral-200);
-      border-radius: var(--border-radius);
-      padding: 2rem;
-      height: 100%;
-      transition: var(--transition);
-      position: relative;
-    }
-
-    .pg-test-schedule .feature-card:hover {
-      border-color: var(--primary-color);
-      box-shadow: var(--shadow-md);
-      transform: translateY(-2px);
-    }
-
-    .pg-test-schedule .feature-icon {
-      width: 56px;
-      height: 56px;
-      background: var(--primary-color);
-      border-radius: var(--border-radius);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 1.5rem;
-    }
-
-    .pg-test-schedule .feature-icon i {
-      font-size: 1.5rem;
-      color: white;
-    }
-
-    .pg-test-schedule .feature-title {
-      font-size: 1.25rem;
-      font-weight: var(--font-weight-bold);
-      color: var(--neutral-900);
-      margin-bottom: 1rem;
-      line-height: 1.3;
-    }
-
-    .pg-test-schedule .feature-description {
-      color: var(--neutral-600);
-      line-height: 1.6;
-      font-size: 0.95rem;
-    }
-
-    /* Professional Action Buttons */
-    .pg-test-schedule .action-buttons {
-      background: white;
-      padding: 3rem 2rem;
-      border-top: 1px solid var(--neutral-200);
-    }
-
-    .pg-test-schedule .action-buttons h4 {
-      font-size: 1.5rem;
-      font-weight: var(--font-weight-bold);
-      color: var(--neutral-900);
-      margin-bottom: 2rem;
-    }
-
-    .pg-test-schedule .action-btn {
-      background: var(--primary-color);
-      color: white;
-      border: none;
-      padding: 1rem 2rem;
-      border-radius: var(--border-radius);
-      font-weight: var(--font-weight-semibold);
-      font-size: 1rem;
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.5rem;
-      transition: var(--transition);
-      box-shadow: var(--shadow-sm);
-      min-height: 48px;
-    }
-
-    .pg-test-schedule .action-btn:hover {
-      background: var(--primary-dark);
-      transform: translateY(-1px);
-      box-shadow: var(--shadow-md);
-      color: white;
-      text-decoration: none;
-    }
-
-    .pg-test-schedule .action-btn.btn-fee {
-      background: var(--warning-color);
-    }
-
-    .pg-test-schedule .action-btn.btn-fee:hover {
-      background: #b45309;
-    }
-
-    .pg-test-schedule .action-btn.btn-schedule {
-      background: var(--neutral-600);
-    }
-
-    .pg-test-schedule .action-btn.btn-schedule:hover {
-      background: var(--neutral-700);
-    }
-
-    .pg-test-schedule .action-btn i {
-      font-size: 1rem;
-    }
-
-    /* Responsive Design */
-    @media (max-width: 768px) {
-      .pg-test-schedule .page-title {
-        font-size: 2.5rem;
-      }
-      
-      .pg-test-schedule .nav-pills .nav-link {
-        padding: 0.8rem 1.5rem;
-        margin: 0.3rem;
-        font-size: 0.9rem;
-      }
-      
-      .pg-test-schedule .feature-card {
-        margin-bottom: 1.5rem;
-        padding: 1.5rem;
-      }
-      
-      .pg-test-schedule .action-btn {
-        display: block;
-        text-align: center;
-        margin: 0.5rem 0;
-      }
-    }
-
-    /* Animations */
-    @keyframes slideInUp {
-      from {
-        opacity: 0;
-        transform: translateY(30px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    @keyframes pulse {
-      0%, 100% {
-        transform: scale(1);
-      }
-      50% {
-        transform: scale(1.05);
-      }
-    }
-
-    .pg-test-schedule .pulse-animation {
-      animation: pulse 2s infinite;
-    }
-
-    /* Loading States */
-    .pg-test-schedule .tab-pane {
-      min-height: 400px;
-      opacity: 0;
-      transform: translateY(20px);
-      transition: var(--transition);
-    }
-
-    .pg-test-schedule .tab-pane.show.active {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    /* Enhanced Typography */
-    .pg-test-schedule h1, .pg-test-schedule h2, .pg-test-schedule h3, .pg-test-schedule h4 {
-      font-weight: 700;
-      letter-spacing: -0.025em;
-    }
-
-    .pg-test-schedule .highlight-text {
-      background: linear-gradient(135deg, var(--primary-color), var(--info-color));
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
-      font-weight: 700;
-    }
-
-    /* Professional Status Badges */
-    .pg-test-schedule .status-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.375rem;
-      padding: 0.5rem 1rem;
-      border-radius: var(--border-radius);
-      font-size: 0.875rem;
-      font-weight: var(--font-weight-semibold);
-      border: 1px solid;
-    }
-
-    .pg-test-schedule .status-badge.registration {
-      background: rgba(37, 99, 235, 0.1);
-      color: var(--primary-color);
-      border-color: rgba(37, 99, 235, 0.2);
-    }
-
-    .pg-test-schedule .status-badge.active {
-      background: rgba(5, 150, 105, 0.1);
-      color: var(--success-color);
-      border-color: rgba(5, 150, 105, 0.2);
-    }
-
-    .pg-test-schedule .status-badge.upcoming {
-      background: rgba(217, 119, 6, 0.1);
-      color: var(--warning-color);
-      border-color: rgba(217, 119, 6, 0.2);
-    }
-
-    .pg-test-schedule .status-badge i {
-      font-size: 0.75rem;
-    }
-    </style>
-	
   </head>
-  
-  <body class="pg-test-schedule">
+
+  <body class="pg-test-schedule pg-test-schedule--sep26">
    
 
       <header class="site-header bg-dark text-white-0_5">        
@@ -636,76 +196,65 @@
     </div>
   </div> <!-- END container-->		
   </nav> <!-- END ec-nav -->  
-   <!-- END site-search--><div class="enhanced-breadcrumb">
-  <div class="container">
-   <div class="row align-items-center">
-     <div class="col-lg-8 my-2 text-white breadcrumb-content">
-      <ol class="breadcrumb breadcrumb-double-angle bg-transparent p-0 mb-4">  
-        <li class="breadcrumb-item"><a href="index.html" class="text-white-50"><i class="fas fa-home mr-2"></i>Home</a></li>
-        <li class="breadcrumb-item"><a href="test-schedule-ipcc-old.html" class="text-white-50">Test Schedule</a></li>
-        <li class="breadcrumb-item text-white">CA Intermediate May 26</li>
-      </ol>
-      
-      <h1 class="page-title">
-        <span class="highlight-text">CA Intermediate</span><br>
-        <span class="text-white">Test Schedule</span>
-      </h1>
-      
-      <p class="page-subtitle">
-        Comprehensive test schedule for CA Intermediate Sep 2026 batch with multiple test series options
-      </p>
-      
-      <div class="batch-info">
-        <div class="row">
-          <div class="col-md-6">
-            <h5 class="mb-2"><i class="fas fa-calendar-alt mr-2"></i>Batch Information</h5>
-            <p class="mb-0"><strong>Session:</strong> Sep 2026</p>
-            <p class="mb-0"><strong>Level:</strong> CA Intermediate</p>
+   <!-- END site-search-->
+  <div class="enhanced-breadcrumb">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8 my-2 text-white">
+          <ol class="breadcrumb breadcrumb-double-angle bg-transparent p-0 mb-3">
+            <li class="breadcrumb-item"><a href="index.html"><i class="fas fa-home mr-2"></i>Home</a></li>
+            <li class="breadcrumb-item"><a href="course-overview.html#test-series">Test series</a></li>
+            <li class="breadcrumb-item active text-white">CA Intermediate · Sep 2026</li>
+          </ol>
+          <h1 class="page-title">CA Intermediate <span style="opacity:.88">Test schedule</span></h1>
+          <p class="page-subtitle">Sep 2026 attempt — ABC, Rapid Revision, Subject-wise, DOT Marathon &amp; more. Download schedules, check fees, and jump to registration.</p>
+          <div class="batch-info">
+            <div class="row">
+              <div class="col-md-6">
+                <h5 class="mb-2 text-white"><i class="fas fa-calendar-alt mr-2"></i>Batch</h5>
+                <p class="mb-0 text-white"><strong>Session:</strong> September 2026</p>
+                <p class="mb-0 text-white"><strong>Level:</strong> CA Intermediate</p>
+              </div>
+              <div class="col-md-6 mt-3 mt-md-0">
+                <h5 class="mb-2 text-white"><i class="fas fa-info-circle mr-2"></i>Modes</h5>
+                <p class="mb-0 text-white small">Online (India) · Direct (Chennai centre) — as per each series page.</p>
+                <div class="mt-2">
+                  <span class="status-badge registration"><i class="fas fa-user-plus"></i> Registration open</span>
+                  <span class="status-badge active"><i class="fas fa-laptop"></i> Online</span>
+                  <span class="status-badge upcoming"><i class="fas fa-building"></i> Direct</span>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-md-6">
-            <h5 class="mb-2"><i class="fas fa-users mr-2"></i>Available Options</h5>
-            <span class="status-badge registration">
-              <i class="fas fa-user-plus"></i>Registration Open
-            </span>
-            <span class="status-badge active">
-              <i class="fas fa-laptop"></i>Online Mode
-            </span>
-            <span class="status-badge upcoming">
-              <i class="fas fa-building"></i>Direct Mode
-            </span>
+        </div>
+        <div class="col-lg-4 my-2 text-center text-lg-right">
+          <div class="batch-info text-lg-left">
+            <h5 class="text-white mb-3"><i class="fas fa-bolt mr-2"></i>Quick jump</h5>
+            <a href="#Tabsabc" class="action-btn d-block mb-2" style="background:rgba(251,191,36,.95);color:#1c1917;" data-toggle="tab" role="button"><i class="fas fa-star mr-2"></i>ABC series</a>
+            <a href="#Tabssingle2" class="action-btn d-block mb-2" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);" data-toggle="tab" role="button"><i class="fas fa-fast-forward mr-2"></i>Rapid Revision</a>
+            <a href="#Tabsdot" class="action-btn btn-schedule d-block mb-2" data-toggle="tab" role="button"><i class="fas fa-road mr-2"></i>DOT Marathon</a>
+            <a href="#Tabssingle" class="action-btn d-block mb-2" data-toggle="tab" role="button"><i class="fas fa-book-open mr-2"></i>Subject-wise</a>
+            <a href="registration.html" class="action-btn btn-schedule d-block"><i class="fas fa-paper-plane mr-2"></i>General enquiry</a>
           </div>
         </div>
       </div>
-     </div>
-     
-     <div class="col-lg-4 my-2 text-center">
-       <div class="batch-info">
-         <h4 class="text-white mb-3"><i class="fas fa-bolt mr-2"></i>Quick Actions</h4>
-         <a href="#Tabsabc" class="action-btn d-block mb-2">
-           <i class="fas fa-star mr-2"></i>View ABC Series
-         </a>
-         <a href="#Tabsdot" class="action-btn btn-schedule d-block">
-           <i class="fas fa-running mr-2"></i>DOT Marathon
-         </a>
-       </div>
-     </div>
-   </div>
+    </div>
   </div>
-</div>
 
 
 
 
-<section class="padding-y-50 bg-light">
+<section class="padding-y-50 ts-schedule-section">
   <div class="container">
-    <!-- Professional Tab Navigation -->
+    <div class="row">
+      <div class="col-12">
     <div class="enhanced-tab-nav">
       <div class="tab-nav-header">
-        <h2 class="tab-nav-title">Choose Your Test Series</h2>
-        <p class="tab-nav-subtitle">Select from our comprehensive range of test series designed for CA Intermediate students</p>
+        <h2 class="tab-nav-title">Choose your test series</h2>
+        <p class="tab-nav-subtitle">Sep 2026 batch — open a tab for schedules &amp; registration. (Legacy panels below stay available for future menu links.)</p>
       </div>
-      
-      <ul class="nav nav-pills" role="tablist">
+
+      <ul class="nav nav-pills justify-content-center" role="tablist">
         
         <li class="nav-item">
           <a class="nav-link active" data-toggle="tab" href="#Tabsabc" role="tab" aria-selected="true">
@@ -759,9 +308,7 @@
         </li>
         -->
         <li class="nav-item">
-        <a class="btn btn-white shadow-v1 " data-toggle="tab" href="#Tabssingle2" role="tab" aria-selected="true">
-          Rapid Revision
-        </a>
+          <a class="nav-link" data-toggle="tab" href="#Tabssingle2" role="tab" aria-selected="false"><i class="fas fa-fast-forward"></i> Rapid Revision</a>
         </li>
        
         <li class="nav-item">
@@ -772,7 +319,8 @@
        
       </ul>
     </div>
-    <!-- Enhanced Tab Content -->
+      </div>
+      <div class="col-12 px-md-0">
     <div class="enhanced-tab-content">
       <div class="tab-content">
         <div class="tab-pane fade" id="Tabsdot" role="tabpanel">
@@ -2009,6 +1557,8 @@
       
       </div> <!-- END tab-content -->
     </div> <!-- END enhanced-tab-content -->
+      </div> <!-- END col-12 px-md-0 -->
+    </div> <!-- END row -->
   </div> <!-- END container-->
 </section>
    
@@ -2164,15 +1714,14 @@
       }, 2000);
     });
     
-    // Enhance breadcrumb quick actions
-    $('.enhanced-breadcrumb .action-btn').on('click', function(e) {
+    // Breadcrumb quick jump: only intercept in-page tab anchors (not registration.html etc.)
+    $('.enhanced-breadcrumb .action-btn[href^="#"]').on('click', function(e) {
       e.preventDefault();
       var targetTab = $(this).attr('href');
-      
-      // Switch to the target tab
-      $('.nav-link[href="' + targetTab + '"]').tab('show');
-      
-      // Smooth scroll to tab content
+      var $pill = $('.nav-link[href="' + targetTab + '"]');
+      if ($pill.length) {
+        $pill.tab('show');
+      }
       $('html, body').animate({
         scrollTop: $('.enhanced-tab-content').offset().top - 100
       }, 800);

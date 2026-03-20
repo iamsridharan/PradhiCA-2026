@@ -1,5 +1,7 @@
 # 🎯 **B2B SEO STRATEGY: TARGETING CA INSTITUTES & ICAI**
 
+> **Ops note (2026-02-10):** Crawl artifacts refreshed — `sitemap.xml`, `urllist.txt`, `llms.txt`, `robots.txt` (~160 root HTML URLs).
+
 ## 💼 **STRATEGIC PIVOT COMPLETED**
 
 **CRITICAL CORRECTION IMPLEMENTED:** PradhiCA is now correctly positioned as a **Premium Test Series Provider**, NOT a coaching institute. This strategic repositioning targets:

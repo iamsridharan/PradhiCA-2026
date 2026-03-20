@@ -94,8 +94,8 @@
     <meta name="student-benefits" content="best CA preparation, top quality mock tests, India's leading test series, premium examination experience">
     <meta name="traffic-source-targeting" content="CA students India, Chennai CA coaching, Mumbai CA institutes, Delhi CA students, south India CA preparation">
     
-    <!-- viewport scale-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- viewport: allow pinch-zoom for accessibility; improves scroll behaviour on mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     
             
     <!-- Canonical URL -->
@@ -134,7 +134,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/footer-premium.css">
     <link rel="stylesheet" href="assets/css/header-premium.css">
-    
+    <link rel="stylesheet" href="assets/css/home-premium.css">
+
     <!-- JSON-LD Structured Data for Enhanced AI/SEO -->
     <script type="application/ld+json">
     {
@@ -450,642 +451,7 @@
       ]
     }
     </script>
-    <style>
-      /* Modern Homepage Enhancements */
-      .pg-home {
-        --primary-color: #007bff;
-        --primary-dark: #0056b3;
-        --success-color: #28a745;
-        --gradient-primary: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
-        --gradient-hero: linear-gradient(135deg, rgba(40, 167, 75, 0.1) 0%, rgba(40, 167, 75, 0.1) 100%);
-        --shadow-soft: 0 8px 30px rgba(0, 0, 0, 0.08);
-        --shadow-hover: 0 15px 40px rgba(0, 0, 0, 0.15);
-        --border-radius: 12px;
-        --transition: all 0.3s ease;
-      }
 
-      /* Enhanced Hero Section */
-      .pg-home .carousel-item {
-        position: relative;
-        overflow: hidden;
-      }
-      
-      .pg-home .carousel-item::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: var(--gradient-hero);
-        z-index: 1;
-      }
-      
-      .pg-home .carousel-item .container {
-        position: relative;
-        z-index: 2;
-      }
-
-      .pg-home .hero-title {
-        font-size: 3.5rem;
-        font-weight: 800;
-        letter-spacing: -0.02em;
-        margin-bottom: 1.5rem;
-        text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-      }
-
-      .pg-home .hero-subtitle {
-        font-size: 1.4rem;
-        font-weight: 400;
-        margin-bottom: 2.5rem;
-        opacity: 0.95;
-      }
-
-      .pg-home .hero-buttons .btn {
-        padding: 15px 30px;
-        font-weight: 600;
-        border-radius: 50px;
-        margin: 0 8px 15px 0;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-        transition: var(--transition);
-        border: 2px solid rgba(255, 255, 255, 0.3);
-        backdrop-filter: blur(10px);
-      }
-
-      .pg-home .hero-buttons .btn:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-        border-color: rgba(255, 255, 255, 0.6);
-      }
-
-      .pg-home .hero-buttons .btn a {
-        color: inherit;
-        text-decoration: none;
-      }
-
-      /* Welcome Section Enhancement */
-      .pg-home .welcome-section {
-        padding: 100px 0;
-        background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);
-      }
-
-      .pg-home .welcome-image {
-        border-radius: var(--border-radius);
-        overflow: hidden;
-        box-shadow: var(--shadow-soft);
-        transition: var(--transition);
-      }
-
-      .pg-home .welcome-image:hover {
-        transform: translateY(-5px);
-        box-shadow: var(--shadow-hover);
-      }
-
-      .pg-home .welcome-content h2 {
-        font-weight: 700;
-        margin-bottom: 1.5rem;
-      }
-
-      .pg-home .welcome-content .text-primary {
-        background: var(--gradient-primary);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
-
-      .pg-home .welcome-content p {
-        font-size: 1.1rem;
-        line-height: 1.7;
-        color: #6c757d;
-      }
-
-      .pg-home .btn-outline-primary {
-        padding: 12px 30px;
-        font-weight: 600;
-        border-radius: 50px;
-        border-width: 2px;
-        transition: var(--transition);
-      }
-
-      .pg-home .btn-outline-primary:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3);
-      }
-
-      /* Announcements Card Enhancement */
-      .pg-home .announcements-card {
-        border-radius: var(--border-radius);
-        border: none;
-        box-shadow: var(--shadow-soft);
-        overflow: hidden;
-        transition: var(--transition);
-      }
-
-      .pg-home .announcements-card:hover {
-        transform: translateY(-5px);
-        box-shadow: var(--shadow-hover);
-      }
-
-      .pg-home .announcements-card .card-header {
-        background: var(--gradient-primary);
-        border: none;
-        padding: 20px;
-      }
-
-      .pg-home .announcement-item {
-        padding: 20px !important;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
-        transition: var(--transition);
-      }
-
-      .pg-home .announcement-item:hover {
-        background-color: #f8f9fa;
-        padding-left: 25px !important;
-      }
-
-      .pg-home .announcement-item:last-child {
-        border-bottom: none !important;
-      }
-
-      .pg-home .announcement-date {
-        font-weight: 600;
-        font-size: 0.9rem;
-      }
-
-      .pg-home .announcement-item a {
-        color: #495057;
-        text-decoration: none;
-        font-weight: 600;
-        transition: var(--transition);
-      }
-
-      .pg-home .announcement-item:hover a {
-        color: var(--primary-color);
-      }
-
-      /* Registration Section Enhancement */
-      .pg-home .registration-section {
-        position: relative;
-        overflow: hidden;
-      }
-
-      .pg-home .registration-section::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5) 100%);
-        z-index: 1;
-      }
-
-      .pg-home .registration-section > div {
-        position: relative;
-        z-index: 2;
-      }
-
-      .pg-home .registration-content {
-        padding: 60px 40px;
-      }
-
-      .pg-home .registration-content h2 {
-        font-weight: 700;
-        margin-bottom: 2rem;
-        font-size: 2.2rem;
-      }
-
-      .pg-home .registration-content p {
-        font-size: 1.1rem;
-        line-height: 1.6;
-        margin-bottom: 1rem;
-      }
-
-      .pg-home .registration-content .btn-white {
-        padding: 12px 30px;
-        font-weight: 600;
-        border-radius: 50px;
-        transition: var(--transition);
-      }
-
-      .pg-home .registration-content .btn-white:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
-      }
-
-      /* Stats Counter Enhancement */
-      .pg-home .stats-section {
-        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-        padding: 100px 0;
-      }
-
-      .pg-home .stats-card {
-        background: white;
-        border-radius: var(--border-radius);
-        border: none;
-        box-shadow: var(--shadow-soft);
-        padding: 40px 20px;
-        text-align: center;
-        transition: var(--transition);
-        height: 100%;
-      }
-
-      .pg-home .stats-card:hover {
-        transform: translateY(-8px);
-        box-shadow: var(--shadow-hover);
-      }
-
-      .pg-home .stats-card i {
-        font-size: 3.5rem !important;
-        margin-bottom: 1.5rem;
-        background: var(--gradient-primary);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
-
-      .pg-home .stats-card h2 {
-        font-weight: 800;
-        font-size: 3rem;
-        margin: 1rem 0;
-        color: var(--primary-color);
-      }
-
-      .pg-home .stats-card span {
-        font-weight: 600;
-        font-size: 1.1rem;
-        color: #6c757d;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-      }
-
-      /* Testimonials Enhancement */
-      .pg-home .testimonials-section {
-        position: relative;
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-      }
-
-      .pg-home .testimonials-section::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
-        z-index: 1;
-      }
-
-      .pg-home .testimonials-section > div {
-        position: relative;
-        z-index: 2;
-      }
-
-      .pg-home .testimonial-avatar {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        border: 4px solid rgba(255, 255, 255, 0.3);
-        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-      }
-
-      .pg-home .testimonial-text {
-        font-size: 1.2rem;
-        line-height: 1.8;
-        margin: 2rem 0;
-        font-style: italic;
-      }
-
-      /* Mobile Responsiveness */
-      @media (max-width: 768px) {
-        .pg-home .hero-title {
-          font-size: 2.5rem;
-        }
-        
-        .pg-home .hero-subtitle {
-          font-size: 1.2rem;
-        }
-        
-        .pg-home .hero-buttons .btn {
-          display: block;
-          width: 100%;
-          margin: 0 0 15px 0;
-        }
-        
-        .pg-home .registration-content {
-          padding: 40px 20px;
-        }
-        
-        .pg-home .stats-card {
-          margin-bottom: 30px;
-        }
-      }
-
-      /* Smooth Scrolling and Animation Enhancements */
-      .pg-home .fade-in-up {
-        opacity: 0;
-        transform: translateY(30px);
-        transition: all 0.8s ease;
-      }
-
-      .pg-home .fade-in-up.visible {
-        opacity: 1;
-        transform: translateY(0);
-      }
-
-      /* Custom Button Styles */
-      .pg-home .btn-gradient {
-        background: var(--gradient-primary);
-        border: none;
-        color: white;
-        padding: 12px 30px;
-        border-radius: 50px;
-        font-weight: 600;
-        transition: var(--transition);
-      }
-
-      .pg-home .btn-gradient:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 10px 25px rgba(0, 123, 255, 0.4);
-        color: white;
-      }
-
-      /* Test Series Carousel */
-      .pg-home .test-series-carousel-section {
-        padding: 60px 0 80px;
-        background: linear-gradient(135deg, #e8eef5 0%, #d4dce8 50%, #e2e8f0 100%);
-        position: relative;
-      }
-
-      .pg-home .test-series-carousel-section::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.15'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-        opacity: 0.5;
-        pointer-events: none;
-      }
-
-      .pg-home .test-series-carousel-section .container {
-        position: relative;
-        z-index: 1;
-      }
-
-      .pg-home .test-series-carousel-section .section-title {
-        font-weight: 700;
-        margin-bottom: 0.5rem;
-      }
-
-      .pg-home .test-series-carousel-section .section-subtitle {
-        color: #5a6c7d;
-        margin-bottom: 2.5rem;
-      }
-
-      .pg-home .test-series-carousel-item {
-        position: relative;
-        border-radius: var(--border-radius);
-        overflow: hidden;
-        box-shadow: var(--shadow-soft);
-        transition: var(--transition);
-        cursor: pointer;
-        background: #fff;
-      }
-
-      .pg-home .test-series-carousel-item:hover {
-        transform: translateY(-5px);
-        box-shadow: var(--shadow-hover);
-      }
-
-      .pg-home .test-series-carousel-item .carousel-img-wrap {
-        width: 100%;
-        min-height: 200px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 12px;
-        background: #fff;
-      }
-
-      .pg-home .test-series-carousel-item img {
-        width: 100%;
-        height: auto;
-        max-height: 280px;
-        object-fit: contain;
-        display: block;
-      }
-
-      .pg-home .test-series-carousel-item .carousel-hover-overlay {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        padding: 20px 16px;
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.6) 50%, transparent 100%);
-        color: #fff;
-        opacity: 0;
-        transform: translateY(10px);
-        transition: all 0.35s ease;
-      }
-
-      .pg-home .test-series-carousel-item:hover .carousel-hover-overlay {
-        opacity: 1;
-        transform: translateY(0);
-      }
-
-      .pg-home .test-series-carousel-item .carousel-hover-overlay .hover-title {
-        font-weight: 700;
-        font-size: 1rem;
-        margin-bottom: 4px;
-        text-shadow: 0 1px 3px rgba(0,0,0,0.5);
-      }
-
-      .pg-home .test-series-carousel-item .carousel-hover-overlay .hover-desc {
-        font-size: 0.85rem;
-        opacity: 0.95;
-        line-height: 1.4;
-      }
-
-      .pg-home .test-series-carousel .owl-item {
-        padding: 0 8px;
-      }
-
-      .pg-home .test-series-carousel .owl-nav button {
-        background: var(--gradient-primary) !important;
-        color: white !important;
-        width: 44px;
-        height: 44px;
-        border-radius: 50% !important;
-        transition: var(--transition);
-      }
-
-      .pg-home .test-series-carousel .owl-nav button:hover {
-        transform: scale(1.1);
-      }
-
-      /* Test Series Image Lightbox Modal */
-      .test-series-lightbox {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 9999;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
-        background: rgba(0, 0, 0, 0.92);
-        backdrop-filter: blur(8px);
-        opacity: 0;
-        transition: opacity 0.3s ease;
-      }
-
-      .test-series-lightbox.active {
-        display: flex;
-        opacity: 1;
-      }
-
-      .test-series-lightbox .lightbox-content {
-        max-width: 95vw;
-        max-height: 95vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        animation: lightboxZoomIn 0.35s ease;
-      }
-
-      @keyframes lightboxZoomIn {
-        from { opacity: 0; transform: scale(0.9); }
-        to { opacity: 1; transform: scale(1); }
-      }
-
-      .test-series-lightbox .lightbox-img-wrap {
-        max-height: 85vh;
-        overflow: auto;
-        border-radius: 12px;
-        box-shadow: 0 25px 80px rgba(0,0,0,0.5);
-      }
-
-      .test-series-lightbox .lightbox-img-wrap img {
-        max-width: 100%;
-        height: auto;
-        display: block;
-      }
-
-      .test-series-lightbox .lightbox-caption {
-        margin-top: 16px;
-        padding: 12px 20px;
-        background: rgba(255,255,255,0.08);
-        border-radius: 8px;
-        color: #fff;
-        font-weight: 600;
-        font-size: 1rem;
-        text-align: center;
-      }
-
-      .test-series-lightbox .lightbox-close {
-        position: absolute;
-        top: 24px;
-        right: 24px;
-        width: 48px;
-        height: 48px;
-        border: 2px solid rgba(255,255,255,0.4);
-        border-radius: 50%;
-        background: rgba(255,255,255,0.1);
-        color: #fff;
-        font-size: 24px;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: all 0.25s ease;
-      }
-
-      .test-series-lightbox .lightbox-close:hover {
-        background: rgba(255,255,255,0.2);
-        border-color: rgba(255,255,255,0.8);
-      }
-
-      .test-series-lightbox .lightbox-actions {
-        display: flex;
-        gap: 12px;
-        margin-top: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-
-      .test-series-lightbox .lightbox-btn {
-        display: inline-flex;
-        align-items: center;
-        padding: 14px 28px;
-        border-radius: 50px;
-        font-weight: 600;
-        font-size: 1rem;
-        text-decoration: none;
-        transition: all 0.25s ease;
-      }
-
-      .test-series-lightbox .lightbox-btn-primary {
-        background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
-        color: #fff;
-        border: 2px solid transparent;
-      }
-
-      .test-series-lightbox .lightbox-btn-primary:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 8px 25px rgba(0, 123, 255, 0.4);
-        color: #fff;
-      }
-
-      .test-series-lightbox .lightbox-btn-secondary {
-        background: rgba(255,255,255,0.15);
-        color: #fff;
-        border: 2px solid rgba(255,255,255,0.5);
-      }
-
-      .test-series-lightbox .lightbox-btn-secondary:hover {
-        background: rgba(255,255,255,0.25);
-        border-color: rgba(255,255,255,0.8);
-        color: #fff;
-      }
-
-      .test-series-lightbox .lightbox-btn-whatsapp {
-        background: #25D366;
-        color: #fff !important;
-        border: 2px solid #25D366;
-      }
-
-      .test-series-lightbox .lightbox-btn-whatsapp:hover {
-        background: #20bd5a;
-        border-color: #20bd5a;
-        color: #fff !important;
-      }
-
-      .test-series-lightbox .lightbox-btn-whatsapp i {
-        margin-right: 8px;
-      }
-
-      .test-series-lightbox .lightbox-batch-btns {
-        display: flex;
-        gap: 10px;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-
-      @media (max-width: 768px) {
-        .pg-home .test-series-carousel-item img {
-          max-height: 220px;
-        }
-      }
-    </style>
-   
-    
   </head>
   
   
@@ -1224,16 +590,18 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-10 mx-auto text-center text-white">
+              <p class="hero-eyebrow animated fadeInDown"><i class="fas fa-award"></i> India’s trusted CA test series</p>
               <h1 class="hero-title animated slideInUp">
-                Test Series for CA students at All levels. CA Foundation - CA Inter - CA Final
+                Foundation · Intermediate · Final — mock tests built for ICAI-level rigour
               </h1>
 			  <p class="hero-subtitle animated fadeInUp">
-                Unlock success with the nation's most trusted CA platform. Over 7500 successful aspirants nationwide rely on our rigorous, ICAI-aligned mock exams, setting the standard for all India CA preparation.
+                7,500+ aspirants nationwide. Scheduled &amp; unscheduled series, rapid revision, ABC, DOT &amp; model exams — online and at our Chennai centre.
               </p>
-			  <div class="hero-buttons padding-y-10">
-              <button class="btn btn-pill btn-primary mr-3 mb-3"><a href="course-overview.html">CA-Foundation</a></button>
-			  <button class="btn btn-pill btn-primary mr-3 mb-3"><a href="course-overview.html">CA-Intermediate</a></button>
-			  <button class="btn btn-pill btn-primary mr-3 mb-3"><a href="course-overview.html">CA-Final</a></button>
+			  <div class="hero-buttons padding-y-10 animated fadeInUp">
+              <a class="btn btn-pill btn-primary hero-cta hero-cta--primary" href="test-schedule-foundation-May26.html"><i class="fas fa-book"></i> Foundation</a>
+			  <a class="btn btn-pill btn-primary hero-cta hero-cta--primary" href="test-schedule-Inter-Sep26.html"><i class="fas fa-chart-line"></i> Intermediate</a>
+			  <a class="btn btn-pill btn-primary hero-cta hero-cta--primary" href="test-schedule-final-Sep26.html"><i class="fas fa-graduation-cap"></i> Final</a>
+              <a class="btn btn-pill btn-outline-light hero-cta hero-cta--ghost" href="registration.html"><i class="fas fa-paper-plane"></i> Enquiry</a>
             </div>
 			</div>
           </div>
@@ -1244,13 +612,17 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-10 mx-auto text-center text-white">
+              <p class="hero-eyebrow animated fadeInDown"><i class="fas fa-flask"></i> Adaptive assessment</p>
               <h1 class="hero-title animated slideInUp">
-                Adaptive Assessment Test Platform
+                One platform — weekly, revision &amp; full-syllabus tests
               </h1>
               <p class="hero-subtitle animated fadeInUp">
-               A tailor-made platform ensuring comprehensive preparation across scheduled, unscheduled, revision, and full syllabus test.
+               Structured schedules, unscheduled ABC, rapid revision packs, and 100-mark model papers — all aligned with the latest exam pattern.
               </p>
-             
+              <div class="hero-buttons padding-y-10 animated fadeInUp">
+                <a class="btn btn-pill btn-primary hero-cta hero-cta--primary" href="course-overview.html"><i class="fas fa-cubes"></i> Explore programmes</a>
+                <a class="btn btn-pill btn-outline-light hero-cta hero-cta--ghost" href="test-schedule-final-Sep26.html"><i class="fas fa-calendar-alt"></i> View schedules</a>
+              </div>
             </div>
           </div>
         </div>
@@ -1260,14 +632,17 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-10 mx-auto text-center text-white">
+              <p class="hero-eyebrow animated fadeInDown"><i class="fas fa-map-marker-alt"></i> Your mode, your pace</p>
               <h1 class="hero-title animated slideInUp">
-              Flexible Testing Modes
+              Online across India · Direct mode in Chennai
               </h1>
               <p class="hero-subtitle animated fadeInUp">
-               Choose your ideal environment: Take your test either at our exclusive center or remotely from the complete comfort of your home.
-			   
+               Write from home with our online series, or walk in to our West Mambalam centre for direct tests — pick what fits your prep.
               </p>
-              
+              <div class="hero-buttons padding-y-10 animated fadeInUp">
+                <a class="btn btn-pill btn-primary hero-cta hero-cta--primary" href="contact-us.html"><i class="fas fa-phone"></i> Talk to us</a>
+                <a class="btn btn-pill btn-outline-light hero-cta hero-cta--ghost" href="https://maps.app.goo.gl/3scL1jiJsRZxtvYd9" target="_blank" rel="noopener"><i class="ti-location-pin"></i> Centre location</a>
+              </div>
             </div>
           </div>
         </div>
@@ -1281,12 +656,17 @@
 	</a>
 	</div>
 
-   
-    
+<section class="pg-home-trust" aria-label="Trust highlights">
+  <div class="container">
+    <div class="pg-home-trust__inner">
+      <span class="pg-home-trust__item"><i class="fas fa-check-circle"></i> ICAI-pattern papers &amp; timings</span>
+      <span class="pg-home-trust__item"><i class="fas fa-users"></i> 7,500+ students served</span>
+      <span class="pg-home-trust__item"><i class="fas fa-laptop-house"></i> Online + Chennai direct centre</span>
+      <span class="pg-home-trust__item"><i class="fas fa-headset"></i> Evaluator feedback on answers</span>
+    </div>
+  </div>
+</section>
 
-
-   
-    
 <section class="welcome-section">
   <div class="container">
     <div class="row">
@@ -1300,14 +680,20 @@
           </div>
           <div class="col-md-6 mt-4 welcome-content">
             <h2>
-              <small class="d-block text-gray">Welcome to</small>
-               <span class="text-primary">PradhiCA</span> - India's Best CA Test Series
+              <small class="d-block text-gray text-uppercase font-weight-bold" style="font-size:0.75rem;letter-spacing:0.12em;">Why students choose us</small>
+               <span class="text-primary">PradhiCA</span> — serious mocks for every CA level
             </h2>
-            <p class="my-4">
-              Experience India's Premier CA Test Series Platform!</p>
-			  <p>PradhiCA is India's leading CA test series provider, trusted by 7500+ successful students across Chennai, Mumbai, Delhi, Tamil Nadu, Kerala, Andhra Pradesh, and Telangana. Our premium ICAI-aligned mock tests offer the highest quality preparation experience with expert evaluation and comprehensive coverage. Join India's top-rated CA test series and experience the difference quality makes!</p>
-            <a href="contact-us.html" class="btn btn-outline-primary">
-              Contact US
+            <div class="welcome-chips" aria-hidden="true">
+              <span class="welcome-chip">Weekly DOT</span>
+              <span class="welcome-chip">ABC unscheduled</span>
+              <span class="welcome-chip">Rapid revision</span>
+              <span class="welcome-chip">Model 100-mark</span>
+            </div>
+            <p class="my-3">
+              India’s premier test-series platform for CA Foundation, Intermediate &amp; Final — built for depth, discipline, and exam-day confidence.</p>
+			  <p>Trusted by 7,500+ students across Chennai, Mumbai, Delhi, Tamil Nadu, Kerala, Andhra Pradesh, Telangana &amp; beyond. ICAI-aligned papers, structured evaluation, and clear feedback so you know exactly where you stand.</p>
+            <a href="contact-us.html" class="btn btn-outline-primary mt-2">
+              <i class="fas fa-envelope mr-2"></i>Contact us
             </a>
           </div>
         </div>
@@ -1531,33 +917,33 @@
       <div class="col-md-6 bg-cover bg-center text-white padding-y-80" style="background:url(assets/img/960x560/1.jpg) no-repeat">
         <div class="registration-content padding-x-lg-50 wow pulse">
           <h2 class="text-white mb-4">
-            Registration is in Progress for May 26 Batch
+            Registration open — May 26 batch
           </h2>
-          
-            <p><li>Unscheduled Chapter wise test series:</li></p>
-            <p><li>Registration available for ABC / Subjectwise / Rapid Revision May 26, Sep 26 & Jan 27 Batch</li></p>
-            <p><li>Students can start to write the test from the date of Registration. Online & Direct Mode available.</li></p></br>
-
-            <p><li>Scheduled Chapter wise test series: </li></p>
-            <p><li>2.O DOT (9 Weeks Test series) : Registration still in progress May 26 Batch. 30% Offer available. Valid from 24.02.2026 onwards</li></p>
-            <p><li>3.O DOT (6 Weeks Test series) : Exam starts from 15.03.2026 onwards for May 26 Batch.</li></p>
-
-            <p><li>Model Exam (100 marks full syllabus test): May 26 Batch - 3 Sets of 100 marks full syllabus test series. Weekend & Alternative days batch (Scheduled & Unscheduled). Registration begins from Feb 1.</li></p>
-
-          <a href="https://api.whatsapp.com/send?phone=918072653948&text=Name:" class="btn btn-white mt-4">Click to Know more</a>
+          <h3>Unscheduled &amp; flexible</h3>
+          <ul class="registration-list">
+            <li>ABC, Subject-wise &amp; Rapid Revision — May 26, Sep 26 &amp; Jan 27 batches.</li>
+            <li>Start writing from the date of registration. Online &amp; direct (Chennai) modes.</li>
+          </ul>
+          <h3>Scheduled chapter-wise</h3>
+          <ul class="registration-list">
+            <li><strong>DOT 2.0</strong> (9 weeks) — May 26 batch; 30% offer (valid from 24.02.2026).</li>
+            <li><strong>DOT 3.0</strong> (6 weeks) — exams from 15.03.2026 for May 26 batch.</li>
+            <li><strong>Model exam</strong> — three 100-mark full-syllabus sets; weekend &amp; alternate-day batches; registration from 1 Feb.</li>
+          </ul>
+          <a href="https://api.whatsapp.com/send?phone=918072653948&text=Name:" class="btn btn-white mt-4" target="_blank" rel="noopener"><i class="fab fa-whatsapp mr-2"></i>Know more on WhatsApp</a>
         </div>
       </div>
       <div class="col-md-6 bg-cover bg-center text-white padding-y-80" style="background:url(assets/img/960x560/2.jpg) no-repeat">
         <div class="registration-content padding-x-lg-100 wow pulse">
           <h2 class="text-white mb-4">
-            Upcoming Batches - May 26, Sep 26 & Jan 27
+            Upcoming — May 26, Sep 26 &amp; Jan 27
           </h2>
-          <p>
-            <h4>Sep 2026</li></h4>
-            <p><li>DOT Marathon (Scheduled) : Sep 26 Batch - Final, Inter & Foundation - Direct (Chennai) & Online mode available. Exam Starts from 10.05.2026 (9 weeks & 2 weeks revision) - Registration begins from March 10 (Early bird offer available)</li></p>
-            
-          </p>
-          <a href="https://api.whatsapp.com/send?phone=918072653948&text=Name:" class="btn btn-white mt-4">COMING SOON</a>
+          <h3>Sep 2026 — DOT Marathon</h3>
+          <ul class="registration-list">
+            <li>Sep 26 batch: Final, Inter &amp; Foundation — online &amp; direct (Chennai).</li>
+            <li>Exam starts 10.05.2026 (9 weeks + 2 weeks revision). Registration from 10 Mar — early bird offers.</li>
+          </ul>
+          <a href="https://api.whatsapp.com/send?phone=918072653948&text=Name:" class="btn btn-white mt-4" target="_blank" rel="noopener"><i class="fab fa-whatsapp mr-2"></i>Coming soon — notify me</a>
         </div>
       </div>
     </div>
@@ -1648,7 +1034,7 @@
          <div class="row">
            <div class="col-lg-12 text-center ">
             <img class="iconbox iconbox-xxl mx-auto" src="assets/img/avatar/user.png" alt="">
-            <p class="text-white-0_7 mt-4">
+            <p class="testimonial-text text-white-0_7 mt-4">
               “PASS”, the words every CA aspirant “aspires” for. To become successful, it takes two things essentially; one is to reach the top and two; is to stay there. Motivation comes from two sources: Fear, Praise, if all of us were to be motivated by praise then you’re wasting your time reading this, fear on the other hand is an abundant source of motivation, Pradhi CA ensures that you receive the maximum motivation possible, how you get it, is up to you.
  With their meticulous planning, weekly study plan, regular updating to match the current requirements and their deliberate scare tactics at setting the questions, few come near Pradhi CA in terms of preparing a student to face the exams. 
 
@@ -1667,8 +1053,8 @@
          <div class="row">
            <div class="col-lg-12 text-center mx-auto">
             <img class="iconbox iconbox-xxl mx-auto" src="assets/img/avatar/user.png" alt="">
-            <p class="text-white-0_7 mt-4">
-             I just wanted to thank pradhi CA for the wonderful service they provide for ca students with minimal fees.the biggest benifit is it helped me to over come the fear of examination and through this i evaluated myself... & is well worth the money
+            <p class="testimonial-text text-white-0_7 mt-4">
+              I just wanted to thank pradhi CA for the wonderful service they provide for ca students with minimal fees.the biggest benifit is it helped me to over come the fear of examination and through this i evaluated myself... & is well worth the money
             </p>
             <h4 class="mt-4">
               Shainy
@@ -1682,8 +1068,8 @@
 		 <div class="row">
            <div class="col-lg-12 text-center mx-auto">
             <img class="iconbox iconbox-xxl mx-auto" src="assets/img/avatar/user.png" alt="">
-            <p class="text-white-0_7 mt-4">
-              1)Exams were properly scheduled so as to ensure completion of the weekly portions within that week.
+            <p class="testimonial-text text-white-0_7 mt-4">
+             1)Exams were properly scheduled so as to ensure completion of the weekly portions within that week.
 Questions were selected from various sources and were as per the standards of ICAI. Certain new questions and amenments  were Incorporated in the weekly test and model exams were helpful for us while revising for the final exams.
 Corrected answer sheet along with the correction teams remarks and suggestions were distributed on time which was very useful for self evaluation.
             </p>
@@ -1698,10 +1084,11 @@ Corrected answer sheet along with the correction teams remarks and suggestions w
 		 <div class="row">
            <div class="col-lg-12 text-center mx-auto">
             <img class="iconbox iconbox-xxl mx-auto" src="assets/img/avatar/user.png" alt="">
-            <p class="text-white-0_7 mt-4">
+            <p class="testimonial-text text-white-0_7 mt-4">
            Well scheduled DOT exams: Portions for the week can be easily covered within that week. Also, DOT exams were completed a month before main exam, providing  time for next round revision.
  Quality of the question paper was too good and also included questions testing the topics with latest amendments. There was always a surprise element in the question paper with new questions. Coverage of ICAI materials alone would not suffice to score high marks in these examinations, thus  it was helpful to face a tough question paper in the main exams.
  Answer papers of the DOT examinations were disturbed within a week and also included remarks as to the topics which needed better conceptual clarity / practice and suggestions for better presentation of the answers.
+            </p>
             <h4 class="mt-4">
              Shivani S
             </h4>
@@ -1870,21 +1257,28 @@ Corrected answer sheet along with the correction teams remarks and suggestions w
             });
           });
 
-          lightbox.addEventListener('click', function(e) {
-            if (e.target === lightbox) closeTestSeriesLightbox();
-          });
+          if (lightbox) {
+            lightbox.addEventListener('click', function(e) {
+              if (e.target === lightbox) closeTestSeriesLightbox();
+            });
+          }
 
           document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') closeTestSeriesLightbox();
           });
         });
 
+        /* Restore scroll if lightbox left body locked (back button, bfcache, refresh) */
+        window.addEventListener('pageshow', function() {
+          document.body.style.overflow = '';
+        });
+
         window.closeTestSeriesLightbox = function() {
           var lightbox = document.getElementById('testSeriesLightbox');
           if (lightbox) {
             lightbox.classList.remove('active');
-            document.body.style.overflow = '';
           }
+          document.body.style.overflow = '';
         };
       })();
     </script>

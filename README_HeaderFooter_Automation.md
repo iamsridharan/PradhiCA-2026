@@ -6,10 +6,13 @@ This folder contains automation scripts to keep headers and footers synchronized
 
 ## ✅ Current Status
 
-**All HTML files have been updated!**
-- ✅ **92 headers** updated with Telegram link (ti-location-arrow)
-- ✅ **92 footers** updated with 2025 copyright
-- ✅ All files now match `index.html` template
+**Sitewide chrome (latest / v2026.03):** Premium header & footer CSS (`header-premium.css`, `footer-premium.css`) applied across root HTML pages; counts vary as new batch pages are added.
+
+**Historical note:** Earlier automation runs synced **92+** headers/footers to `index.html`. Re-run `update_headers_footers.py` (or your pipeline) after bulk template changes.
+
+- ✅ **92 headers** updated with Telegram link (ti-location-arrow) *(legacy run)*
+- ✅ **92 footers** updated with 2025 copyright *(legacy run)*
+- ✅ Template source: `index.html`
 
 ## 🛠 Automation Solutions
 
