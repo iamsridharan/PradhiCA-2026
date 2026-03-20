@@ -106,15 +106,35 @@
 ## Technical Details
 
 ### Stack
-- **Frontend**: Static HTML, CSS, JavaScript (Bootstrap-based)
-- **Assets**: Font Awesome, Themify Icons, custom CSS/JS
+- **Frontend**: Static HTML, CSS, JavaScript (Bootstrap 4–based theme)
+- **Assets**: Font Awesome 5, Themify Icons, Owl Carousel, WOW.js
 - **Analytics**: Google Analytics (UA-132037455-1)
 - **Blog**: WordPress (at `/blog/`)
 
+### Premium stylesheets (`assets/css/`)
+Shared “premium” layers load **after** `vendors.bundle.css` and `style.css`:
+
+| File | Used on / purpose |
+|------|-------------------|
+| `header-premium.css` | Sitewide navigation (sticky bar, dropdowns) |
+| `footer-premium.css` | Sitewide footer + WhatsApp float |
+| `home-premium.css` | **`index.html`** — hero, trust strip, welcome, announcements, test-series band, stats, testimonials, lightbox |
+| `test-schedule-premium.css` | Test schedule pages with `body.pg-test-schedule` (optional `pg-test-schedule--sep26` for Sep batch accent) — tabs, hero, Fee/Schedule/Register CTA row |
+| `registration-hub-premium.css` | Registration hub / multi-route flows where linked |
+| `course-overview-premium.css` | Course overview + test-series section |
+| `contact-page-premium.css` | Contact page |
+| `registration-page-premium.css` | Registration / enquiry page variants |
+
+**Homepage body class**: `class="pg-home"` (required for `home-premium.css`).
+
+**Test schedule body classes** (example): `class="pg-test-schedule pg-test-schedule--sep26"`.
+
 ### Project Structure
 ```
-├── index.html              # Homepage
+├── index.html              # Homepage (premium hero + sections; home-premium.css)
 ├── course-overview.html    # Course journey + test series (premium layout)
+├── test-schedule-final-Sep26.html
+├── test-schedule-Inter-Sep26.html
 ├── contact-us.html
 ├── registration.html
 ├── sitemap.xml             # XML sitemap (~160 root HTML URLs + home)
@@ -122,11 +142,14 @@
 ├── urllist.txt             # Categorized URL list + discovery links
 ├── robots.txt              # Crawler permissions + sitemap pointer
 ├── llms.txt                # AI/LLM manifest
-├── assets/                 # Images, CSS, JS, fonts
+├── assets/
 │   ├── img/
 │   ├── css/
 │   │   ├── header-premium.css
 │   │   ├── footer-premium.css
+│   │   ├── home-premium.css
+│   │   ├── test-schedule-premium.css
+│   │   ├── registration-hub-premium.css
 │   │   ├── course-overview-premium.css
 │   │   ├── contact-page-premium.css
 │   │   └── registration-page-premium.css
@@ -159,7 +182,8 @@
 | v1.1.0 | Jan27/Sep26 updates, new pages |
 | v1.2.0 | AI/LLM crawler support (llms.txt, robots.txt) |
 | v1.3.0 | Release |
-| **v2026.03-redesign** | Premium header/footer sitewide; course overview + test-series UX; contact & registration refresh; sitemap/urllist/llms synced |
+| v2026.03-redesign | Premium header/footer sitewide; course overview + test-series UX; contact & registration refresh; sitemap/urllist/llms synced |
+| **v2026.02-home-ts** | Homepage premium UI (`home-premium.css`); Final/Inter Sep26 schedules use `test-schedule-premium.css`; scroll/viewport fixes on homepage; lightbox `pageshow` safety |
 
 ---
 
