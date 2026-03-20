@@ -18,14 +18,14 @@ https://pradhica.com/registration.html
 https://pradhica.com/sitemap.html
 
 # Test schedules
-https://pradhica.com/test-schedule-Inter-Jan27.html
-https://pradhica.com/test-schedule-Inter-May26.html
-https://pradhica.com/test-schedule-Inter-Sep26.html
-https://pradhica.com/test-schedule-final-Jan27.html
-https://pradhica.com/test-schedule-final-May26.html
-https://pradhica.com/test-schedule-final-Sep26.html
-https://pradhica.com/test-schedule-foundation-May26.html
-https://pradhica.com/test-schedule-foundation-Sep26.html
+https://pradhica.com/ca-inter-test-schedule-jan-2027.html
+https://pradhica.com/ca-inter-test-schedule-may-2026.html
+https://pradhica.com/ca-inter-test-schedule-sep-2026.html
+https://pradhica.com/ca-final-test-schedule-jan-2027.html
+https://pradhica.com/ca-final-test-schedule-may-2026.html
+https://pradhica.com/ca-final-test-schedule-sep-2026.html
+https://pradhica.com/ca-foundation-test-schedule-may-2026.html
+https://pradhica.com/ca-foundation-test-schedule-sep-2026.html
 
 # Foundation series pages
 https://pradhica.com/03-foundation-Rapid-Revison-Direct-May26.html

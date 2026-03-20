@@ -62,9 +62,9 @@ Note: Marketing names may include ABC, SS (Subject‑wise), DOT 3.0, Model, Mara
 - Registration/Enquiry: `https://pradhica.com/registration.html` (Google Form embedded)
 - Contact: `https://pradhica.com/contact-us.html`
 - Test schedules (canonical):
-  - Final: `https://pradhica.com/test-schedule-final-May26.html` · `...-Sep26.html` · `...-Jan27.html`
-  - Inter: `https://pradhica.com/test-schedule-Inter-May26.html` · `...-Sep26.html` · `...-Jan27.html`
-  - Foundation: `https://pradhica.com/test-schedule-foundation-May26.html` · `...-Sep26.html`
+  - Final: `https://pradhica.com/ca-final-test-schedule-may-2026.html` · `...-Sep26.html` · `...-Jan27.html`
+  - Inter: `https://pradhica.com/ca-inter-test-schedule-may-2026.html` · `...-Sep26.html` · `...-Jan27.html`
+  - Foundation: `https://pradhica.com/ca-foundation-test-schedule-may-2026.html` · `...-Sep26.html`
 - Full URL inventory: `https://pradhica.com/urllist.txt` · XML: `https://pradhica.com/sitemap.xml` · LLM manifest: `https://pradhica.com/llms.txt`
 
 ### Payment

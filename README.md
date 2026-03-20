@@ -70,9 +70,9 @@
 ### Test Schedules (Batch-wise)
 | Batch | CA Final | CA Inter | CA Foundation |
 |-------|----------|----------|---------------|
-| May 26 | [test-schedule-final-May26.html](https://pradhica.com/test-schedule-final-May26.html) | [test-schedule-Inter-May26.html](https://pradhica.com/test-schedule-Inter-May26.html) | [test-schedule-foundation-May26.html](https://pradhica.com/test-schedule-foundation-May26.html) |
-| Sep 26 | [test-schedule-final-Sep26.html](https://pradhica.com/test-schedule-final-Sep26.html) | [test-schedule-Inter-Sep26.html](https://pradhica.com/test-schedule-Inter-Sep26.html) | [test-schedule-foundation-Sep26.html](https://pradhica.com/test-schedule-foundation-Sep26.html) |
-| Jan 27 | [test-schedule-final-Jan27.html](https://pradhica.com/test-schedule-final-Jan27.html) | [test-schedule-Inter-Jan27.html](https://pradhica.com/test-schedule-Inter-Jan27.html) | — |
+| May 26 | [ca-final-test-schedule-may-2026.html](https://pradhica.com/ca-final-test-schedule-may-2026.html) | [ca-inter-test-schedule-may-2026.html](https://pradhica.com/ca-inter-test-schedule-may-2026.html) | [ca-foundation-test-schedule-may-2026.html](https://pradhica.com/ca-foundation-test-schedule-may-2026.html) |
+| Sep 26 | [ca-final-test-schedule-sep-2026.html](https://pradhica.com/ca-final-test-schedule-sep-2026.html) | [ca-inter-test-schedule-sep-2026.html](https://pradhica.com/ca-inter-test-schedule-sep-2026.html) | [ca-foundation-test-schedule-sep-2026.html](https://pradhica.com/ca-foundation-test-schedule-sep-2026.html) |
+| Jan 27 | [ca-final-test-schedule-jan-2027.html](https://pradhica.com/ca-final-test-schedule-jan-2027.html) | [ca-inter-test-schedule-jan-2027.html](https://pradhica.com/ca-inter-test-schedule-jan-2027.html) | — |
 
 ### Policies
 | Policy | URL |
@@ -133,8 +133,10 @@ Shared “premium” layers load **after** `vendors.bundle.css` and `style.css`:
 ```
 ├── index.html              # Homepage (premium hero + sections; home-premium.css)
 ├── course-overview.html    # Course journey + test series (premium layout)
-├── test-schedule-final-Sep26.html
-├── test-schedule-Inter-Sep26.html
+├── ca-*-test-schedule-*.html  # batch hubs (Final/Inter/Foundation × May/Sep/Jan)
+├── .htaccess                  # 301 redirects from legacy test-schedule-* URLs
+├── docs/URL-MIGRATION.md
+├── scripts/apply_url_renames.py
 ├── contact-us.html
 ├── registration.html
 ├── sitemap.xml             # XML sitemap (~160 root HTML URLs + home)
@@ -166,6 +168,9 @@ Shared “premium” layers load **after** `vendors.bundle.css` and `style.css`:
 - **llms.txt** – Curated content for AI agents (organization info, key facts, primary links)
 - **sitemap.xml** – Machine-readable sitemap for search engines
 
+### URL renames (test schedule hubs)
+Batch schedule pages use slugs like **`ca-{level}-test-schedule-{batch}.html`**. Legacy URLs **`test-schedule-*-May26.html`** (etc.) redirect via **`.htaccess`** (301) on Apache. See **[docs/URL-MIGRATION.md](docs/URL-MIGRATION.md)** and **`scripts/apply_url_renames.py`** for the mapping and future phases.
+
 ---
 
 ## Repository
@@ -184,6 +189,7 @@ Shared “premium” layers load **after** `vendors.bundle.css` and `style.css`:
 | v1.3.0 | Release |
 | v2026.03-redesign | Premium header/footer sitewide; course overview + test-series UX; contact & registration refresh; sitemap/urllist/llms synced |
 | **v2026.02-home-ts** | Homepage premium UI (`home-premium.css`); Final/Inter Sep26 schedules use `test-schedule-premium.css`; scroll/viewport fixes on homepage; lightbox `pageshow` safety |
+| **v2026.04-url-slugs** | Renamed 8 batch test-schedule hubs to `ca-*-test-schedule-*.html`; global link updates; `.htaccess` 301s; [docs/URL-MIGRATION.md](docs/URL-MIGRATION.md) |
 
 ---
 

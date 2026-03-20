@@ -1,0 +1,16 @@
+# PradhiCA — 301 redirects for renamed test-schedule URLs (SEO)
+# Requires Apache mod_rewrite. Remove or adapt if you use Nginx/Netlify/Vercel.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  RewriteRule ^test-schedule-final-May26\.html$ /ca-final-test-schedule-may-2026.html [R=301,L]
+  RewriteRule ^test-schedule-final-Sep26\.html$ /ca-final-test-schedule-sep-2026.html [R=301,L]
+  RewriteRule ^test-schedule-final-Jan27\.html$ /ca-final-test-schedule-jan-2027.html [R=301,L]
+  RewriteRule ^test-schedule-Inter-May26\.html$ /ca-inter-test-schedule-may-2026.html [R=301,L]
+  RewriteRule ^test-schedule-Inter-Sep26\.html$ /ca-inter-test-schedule-sep-2026.html [R=301,L]
+  RewriteRule ^test-schedule-Inter-Jan27\.html$ /ca-inter-test-schedule-jan-2027.html [R=301,L]
+  RewriteRule ^test-schedule-foundation-May26\.html$ /ca-foundation-test-schedule-may-2026.html [R=301,L]
+  RewriteRule ^test-schedule-foundation-Sep26\.html$ /ca-foundation-test-schedule-sep-2026.html [R=301,L]
+</IfModule>
