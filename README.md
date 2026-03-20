@@ -77,9 +77,9 @@
 ### Policies
 | Policy | URL |
 |--------|-----|
-| Terms & Conditions | [Terms-and-Conditions.html](https://pradhica.com/Terms-and-Conditions.html) |
-| Privacy Policy | [Privacy-Policy.html](https://pradhica.com/Privacy-Policy.html) |
-| Refund Policy | [Refund-Policy.html](https://pradhica.com/Refund-Policy.html) |
+| Terms & Conditions | [terms-and-conditions.html](https://pradhica.com/terms-and-conditions.html) |
+| Privacy Policy | [privacy-policy.html](https://pradhica.com/privacy-policy.html) |
+| Refund Policy | [refund-policy.html](https://pradhica.com/refund-policy.html) |
 
 ---
 
@@ -158,9 +158,9 @@ Shared “premium” layers load **after** `vendors.bundle.css` and `style.css`:
 │   ├── js/
 │   └── fonts/
 ├── blog/                   # WordPress blog
-├── Terms-and-Conditions.html
-├── Privacy-Policy.html
-└── Refund-Policy.html
+├── terms-and-conditions.html
+├── privacy-policy.html
+└── refund-policy.html
 ```
 
 ### SEO & AI Support

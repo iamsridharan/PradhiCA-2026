@@ -61,9 +61,9 @@
 
 ## Policies
 
-[Terms & Conditions](https://pradhica.com/Terms-and-Conditions.html)
-[Privacy Policy](https://pradhica.com/Privacy-Policy.html)
-[Refund Policy](https://pradhica.com/Refund-Policy.html)
+[Terms & Conditions](https://pradhica.com/terms-and-conditions.html)
+[Privacy Policy](https://pradhica.com/privacy-policy.html)
+[Refund Policy](https://pradhica.com/refund-policy.html)
 
 ## Sitemap & Discovery
 

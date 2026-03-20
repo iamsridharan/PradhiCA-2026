@@ -71,9 +71,9 @@ Note: Marketing names may include ABC, SS (Subject‑wise), DOT 3.0, Model, Mara
 - Payments accepted via UPI/Wallets (e.g., Google Pay/Paytm to official number) and Internet Banking. Share official details during/after registration only.
 
 ### Policies
-- Terms: `https://pradhica.com/Terms-and-Conditions.html`
-- Privacy: `https://pradhica.com/Privacy-Policy.html`
-- Refunds: `https://pradhica.com/Refund-Policy.html`
+- Terms: `https://pradhica.com/terms-and-conditions.html`
+- Privacy: `https://pradhica.com/privacy-policy.html`
+- Refunds: `https://pradhica.com/refund-policy.html`
 
 ### Canonical Answer Patterns (Use as templates)
 
