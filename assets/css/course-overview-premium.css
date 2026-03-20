@@ -1,0 +1,808 @@
+/**
+ * PradhiCA — Course overview conversion layer (course-overview.html)
+ * Scoped with body.pg-coverview
+ */
+.pg-coverview {
+  scroll-padding-top: 88px;
+}
+
+/* —— Hero —— */
+.pg-coverview .co-hero {
+  position: relative;
+  padding: 2.75rem 0 3.25rem;
+  background: linear-gradient(
+    125deg,
+    #0f172a 0%,
+    #1e3a5f 35%,
+    #2563eb 70%,
+    #4f46e5 100%
+  );
+  color: #fff;
+  overflow: hidden;
+}
+
+.pg-coverview .co-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse 80% 60% at 100% 0%,
+    rgba(99, 102, 241, 0.35),
+    transparent 50%
+  );
+  pointer-events: none;
+}
+
+.pg-coverview .co-hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.pg-coverview .co-hero__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #a5b4fc;
+  margin-bottom: 0.5rem;
+}
+
+.pg-coverview .co-hero__title {
+  font-family: "Inter", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.85rem, 4.5vw, 2.65rem);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  margin: 0 0 0.75rem;
+  color: #fff;
+}
+
+.pg-coverview .co-hero__lead {
+  font-size: 1.08rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 40rem;
+  margin: 0 0 1.35rem;
+}
+
+.pg-coverview .co-hero__cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.pg-coverview .co-btn-hero-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 0.85rem 1.5rem;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 0.95rem;
+  background: #fbbf24;
+  color: #1e1b4b !important;
+  border: none;
+  box-shadow: 0 8px 28px rgba(251, 191, 36, 0.45);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none !important;
+}
+
+.pg-coverview .co-btn-hero-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 36px rgba(251, 191, 36, 0.55);
+  color: #0f172a !important;
+}
+
+.pg-coverview .co-btn-hero-secondary {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8rem 1.25rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff !important;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  text-decoration: none !important;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.pg-coverview .co-btn-hero-secondary:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff !important;
+}
+
+.pg-coverview .co-hero__micro {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.72);
+  margin: 0;
+}
+
+.pg-coverview .co-hero__micro strong {
+  color: #fef08a;
+}
+
+/* Trust strip */
+.pg-coverview .co-trust-strip {
+  background: #0b1220;
+  border-bottom: 1px solid rgba(99, 102, 241, 0.25);
+  padding: 0.85rem 0;
+}
+
+.pg-coverview .co-trust-strip__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.35rem 1.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #cbd5e1;
+  text-align: center;
+}
+
+.pg-coverview .co-trust-strip__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.pg-coverview .co-trust-strip__item i {
+  color: #34d399;
+}
+
+/* Section intro upgrade */
+.pg-coverview .co-section-kicker {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #6366f1;
+  margin-bottom: 0.35rem;
+}
+
+.pg-coverview .co-section-lead {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #4b5563;
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+/* Course card CTAs */
+.pg-coverview .co-course-actions-upgraded {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.pg-coverview .co-btn-enroll-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border-radius: 12px;
+  font-weight: 800;
+  font-size: 0.88rem;
+  background: linear-gradient(135deg, #059669, #10b981);
+  color: #fff !important;
+  text-decoration: none !important;
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: none;
+}
+
+.pg-coverview .co-btn-enroll-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(16, 185, 129, 0.45);
+  color: #fff !important;
+}
+
+.pg-coverview .co-actions-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.pg-coverview .co-link-batches {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #4f46e5 !important;
+  text-decoration: none !important;
+}
+
+.pg-coverview .co-link-batches:hover {
+  text-decoration: underline !important;
+}
+
+/* Test series section — button groups */
+.pg-coverview .co-ts-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.pg-coverview .co-ts-actions .btn {
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.78rem;
+  padding: 0.4rem 0.85rem;
+}
+
+.pg-coverview .co-ts-enroll {
+  width: 100%;
+  margin-top: 0.75rem;
+  border-radius: 10px !important;
+  font-weight: 800 !important;
+  padding: 0.55rem 1rem !important;
+}
+
+/* Pre-footer enroll */
+.pg-coverview .co-enroll-banner {
+  background: linear-gradient(135deg, #064e3b 0%, #047857 50%, #059669 100%);
+  color: #fff;
+  padding: 2.5rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.pg-coverview .co-enroll-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 20% 50%,
+    rgba(255, 255, 255, 0.12),
+    transparent 45%
+  );
+  pointer-events: none;
+}
+
+.pg-coverview .co-enroll-banner .container {
+  position: relative;
+  z-index: 1;
+}
+
+.pg-coverview .co-enroll-banner h2 {
+  font-family: "Inter", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.35rem, 3vw, 1.85rem);
+  margin: 0 0 0.5rem;
+  color: #fff;
+}
+
+.pg-coverview .co-enroll-banner p {
+  margin: 0 0 1.25rem;
+  opacity: 0.94;
+  max-width: 36rem;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.pg-coverview .co-enroll-banner__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: center;
+}
+
+.pg-coverview .co-enroll-banner .co-btn-hero-primary {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.pg-coverview .co-enroll-banner .co-btn-hero-secondary {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.pg-coverview .co-enroll-banner__actions.d-flex {
+  gap: 0.5rem;
+}
+
+/* Slightly tighter top after new hero */
+.pg-coverview #courses.course-section {
+  padding-top: 4.5rem;
+}
+
+@media (max-width: 767.98px) {
+  .pg-coverview #courses.course-section {
+    padding-top: 3rem;
+  }
+}
+
+/* Mobile sticky bar */
+.pg-coverview .co-sticky-enroll {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1025;
+  padding: 0.65rem 1rem calc(0.65rem + env(safe-area-inset-bottom));
+  background: rgba(15, 23, 42, 0.96);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.2);
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767.98px) {
+  .pg-coverview .co-sticky-enroll {
+    display: flex;
+  }
+
+  .pg-coverview {
+    padding-bottom: 72px;
+  }
+}
+
+.pg-coverview .co-sticky-enroll a {
+  flex: 1;
+  min-width: 120px;
+  text-align: center;
+  padding: 0.55rem 0.75rem;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 0.82rem;
+  text-decoration: none !important;
+}
+
+.pg-coverview .co-sticky-enroll .co-sticky-primary {
+  background: #fbbf24;
+  color: #1e1b4b !important;
+}
+
+.pg-coverview .co-sticky-enroll .co-sticky-secondary {
+  background: transparent;
+  color: #fff !important;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+/* ——————————————————————————————————————————————————
+   Test series block — editorial / conversion (replaces cyan glass)
+   —————————————————————————————————————————————————— */
+.pg-coverview section#test-series.co-ts-section {
+  position: relative;
+  padding: clamp(3.5rem, 8vw, 5.5rem) 0 !important;
+  background: #f1f5f9 !important;
+  color: #0f172a !important;
+  overflow: hidden;
+}
+
+.pg-coverview .co-ts-bg {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 90% 55% at 50% -20%, rgba(99, 102, 241, 0.14), transparent 55%),
+    radial-gradient(ellipse 60% 40% at 100% 100%, rgba(16, 185, 129, 0.08), transparent 50%),
+    linear-gradient(180deg, #f8fafc 0%, #eef2f7 45%, #f1f5f9 100%);
+  pointer-events: none;
+}
+
+.pg-coverview .co-ts-container {
+  z-index: 1;
+}
+
+.pg-coverview .co-ts-header {
+  max-width: 46rem;
+  margin-bottom: 2.75rem;
+}
+
+.pg-coverview .co-ts-eyebrow {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #4f46e5;
+  margin-bottom: 0.65rem;
+}
+
+.pg-coverview .co-ts-heading {
+  font-family: "Inter", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.65rem, 3.8vw, 2.35rem);
+  line-height: 1.18;
+  letter-spacing: -0.03em;
+  color: #0f172a;
+  margin: 0 0 1rem;
+}
+
+.pg-coverview .co-ts-lead {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #475569;
+}
+
+.pg-coverview .co-ts-lead a {
+  color: #4338ca;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.pg-coverview .co-ts-lead a:hover {
+  color: #312e81;
+}
+
+.pg-coverview .co-ts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+@media (max-width: 991.98px) {
+  .pg-coverview .co-ts-grid {
+    grid-template-columns: 1fr;
+    max-width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pg-coverview .co-ts-card--featured {
+    order: -1;
+  }
+}
+
+.pg-coverview .co-ts-card {
+  position: relative;
+  background: #fff;
+  border-radius: 20px;
+  padding: 1.65rem 1.5rem 1.5rem;
+  border: 1px solid #e2e8f0;
+  box-shadow:
+    0 1px 2px rgba(15, 23, 42, 0.04),
+    0 12px 40px -12px rgba(15, 23, 42, 0.12);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.pg-coverview .co-ts-card:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 4px 8px rgba(15, 23, 42, 0.06),
+    0 20px 50px -16px rgba(15, 23, 42, 0.18);
+  border-color: #cbd5e1;
+}
+
+.pg-coverview .co-ts-card--featured {
+  border-color: #c7d2fe;
+  box-shadow:
+    0 1px 2px rgba(79, 70, 229, 0.06),
+    0 16px 48px -12px rgba(79, 70, 229, 0.22);
+  z-index: 1;
+}
+
+@media (min-width: 992px) {
+  .pg-coverview .co-ts-card--featured {
+    transform: scale(1.02);
+  }
+
+  .pg-coverview .co-ts-card--featured:hover {
+    transform: scale(1.02) translateY(-4px);
+  }
+}
+
+.pg-coverview .co-ts-ribbon {
+  position: absolute;
+  top: 1rem;
+  right: -2px;
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.85rem 0.35rem 0.75rem;
+  border-radius: 6px 0 0 6px;
+  box-shadow: -2px 4px 12px rgba(79, 70, 229, 0.35);
+}
+
+.pg-coverview .co-ts-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  margin-bottom: 0.75rem;
+}
+
+.pg-coverview .co-ts-badge--soft {
+  background: #ecfdf5;
+  color: #047857;
+  border: 1px solid #a7f3d0;
+}
+
+.pg-coverview .co-ts-card-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.15rem;
+}
+
+.pg-coverview .co-ts-icon {
+  flex-shrink: 0;
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  color: #fff;
+}
+
+.pg-coverview .co-ts-icon--emerald {
+  background: linear-gradient(145deg, #059669, #10b981);
+  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.35);
+}
+
+.pg-coverview .co-ts-icon--violet {
+  background: linear-gradient(145deg, #5b21b6, #7c3aed);
+  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.35);
+}
+
+.pg-coverview .co-ts-icon--amber {
+  background: linear-gradient(145deg, #b45309, #d97706);
+  box-shadow: 0 8px 20px rgba(217, 119, 6, 0.35);
+}
+
+.pg-coverview .co-ts-card-title {
+  font-family: "Inter", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: #0f172a;
+  margin: 0 0 0.2rem;
+  line-height: 1.25;
+}
+
+.pg-coverview .co-ts-card-sub {
+  margin: 0;
+  font-size: 0.88rem;
+  color: #64748b;
+  line-height: 1.45;
+}
+
+.pg-coverview .co-ts-list {
+  list-style: none;
+  margin: 0 0 1.25rem;
+  padding: 0;
+  flex: 1;
+}
+
+.pg-coverview .co-ts-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  font-size: 0.9rem;
+  color: #334155;
+  line-height: 1.5;
+  margin-bottom: 0.55rem;
+}
+
+.pg-coverview .co-ts-list li:last-child {
+  margin-bottom: 0;
+}
+
+.pg-coverview .co-ts-list .fa-check {
+  margin-top: 0.2rem;
+  font-size: 0.65rem;
+  color: #fff;
+  background: #10b981;
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.pg-coverview .co-ts-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #64748b;
+  margin-bottom: 0.4rem;
+}
+
+.pg-coverview .co-ts-select {
+  width: 100%;
+  padding: 0.65rem 0.85rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #0f172a;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23475569' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.85rem center;
+  padding-right: 2.25rem;
+}
+
+.pg-coverview .co-ts-select:hover,
+.pg-coverview .co-ts-select:focus {
+  border-color: #6366f1;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+.pg-coverview .co-ts-card-actions {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.pg-coverview .co-ts-schedule-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 0.55rem 0.85rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #4338ca !important;
+  background: #eef2ff;
+  border-radius: 12px;
+  text-decoration: none !important;
+  border: 1px solid #c7d2fe;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.pg-coverview .co-ts-schedule-link:hover {
+  background: #e0e7ff;
+  border-color: #a5b4fc;
+  color: #312e81 !important;
+}
+
+.pg-coverview .co-ts-btn-enroll {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: #1e1b4b !important;
+  background: linear-gradient(180deg, #fde047 0%, #facc15 100%);
+  border: none;
+  border-radius: 12px;
+  text-decoration: none !important;
+  box-shadow: 0 6px 20px rgba(234, 179, 8, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pg-coverview .co-ts-btn-enroll:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(234, 179, 8, 0.5);
+  color: #0f172a !important;
+}
+
+.pg-coverview .co-ts-btn-enroll--accent {
+  background: linear-gradient(180deg, #fbbf24 0%, #f59e0b 100%);
+  box-shadow: 0 6px 22px rgba(245, 158, 11, 0.45);
+}
+
+.pg-coverview .co-ts-footer-strip {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.pg-coverview .co-ts-footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem 2.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.pg-coverview .co-ts-stat {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+.pg-coverview .co-ts-stat i {
+  color: #6366f1;
+  font-size: 1rem;
+}
+
+.pg-coverview .co-ts-footer-line {
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-bottom: 1rem;
+}
+
+.pg-coverview .co-ts-footer-btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.65rem;
+}
+
+.pg-coverview .co-ts-footer-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.75rem 1.35rem;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 0.88rem;
+  text-decoration: none !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pg-coverview .co-ts-footer-btn--primary {
+  background: #0f172a;
+  color: #fff !important;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.25);
+}
+
+.pg-coverview .co-ts-footer-btn--primary:hover {
+  transform: translateY(-2px);
+  color: #fff !important;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.3);
+}
+
+.pg-coverview .co-ts-footer-btn--ghost {
+  background: #fff;
+  color: #047857 !important;
+  border: 2px solid #10b981;
+}
+
+.pg-coverview .co-ts-footer-btn--ghost:hover {
+  background: #ecfdf5;
+  color: #065f46 !important;
+}
+
+/* Page rhythm — whole course overview */
+.pg-coverview .course-section {
+  background: #fff;
+}
+
+.pg-coverview .timeline-section {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+}
+
+.pg-coverview .entry-path-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pg-coverview .entry-path-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px -12px rgba(15, 23, 42, 0.12);
+}

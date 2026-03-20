@@ -1,0 +1,363 @@
+/**
+ * PradhiCA — Registration / Enquiry page (registration.html)
+ */
+.pg-registration {
+  background: #f1f5f9;
+}
+
+/* Hero */
+.pg-reg-hero {
+  position: relative;
+  padding: 2.75rem 0 3rem;
+  overflow: hidden;
+  background: linear-gradient(
+    125deg,
+    #1e3a5f 0%,
+    #2563eb 42%,
+    #3b82f6 78%,
+    #0ea5e9 100%
+  );
+  color: #fff;
+}
+
+.pg-reg-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse 65% 70% at 0% 100%,
+    rgba(255, 255, 255, 0.1),
+    transparent 50%
+  );
+  pointer-events: none;
+}
+
+.pg-reg-hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.pg-reg-hero__eyebrow {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.92;
+  margin-bottom: 0.45rem;
+}
+
+.pg-reg-hero__title {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.65rem, 4vw, 2.25rem);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.65rem;
+  color: #fff;
+}
+
+.pg-reg-hero__lead {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  opacity: 0.94;
+  max-width: 38rem;
+  margin: 0;
+}
+
+.pg-reg-hero .breadcrumb {
+  margin: 0;
+  padding: 0;
+}
+
+.pg-reg-hero .breadcrumb-item,
+.pg-reg-hero .breadcrumb-item a {
+  color: rgba(255, 255, 255, 0.88) !important;
+  font-size: 0.875rem;
+}
+
+.pg-reg-hero .breadcrumb-item.active {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+/* Main layout */
+.pg-reg-main {
+  padding: 2.25rem 0 2.5rem;
+  margin-top: -1.25rem;
+  position: relative;
+  z-index: 2;
+}
+
+.pg-reg-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pg-reg-step {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1.15rem 1.2rem;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 8px 28px rgba(15, 23, 42, 0.06);
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.pg-reg-step__num {
+  flex-shrink: 0;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  color: #fff;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 800;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pg-reg-step h3 {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin: 0 0 0.25rem;
+  color: #0f172a;
+}
+
+.pg-reg-step p {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.55;
+  color: #64748b;
+}
+
+.pg-reg-help {
+  background: linear-gradient(135deg, #ecfdf5 0%, #f0fdf4 100%);
+  border: 1px solid rgba(5, 150, 105, 0.2);
+  border-radius: 14px;
+  padding: 1.15rem 1.2rem;
+}
+
+.pg-reg-help h3 {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 800;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #047857;
+  margin: 0 0 0.65rem;
+}
+
+.pg-reg-help ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pg-reg-help li {
+  margin-bottom: 0.5rem;
+}
+
+.pg-reg-help a {
+  font-weight: 600;
+  color: #047857;
+  font-size: 0.9rem;
+}
+
+.pg-reg-help a:hover {
+  color: #059669;
+}
+
+/* Form embed shell */
+.pg-reg-form-shell {
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 16px 48px rgba(15, 23, 42, 0.1);
+}
+
+.pg-reg-form-shell__head {
+  padding: 1.15rem 1.35rem;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.pg-reg-form-shell__head h2 {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 800;
+  font-size: 1.05rem;
+  margin: 0;
+  color: #0f172a;
+}
+
+.pg-reg-form-shell__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.pg-reg-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.1);
+  color: #1d4ed8;
+}
+
+.pg-reg-form-shell__frame {
+  position: relative;
+  width: 100%;
+  min-height: 720px;
+  background: #f8fafc;
+}
+
+.pg-reg-form-shell__frame iframe {
+  display: block;
+  width: 100%;
+  min-height: 720px;
+  height: 1550px;
+  border: 0;
+}
+
+@media (max-width: 991.98px) {
+  .pg-reg-form-shell__frame,
+  .pg-reg-form-shell__frame iframe {
+    min-height: 600px;
+  }
+}
+
+/* Payment section */
+.pg-reg-payments {
+  padding: 0 0 3rem;
+}
+
+.pg-reg-payments__title {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 800;
+  font-size: 1.35rem;
+  text-align: center;
+  color: #0f172a;
+  margin: 0 0 0.35rem;
+}
+
+.pg-reg-payments__sub {
+  text-align: center;
+  color: #64748b;
+  font-size: 0.95rem;
+  max-width: 36rem;
+  margin: 0 auto 1.75rem;
+}
+
+.pg-reg-pay-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.75rem 1.5rem;
+  height: 100%;
+  text-align: center;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 12px 36px rgba(15, 23, 42, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pg-reg-pay-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 44px rgba(37, 99, 235, 0.12);
+}
+
+.pg-reg-pay-card__icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 auto 1rem;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.pg-reg-pay-card__icon--upi {
+  background: linear-gradient(135deg, #7c3aed, #a78bfa);
+}
+
+.pg-reg-pay-card__icon--bank {
+  background: linear-gradient(135deg, #0369a1, #0ea5e9);
+}
+
+.pg-reg-pay-card h3 {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: #0f172a;
+  margin: 0 0 0.5rem;
+}
+
+.pg-reg-pay-card p {
+  font-size: 0.9rem;
+  color: #64748b;
+  line-height: 1.55;
+  margin: 0 0 1.25rem;
+}
+
+.pg-reg-pay-card .btn {
+  border-radius: 999px;
+  font-weight: 700;
+  padding: 0.55rem 1.35rem;
+}
+
+/* Modals — readable body text */
+.pg-reg-modal .modal-content {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 24px 64px rgba(15, 23, 42, 0.2);
+}
+
+.pg-reg-modal .modal-header {
+  background: linear-gradient(90deg, #f8fafc, #fff);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.pg-reg-modal .modal-title {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 800;
+  font-size: 1.05rem;
+  color: #0f172a;
+}
+
+.pg-reg-modal .modal-body {
+  color: #334155;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.pg-reg-modal .modal-body strong {
+  color: #0f172a;
+}
+
+.pg-reg-modal .modal-footer {
+  border-top: 1px solid rgba(15, 23, 42, 0.06);
+  background: #f8fafc;
+}
+
+.pg-reg-modal .btn-danger {
+  border-radius: 999px;
+  font-weight: 600;
+  padding: 0.45rem 1.25rem;
+}

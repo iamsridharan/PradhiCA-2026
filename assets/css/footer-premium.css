@@ -1,0 +1,232 @@
+/**
+ * PradhiCA — Premium site footer (loaded after main styles)
+ */
+.site-footer {
+  position: relative;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+/* Top band: depth + accent */
+.site-footer .footer-top {
+  position: relative;
+  padding-top: 3.5rem !important;
+  padding-bottom: 4rem !important;
+  background: linear-gradient(
+      165deg,
+      #0d1117 0%,
+      #151b24 45%,
+      #0f1419 100%
+    ) !important;
+  border-top: 3px solid #00b249;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.site-footer .footer-top::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse 80% 50% at 15% 0%,
+    rgba(0, 178, 73, 0.12),
+    transparent 55%
+  );
+  pointer-events: none;
+}
+
+.site-footer .footer-top .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Brand column */
+.site-footer .footer-top .col-lg-3:first-child img {
+  max-height: 52px;
+  width: auto;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.35));
+}
+
+.site-footer .footer-top .col-lg-3:first-child .margin-y-40 p {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.72) !important;
+  max-width: 16rem;
+  margin-top: 0.75rem;
+}
+
+/* Section titles */
+.site-footer .footer-top h4.h5 {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 0.8125rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #fff !important;
+  margin-bottom: 0;
+}
+
+.site-footer .footer-top .width-3rem.bg-primary {
+  width: 2.5rem !important;
+  height: 3px !important;
+  border-radius: 2px;
+  margin-top: 0.85rem !important;
+  background: linear-gradient(90deg, #00b249, #00d957) !important;
+  box-shadow: 0 0 16px rgba(0, 178, 73, 0.35);
+}
+
+.site-footer .footer-top .marginTop-40 {
+  margin-top: 1.5rem !important;
+}
+
+/* Links */
+.site-footer .footer-top a {
+  color: rgba(255, 255, 255, 0.78) !important;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.site-footer .footer-top a:hover {
+  color: #4ade80 !important;
+}
+
+.site-footer .footer-top ul.list-unstyled li {
+  font-size: 0.9375rem;
+}
+
+.site-footer .footer-top ul.list-unstyled li a {
+  display: inline-block;
+  padding: 0.15rem 0;
+}
+
+/* Contact row icons */
+.site-footer .footer-top .ti-mobile,
+.site-footer .footer-top .ti-email,
+.site-footer .footer-top .ti-location-pin {
+  color: #00b249;
+  opacity: 0.95;
+}
+
+.site-footer .footer-top .media-body span a {
+  line-height: 1.55;
+}
+
+/* Social */
+.site-footer .footer-top ul.list-inline {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.site-footer .footer-top ul.list-inline .list-inline-item {
+  margin: 0 !important;
+}
+
+.site-footer .footer-top .iconbox {
+  width: 2.75rem !important;
+  height: 2.75rem !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.site-footer .footer-top .iconbox:hover {
+  transform: translateY(-3px);
+  background: rgba(0, 178, 73, 0.2) !important;
+  border-color: rgba(0, 178, 73, 0.55);
+  box-shadow: 0 8px 24px rgba(0, 178, 73, 0.2);
+  color: #fff !important;
+}
+
+.site-footer .footer-top .iconbox i {
+  font-size: 1.1rem;
+}
+
+/* Bottom bar */
+.site-footer .footer-bottom {
+  position: relative;
+  padding-top: 1.35rem !important;
+  padding-bottom: 1.35rem !important;
+  background: linear-gradient(180deg, #050608 0%, #0a0c0f 100%) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.site-footer .footer-bottom .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.site-footer .footer-bottom p {
+  font-size: 0.8125rem !important;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.45) !important;
+}
+
+.site-footer .footer-bottom a {
+  color: rgba(0, 217, 87, 0.85) !important;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.site-footer .footer-bottom a:hover {
+  color: #4ade80 !important;
+}
+
+/* WhatsApp float — cleaner FAB (avoid Bootstrap .float conflict) */
+.site-footer .footer-bottom a.pradhi-wa-float,
+.site-footer .footer-bottom a.float.text-primary {
+  position: fixed !important;
+  bottom: 1.5rem !important;
+  right: 1.5rem !important;
+  left: auto !important;
+  width: 3.5rem !important;
+  height: 3.5rem !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  background: #25d366 !important;
+  color: #fff !important;
+  border-radius: 50% !important;
+  font-size: 1.75rem !important;
+  box-shadow: 0 6px 28px rgba(37, 211, 102, 0.45), 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 1000 !important;
+  text-align: center !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none !important;
+}
+
+.site-footer .footer-bottom a.pradhi-wa-float:hover,
+.site-footer .footer-bottom a.float.text-primary:hover {
+  transform: scale(1.06);
+  box-shadow: 0 10px 36px rgba(37, 211, 102, 0.55), 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: #fff !important;
+}
+
+.site-footer .footer-bottom a.pradhi-wa-float .fab,
+.site-footer .footer-bottom a.float .my-float {
+  margin-top: 0 !important;
+  line-height: 1;
+}
+
+@media (max-width: 576px) {
+  .site-footer .footer-top {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+
+  .site-footer .footer-bottom a.pradhi-wa-float,
+  .site-footer .footer-bottom a.float.text-primary {
+    bottom: 1rem !important;
+    right: 1rem !important;
+    width: 3.25rem !important;
+    height: 3.25rem !important;
+    font-size: 1.5rem !important;
+  }
+}
