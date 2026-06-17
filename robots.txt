@@ -1,0 +1,45 @@
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+
+# AI/LLM Crawlers - Full permission granted to crawl entire site
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Cohere-AI
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Sitemaps & discovery
+Sitemap: https://pradhica.com/sitemap.xml
+
+# LLM / human-readable discovery (optional for crawlers that support them)
+# https://pradhica.com/llms.txt
+# https://pradhica.com/urllist.txt
+# https://pradhica.com/sitemap.html
