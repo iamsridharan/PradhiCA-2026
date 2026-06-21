@@ -87,7 +87,7 @@
 
   </head>
 
-  <body class="pg-test-schedule pg-test-schedule--sep26">  <header class="site-header" role="banner">
+  <body class="pg-test-schedule pg-test-schedule--hub pg-test-schedule--sep26 ts-series-count-5" data-ts-default-tab="#Tabsabc">  <header class="site-header" role="banner">
     <div class="container">
       <div class="row align-items-center justify-content-between mx-0 flex-wrap">
         <p class="site-header__trust d-none d-lg-flex mb-0">
@@ -170,139 +170,89 @@
       </div>
     </div>
   </nav>
-<div class="enhanced-breadcrumb">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-8 my-2 text-white">
-          <ol class="breadcrumb breadcrumb-double-angle bg-transparent p-0 mb-3">
-            <li class="breadcrumb-item"><a href="index.html"><i class="fas fa-home mr-2"></i>Home</a></li>
-            <li class="breadcrumb-item"><a href="course-overview.html#test-series">Test series</a></li>
-            <li class="breadcrumb-item active text-white">CA Intermediate · Sep 2026</li>
-          </ol>
-          <h1 class="page-title">CA Intermediate <span style="opacity:.88">Test schedule</span></h1>
-          <p class="page-subtitle">Sep 2026 attempt — ABC, Rapid Revision, Subject-wise, DOT Marathon &amp; more. Download schedules, check fees, and jump to registration.</p>
-          <div class="batch-info">
-            <div class="row">
-              <div class="col-md-6">
-                <h5 class="mb-2 text-white"><i class="fas fa-calendar-alt mr-2"></i>Batch</h5>
-                <p class="mb-0 text-white"><strong>Session:</strong> September 2026</p>
-                <p class="mb-0 text-white"><strong>Level:</strong> CA Intermediate</p>
-              </div>
-              <div class="col-md-6 mt-3 mt-md-0">
-                <h5 class="mb-2 text-white"><i class="fas fa-info-circle mr-2"></i>Modes</h5>
-                <p class="mb-0 text-white small">Online (India) · Direct (Chennai centre) — as per each series page.</p>
-                <div class="mt-2">
-                  <span class="status-badge registration"><i class="fas fa-user-plus"></i> Registration open</span>
-                  <span class="status-badge active"><i class="fas fa-laptop"></i> Online</span>
-                  <span class="status-badge upcoming"><i class="fas fa-building"></i> Direct</span>
-                </div>
-              </div>
+<section class="ts-hero enhanced-breadcrumb" aria-labelledby="ts-hero-title">
+  <div class="container">
+    <div class="ts-hero__grid">
+      <div class="ts-hero__copy">
+        <ol class="breadcrumb breadcrumb-double-angle bg-transparent p-0 mb-3 ts-hero__breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html"><i class="fas fa-home mr-2" aria-hidden="true"></i>Home</a></li>
+          <li class="breadcrumb-item"><a href="course-overview.html#test-series">Test series</a></li>
+          <li class="breadcrumb-item active text-white" aria-current="page">CA Intermediate · Sep 2026</li>
+        </ol>
+        <h1 class="page-title text-white" id="ts-hero-title">CA Intermediate <span>Test Schedule</span></h1>
+        <p class="page-subtitle">Sep 2026 attempt — ABC, Rapid Revision, Subject-wise, DOT Marathon &amp; more. Download schedules, check fees, and jump to registration.</p>
+        <div class="ts-hero__meta">
+          <div class="ts-hero__meta-card">
+            <h5><i class="fas fa-calendar-alt mr-1" aria-hidden="true"></i> Batch</h5>
+            <p class="mb-0"><strong>Session:</strong> September 2026</p>
+            <p class="mb-0"><strong>Level:</strong> CA Intermediate</p>
+          </div>
+          <div class="ts-hero__meta-card">
+            <h5><i class="fas fa-info-circle mr-1" aria-hidden="true"></i> Modes</h5>
+            <p class="mb-2 text-white small">Online (India) · Direct (Chennai centre) — as per each series page.</p>
+            <div class="ts-hero__badges">
+              <span class="status-badge registration"><i class="fas fa-user-plus" aria-hidden="true"></i> Registration open</span>
+              <span class="status-badge active"><i class="fas fa-laptop" aria-hidden="true"></i> Online</span>
+              <span class="status-badge upcoming"><i class="fas fa-building" aria-hidden="true"></i> Direct</span>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 my-2 text-center text-lg-right">
-          <div class="batch-info text-lg-left">
-            <h5 class="text-white mb-3"><i class="fas fa-bolt mr-2"></i>Quick jump</h5>
-            <a href="#Tabsabc" class="action-btn d-block mb-2" style="background:rgba(251,191,36,.95);color:#1c1917;" data-toggle="tab" role="button"><i class="fas fa-star mr-2"></i>ABC series</a>
-            <a href="#Tabssingle2" class="action-btn d-block mb-2" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);" data-toggle="tab" role="button"><i class="fas fa-fast-forward mr-2"></i>Rapid Revision</a>
-            <a href="#Tabsdot" class="action-btn btn-schedule d-block mb-2" data-toggle="tab" role="button"><i class="fas fa-road mr-2"></i>DOT Marathon</a>
-            <a href="#Tabssingle" class="action-btn d-block mb-2" data-toggle="tab" role="button"><i class="fas fa-book-open mr-2"></i>Subject-wise</a>
-            <a href="registration.html" class="action-btn btn-schedule d-block"><i class="fas fa-paper-plane mr-2"></i>General enquiry</a>
+        <nav class="ts-hero__jumps" aria-label="Jump to test series">
+          <a href="#Tabsabc" class="ts-hero__jump is-active" data-toggle="tab"><i class="fas fa-star" aria-hidden="true"></i> ABC Series</a>
+          <a href="#Tabsdot" class="ts-hero__jump" data-toggle="tab"><i class="fas fa-running" aria-hidden="true"></i> DOT Marathon</a>
+          <a href="#Tabsdot1" class="ts-hero__jump" data-toggle="tab"><i class="fas fa-bolt" aria-hidden="true"></i> DOT 2.0</a>
+          <a href="#Tabssingle2" class="ts-hero__jump" data-toggle="tab"><i class="fas fa-fast-forward" aria-hidden="true"></i> Rapid Revision</a>
+          <a href="#Tabssingle" class="ts-hero__jump" data-toggle="tab"><i class="fas fa-book-open" aria-hidden="true"></i> Subject-wise</a>
+          <!-- <a href="#Tabsdot6" class="ts-hero__jump" data-toggle="tab"><i class="fas fa-rocket" aria-hidden="true"></i> DOT 3.0</a> -->
+          <a href="registration.html" class="ts-hero__jump ts-hero__jump--enquiry"><i class="fas fa-paper-plane" aria-hidden="true"></i> Enquiry</a>
+        </nav>
+      </div>
+      <div class="ts-hero-3d" aria-hidden="true">
+        <div class="ts-hero-3d__stage">
+          <div class="ts-hero-3d__card ts-hero-3d__card--abc">
+            <div class="ts-hero-3d__card-icon"><i class="fas fa-star"></i></div>
+            <div class="ts-hero-3d__card-label">ABC Series</div>
+          </div>
+          <div class="ts-hero-3d__card ts-hero-3d__card--marathon">
+            <div class="ts-hero-3d__card-icon"><i class="fas fa-running"></i></div>
+            <div class="ts-hero-3d__card-label">DOT Marathon</div>
+          </div>
+          <div class="ts-hero-3d__card ts-hero-3d__card--dot">
+            <div class="ts-hero-3d__card-icon"><i class="fas fa-bolt"></i></div>
+            <div class="ts-hero-3d__card-label">DOT 2.0</div>
           </div>
         </div>
       </div>
     </div>
   </div>
+</section>
 
-
-
-
-<section class="padding-y-50 ts-schedule-section">
+<section class="ts-schedule-section padding-y-50">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-    <div class="enhanced-tab-nav">
-      <div class="tab-nav-header">
-        <h2 class="tab-nav-title">Choose your test series</h2>
-        <p class="tab-nav-subtitle">Sep 2026 batch — open a tab for schedules &amp; registration. (Legacy panels below stay available for future menu links.)</p>
+    <div class="ts-series-rail-wrap">
+      <div class="enhanced-tab-nav" id="ts-series-rail">
+        <div class="ts-series-rail__head">
+          <h2 class="ts-series-rail__title">Choose your test series</h2>
+          <p class="ts-series-rail__hint">All test series are listed below — tap any option to view details</p>
+        </div>
+        <div class="ts-series-grid">
+          <ul class="nav nav-pills ts-series-grid__list" role="tablist" aria-label="Test series options">
+            <li class="nav-item" role="presentation"><a class="nav-link active is-current" data-toggle="tab" href="#Tabsabc" role="tab" aria-selected="true"><i class="fas fa-star" aria-hidden="true"></i> ABC Series</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" data-toggle="tab" href="#Tabsdot" role="tab" aria-selected="false"><i class="fas fa-running" aria-hidden="true"></i> DOT Marathon</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" data-toggle="tab" href="#Tabsdot1" role="tab" aria-selected="false"><i class="fas fa-bolt" aria-hidden="true"></i> DOT 2.0</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" data-toggle="tab" href="#Tabssingle2" role="tab" aria-selected="false"><i class="fas fa-fast-forward" aria-hidden="true"></i> Rapid Revision</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" data-toggle="tab" href="#Tabssingle" role="tab" aria-selected="false"><i class="fas fa-book-open" aria-hidden="true"></i> Subject-wise</a></li>
+            <!--
+            <li class="nav-item" role="presentation"><a class="nav-link" data-toggle="tab" href="#Tabsdot6" role="tab"><i class="fas fa-rocket" aria-hidden="true"></i> DOT 3.0</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" data-toggle="tab" href="#Tabsdot2" role="tab"><i class="fas fa-rocket" aria-hidden="true"></i> DOT 4.0</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" data-toggle="tab" href="#Tabsmodel" role="tab"><i class="fas fa-trophy" aria-hidden="true"></i> Model Tests</a></li>
+            -->
+          </ul>
+        </div>
       </div>
-
-      <ul class="nav nav-pills justify-content-center" role="tablist">
-        
-        <li class="nav-item">
-          <a class="nav-link active" data-toggle="tab" href="#Tabsabc" role="tab" aria-selected="true">
-            <i class="fas fa-star"></i>ABC Series
-          </a>
-        </li>
-        
-       
-        <!-- 
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#Tabsdot" role="tab" aria-selected="false">
-            <i class="fas fa-running"></i>DOT Marathon
-          </a>
-        </li>
-        
-         <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#Tabsdot1" role="tab" aria-selected="false">
-            <i class="fas fa-bolt"></i>DOT 2.0
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#Tabsdot6" role="tab" aria-selected="false">
-            <i class="fas fa-rocket"></i>DOT 3.0
-          </a>
-        </li>
-         
-        
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#Tabsdot" role="tab" aria-selected="false">
-            <i class="fas fa-running"></i>DOT Marathon
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#Tabsdot2" role="tab" aria-selected="false">
-            <i class="fas fa-rocket"></i>DOT 4.0
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#Tabsmodel" role="tab" aria-selected="false">
-            <i class="fas fa-trophy"></i>Model Tests
-          </a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#Tabsmodel" role="tab" aria-selected="false">
-            <i class="fas fa-trophy"></i>Model Tests
-          </a>
-        </li>
-        -->
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#Tabsdot" role="tab" aria-selected="false">
-            <i class="fas fa-running"></i>DOT Marathon
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#Tabsdot1" role="tab" aria-selected="false">
-              <i class="fas fa-bolt"></i>DOT 2.0
-            </a></li>
-
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#Tabssingle2" role="tab" aria-selected="false"><i class="fas fa-fast-forward"></i> Rapid Revision</a>
-        </li>
-       
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#Tabssingle" role="tab" aria-selected="false">
-            <i class="fas fa-book"></i>Subject-wise
-          </a>
-        </li>
-       
-      </ul>
     </div>
-      </div>
-      <div class="col-12 px-md-0">
-    <div class="enhanced-tab-content">
+
+    <div class="enhanced-tab-content ts-panel-shell">
       <div class="tab-content">
         <div class="tab-pane fade" id="Tabsdot" role="tabpanel">
           <div class="tab-header">
@@ -436,7 +386,7 @@
         </div> <!-- End DOT Marathon tab -->
         
         
-        <div class="tab-pane fade show" id="Tabsdot1" role="tabpanel">
+        <div class="tab-pane fade" id="Tabsdot1" role="tabpanel">
           <h4 class="text-center padding-20"><font color="Red">DOT 2.0 ONLINE & DIRECT</font><font color="red"> - Exam Starts from 28.06.2026</font></h4>
 		   
           <p class="text-center">DOT 2.O is a systematically devised test series that divides the entire course syllabus into series of 9 Weekly Test Series along with Revision Exams. </p>
@@ -556,7 +506,7 @@
       </div>
 	  </div>
 	  
-	  <div class="tab-pane fade show " id="Tabssingle2" role="tabpanel">
+	  <div class="tab-pane fade " id="Tabssingle2" role="tabpanel">
 		 <h4 class="text-center padding-40"><font color="green">Rapid Revision Test - (Unscheduled - Online / Direct)</font></br><font color="red">- 20% Concession available (Groupwise)</font></h4>
 		 <p class="text-center">
                    It is an Unscheduled Test Series. Students have an option to write the test based on their preparation. They can write any Subject, any order at any time. Both Direct & Online Option Available.
@@ -683,7 +633,7 @@
 		
 		
           
-          <div class="tab-pane fade show" id="Tabsdot2" role="tabpanel">
+          <div class="tab-pane fade" id="Tabsdot2" role="tabpanel">
 		   <h4 class="text-center padding-20"><font color="Red">DOT 4.O Weekly Scheduled Series. Direct/Online Mode Available.</br>(Exam Starts from 16.03.2025 - 6 Weekly Test Series )</font></h4>
 		   <p class="text-center">DOT 4.O is a systematically devised test series that divides the entire course syllabus into series of 10 Weekly Test Series and and 100 Full syllabus Model Exam will be conducted after 6 weeks. </p>
             <div class="row text-center"> 	
@@ -801,7 +751,7 @@
           </div>
       </div>
 	  </div>
-    <div class="tab-pane fade show" id="Tabsdot6" role="tabpanel">
+    <div class="tab-pane fade" id="Tabsdot6" role="tabpanel">
       <h4 class="text-center padding-20"><font color="Red">DOT 3.O Weekly Scheduled Series. Direct/Online Mode Available.</br>(Exam Starts from 16.11.2025 - 6 Weekly Test Series )</font></h4>
       <p class="text-center">DOT 4.O is a systematically devised test series that divides the entire course syllabus into series of 6 Weekly Test Series and and 100 Full syllabus Model Exam will be conducted after 6 weeks. </p>
            <div class="row text-center"> 	
@@ -920,7 +870,7 @@
      </div>
    </div>
           
-        <div class="tab-pane fade show " id="Tabssingle" role="tabpanel">
+        <div class="tab-pane fade " id="Tabssingle" role="tabpanel">
 		 <h4 class="text-center padding-40"><font color="green">Subjectwise Test Series - (Unscheduled - Online / Direct)</font></br><font color="red">- 30% Concession on Fee. Offer Valid from 16.06.2026</font></h4>
 		 <p class="text-center">
                    It is an Unscheduled Test Series. Students have an option to write the test based on their preparation. They can write any Subject, any order at any time. Both Direct & Online Option Available.
@@ -1045,7 +995,7 @@
 		  </div>
 		</div>
 		  
-		  <div class="tab-pane fade show " id="Tabsmodel" role="tabpanel">
+		  <div class="tab-pane fade " id="Tabsmodel" role="tabpanel">
 		  <h4 class="text-center padding-40"><font color="blue">Model Exam</font></h4>
 		  <p class="text-center">
                    Model Examination is 100 Marks Full Syllabus Exam conducted to give you an experience of the main examination.
@@ -1165,7 +1115,7 @@
 		
 		
 		
-		 <div class="tab-pane fade show active" id="Tabsabc" role="tabpanel">
+        <div class="tab-pane fade show active" id="Tabsabc" role="tabpanel">
           <div class="tab-header">
             <div class="test-series-icon">
               <i class="fas fa-star"></i>
@@ -1536,11 +1486,9 @@
      
       
       
-      </div> <!-- END tab-content -->
-    </div> <!-- END enhanced-tab-content -->
-      </div> <!-- END col-12 px-md-0 -->
-    </div> <!-- END row -->
-  </div> <!-- END container-->
+      </div><!-- END tab-content -->
+    </div><!-- END enhanced-tab-content -->
+  </div><!-- END container -->
 </section>
    
    
@@ -1634,125 +1582,6 @@
         <script src="assets/js/header-scroll.js"></script>
     <script src="assets/js/header-nav-dropdown.js"></script>
     <script src="assets/js/scripts.js"></script>
-  <!-- Enhanced Tab Interactions JavaScript -->
-  <script>
-  $(document).ready(function() {
-    // Enhanced tab switching with smooth animations
-    $('.nav-link[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-      // Add entrance animation to the newly shown tab
-      var target = $(e.target).attr("href");
-      $(target).addClass('animate__animated animate__fadeInUp');
-      
-      // Remove animation class after animation completes
-      setTimeout(function() {
-        $(target).removeClass('animate__animated animate__fadeInUp');
-      }, 600);
-    });
-    
-    // Add smooth scroll to tab content when tabs are clicked
-    $('.nav-link[data-toggle="tab"]').on('click', function(e) {
-      setTimeout(function() {
-        $('html, body').animate({
-          scrollTop: $('.enhanced-tab-content').offset().top - 100
-        }, 500);
-      }, 100);
-    });
-    
-    // Add hover effects to feature cards
-    $('.feature-card').hover(
-      function() {
-        $(this).addClass('animate__animated animate__pulse');
-      },
-      function() {
-        $(this).removeClass('animate__animated animate__pulse');
-      }
-    );
-    
-    // Add click analytics for action buttons
-    $('.action-btn').on('click', function() {
-      var buttonText = $(this).text().trim();
-      var tabName = $('.nav-link.active').text().trim();
-      
-      // Track button clicks (you can integrate with Google Analytics)
-      if (typeof gtag !== 'undefined') {
-        gtag('event', 'button_click', {
-          'event_category': 'Test Series',
-          'event_label': tabName + ' - ' + buttonText,
-          'value': 1
-        });
-      }
-    });
-    
-    // Add loading animation to external links
-    $('a[target="_blank"]').on('click', function() {
-      var $this = $(this);
-      var originalText = $this.html();
-      
-      // Add loading state
-      $this.html('<i class="fas fa-spinner fa-spin mr-2"></i>Opening...');
-      
-      // Reset after 2 seconds
-      setTimeout(function() {
-        $this.html(originalText);
-      }, 2000);
-    });
-    
-    // Breadcrumb quick jump: only intercept in-page tab anchors (not registration.html etc.)
-    $('.enhanced-breadcrumb .action-btn[href^="#"]').on('click', function(e) {
-      e.preventDefault();
-      var targetTab = $(this).attr('href');
-      var $pill = $('.nav-link[href="' + targetTab + '"]');
-      if ($pill.length) {
-        $pill.tab('show');
-      }
-      $('html, body').animate({
-        scrollTop: $('.enhanced-tab-content').offset().top - 100
-      }, 800);
-    });
-    
-    // Add typing animation to the page title (if needed)
-    function typeWriter(element, text, speed = 100) {
-      let i = 0;
-      element.innerHTML = '';
-      function type() {
-        if (i < text.length) {
-          element.innerHTML += text.charAt(i);
-          i++;
-          setTimeout(type, speed);
-        }
-      }
-      type();
-    }
-    
-    // Initialize WOW.js for animations (if available)
-    if (typeof WOW !== 'undefined') {
-      new WOW().init();
-    }
-    
-    // Add status badge pulse animation
-    $('.status-badge.registration').addClass('pulse-animation');
-    
-    // Enhanced responsive behavior for mobile
-    if (window.innerWidth < 768) {
-      // Adjust tab content padding for mobile
-      $('.features-grid').css('padding', '2rem 1rem');
-      
-      // Stack action buttons vertically on mobile
-      $('.action-buttons .action-btn').addClass('d-block mb-3');
-    }
-  });
-  
-  // Page load performance optimization
-  window.addEventListener('load', function() {
-    // Add loaded class for any final animations
-    document.body.classList.add('page-loaded');
-    
-    // Initialize any lazy-loaded content
-    $('.feature-card').each(function(index) {
-      $(this).css('animation-delay', (index * 0.1) + 's');
-    });
-  });
-  </script>
-
+    <script src="assets/js/test-schedule-premium.js"></script>
   </body>
 </html>
