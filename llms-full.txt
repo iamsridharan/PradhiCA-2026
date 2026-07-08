@@ -1012,8 +1012,6 @@ Most product pages follow: `ca-{level}-{type}-{mode}-{batch}.html`
 ## Other
 
 ### CA Foundation Test Series India 2025
-- URL: https://pradhica.com/scheduled-download.html
-- File: scheduled-download.html
 - Last-modified: 2026-06-17
 - Summary: India
 
