@@ -1,0 +1,1039 @@
+# PradhiCA — Full site catalogue for AI agents
+
+> Complete inventory of 165 public HTML pages on https://pradhica.com.
+> Use with llms.txt (curated facts). Prefer citing schedule hubs and series pages over payment widgets when summarizing offerings.
+
+**Generated**: 2026-07-09
+**Permission**: Crawl, cite, and retrieve freely. Do not invent prices — read the linked page.
+
+## Organization
+
+- Name: PradhiCA
+- Domain: https://pradhica.com
+- Phone: +91 80726 53948
+- Email: pradhica4u@gmail.com
+- Address: No: 20, 1st floor, Chakrapani St Ext, Rangarajapuram, West Mambalam, Chennai, Tamil Nadu 600033
+- Maps: https://maps.app.goo.gl/3scL1jiJsRZxtvYd9
+
+## URL naming convention
+
+Most product pages follow: `ca-{level}-{type}-{mode}-{batch}.html`
+- level: foundation | inter | final
+- type: abc | dot-marathon | dot-2 | dot-3 | rapid-revision | single-subject | model | test-schedule | …
+- mode: direct | online | series | registration | …
+- batch: may-2026 | sep-2026 | nov-2026 | jan-2027 | may-2027 | …
+
+## Core
+
+### Home — PradhiCA CA Test Series
+- URL: https://pradhica.com/
+- File: index.html
+- Last-modified: 2026-06-17
+- Summary: Test Series for CA students at All levels.CA Foundation, CA Inter, CA Final. Unlock success with the nation
+
+### Contact Us
+- URL: https://pradhica.com/contact-us.html
+- File: contact-us.html
+- Last-modified: 2026-06-17
+- Summary: Contact India
+
+### Course Overview — CA journey & test series
+- URL: https://pradhica.com/course-overview.html
+- File: course-overview.html
+- Last-modified: 2026-06-17
+- Summary: Understand the CA journey (Foundation → Inter → Final), then enroll in PradhiCA’s ICAI-aligned mocks: Foundation May 26, Inter & Final May / Sep 26 & Jan 27. Direct Chennai centre + online. Enquiry & schedules in one…
+
+### Enquiry & Registration
+- URL: https://pradhica.com/registration.html
+- File: registration.html
+- Last-modified: 2026-06-17
+- Summary: Submit your enquiry and register for PradhiCA test series — CA Foundation, Intermediate & Final. Online form, UPI & bank payment details. Chennai centre & online batches across India.
+
+## Test Schedules
+
+### CA Final Test Schedule · May 2026
+- URL: https://pradhica.com/ca-final-test-schedule-may-2026.html
+- File: ca-final-test-schedule-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Final Test Schedule May26 batch - India
+
+### CA Final Test Schedule · May 2027
+- URL: https://pradhica.com/ca-final-test-schedule-may-2027.html
+- File: ca-final-test-schedule-may-2027.html
+- Last-modified: 2026-06-17
+- Summary: CA Final Test Schedule Jan27 batch - India
+
+### CA Final Test Schedule · Nov 2026
+- URL: https://pradhica.com/ca-final-test-schedule-nov-2026.html
+- File: ca-final-test-schedule-nov-2026.html
+- Last-modified: 2026-07-09
+- Summary: CA Final Test Schedule Nov 26 batch - India
+
+### CA Foundation Test Schedule · May 2026
+- URL: https://pradhica.com/ca-foundation-test-schedule-may-2026.html
+- File: ca-foundation-test-schedule-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Foundation Test Schedule Jan26 batch - India
+
+### CA Foundation Test Schedule · Sep 2026
+- URL: https://pradhica.com/ca-foundation-test-schedule-sep-2026.html
+- File: ca-foundation-test-schedule-sep-2026.html
+- Last-modified: 2026-07-09
+- Summary: CA Foundation Test Schedule Jan26 batch - India
+
+### CA Foundation Test Series hub
+- URL: https://pradhica.com/ca-foundation-test-series.html
+- File: ca-foundation-test-series.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate Test Schedule · Jan 2027
+- URL: https://pradhica.com/ca-inter-test-schedule-jan-2027.html
+- File: ca-inter-test-schedule-jan-2027.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Test Schedule Jan26 batch - India
+
+### CA Intermediate Test Schedule · May 2026
+- URL: https://pradhica.com/ca-inter-test-schedule-may-2026.html
+- File: ca-inter-test-schedule-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Test Schedule Jan26 batch - India
+
+### CA Intermediate Test Schedule · Sep 2026
+- URL: https://pradhica.com/ca-inter-test-schedule-sep-2026.html
+- File: ca-inter-test-schedule-sep-2026.html
+- Last-modified: 2026-07-09
+- Summary: CA Intermediate Test Schedule Sep26 batch - India
+
+## CA Foundation
+
+### CA Foundation ABC Direct · May 2026
+- URL: https://pradhica.com/ca-foundation-abc-direct-may-2026.html
+- File: ca-foundation-abc-direct-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Foundation ABC Direct With Model · May 2026
+- URL: https://pradhica.com/ca-foundation-abc-direct-with-model-may-2026.html
+- File: ca-foundation-abc-direct-with-model-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Foundation ABC Online · May 2026
+- URL: https://pradhica.com/ca-foundation-abc-online-may-2026.html
+- File: ca-foundation-abc-online-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Foundation ABC Online With Model · May 2026
+- URL: https://pradhica.com/ca-foundation-abc-online-with-model-may-2026.html
+- File: ca-foundation-abc-online-with-model-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Foundation ABC Series · May 2026
+- URL: https://pradhica.com/ca-foundation-abc-series-may-2026.html
+- File: ca-foundation-abc-series-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Foundation DOT 2.0 Direct · May 2026
+- URL: https://pradhica.com/ca-foundation-dot-2-direct-may-2026.html
+- File: ca-foundation-dot-2-direct-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Foundation DOT 2.0 Direct · Sep 2026
+- URL: https://pradhica.com/ca-foundation-dot-2-direct-sep-2026.html
+- File: ca-foundation-dot-2-direct-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Foundation DOT 2.0 Online · May 2026
+- URL: https://pradhica.com/ca-foundation-dot-2-online-may-2026.html
+- File: ca-foundation-dot-2-online-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Foundation DOT 2.0 Online · Sep 2026
+- URL: https://pradhica.com/ca-foundation-dot-2-online-sep-2026.html
+- File: ca-foundation-dot-2-online-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Foundation DOT 2.0 Series · May 2026
+- URL: https://pradhica.com/ca-foundation-dot-2-series-may-2026.html
+- File: ca-foundation-dot-2-series-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Foundation DOT 2.0 Series · Sep 2026
+- URL: https://pradhica.com/ca-foundation-dot-2-series-sep-2026.html
+- File: ca-foundation-dot-2-series-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Foundation DOT 3.0 Direct · Sep 2026
+- URL: https://pradhica.com/ca-foundation-dot-3-direct-sep-2026.html
+- File: ca-foundation-dot-3-direct-sep-2026.html
+- Last-modified: 2026-07-09
+- Summary: Pay at Chennai centre for CA Foundation DOT 3.0 Sep 2026 batch. Intensive weekly tests plus model exam. Secure Razorpay checkout for Direct mode.
+
+### CA Foundation DOT 3.0 Online · Sep 2026
+- URL: https://pradhica.com/ca-foundation-dot-3-online-sep-2026.html
+- File: ca-foundation-dot-3-online-sep-2026.html
+- Last-modified: 2026-07-09
+- Summary: Pay online for CA Foundation DOT 3.0 Sep 2026 batch. Intensive weekly tests plus model exam. Secure Razorpay checkout from anywhere in India.
+
+### CA Foundation DOT 3.0 Series · Sep 2026
+- URL: https://pradhica.com/ca-foundation-dot-3-series-sep-2026.html
+- File: ca-foundation-dot-3-series-sep-2026.html
+- Last-modified: 2026-07-09
+- Summary: Register for CA Foundation DOT 3.0 Sep 2026 batch. Intensive weekly tests plus model exam. Choose Direct (Chennai) or Online mode with PradhiCA.
+
+### CA Foundation DOT Marathon Direct · Jan 2026
+- URL: https://pradhica.com/ca-foundation-dot-marathon-direct-jan-2026.html
+- File: ca-foundation-dot-marathon-direct-jan-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Foundation DOT Marathon Online · Jan 2026
+- URL: https://pradhica.com/ca-foundation-dot-marathon-online-jan-2026.html
+- File: ca-foundation-dot-marathon-online-jan-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Foundation DOT Marathon Series · Jan 2026
+- URL: https://pradhica.com/ca-foundation-dot-marathon-series-jan-2026.html
+- File: ca-foundation-dot-marathon-series-jan-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Foundation Rapid Revision Direct · May 2026
+- URL: https://pradhica.com/ca-foundation-rapid-revision-direct-may-2026.html
+- File: ca-foundation-rapid-revision-direct-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Foundation Rapid Revision Online · May 2026
+- URL: https://pradhica.com/ca-foundation-rapid-revision-online-may-2026.html
+- File: ca-foundation-rapid-revision-online-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Foundation Rapid Revision Registration · May 2026
+- URL: https://pradhica.com/ca-foundation-rapid-revision-registration-may-2026.html
+- File: ca-foundation-rapid-revision-registration-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: Register for CA Foundation Rapid Revision Test Series May 26 batch. 3 tests + Model Exam. Direct (Chennai) or Online mode. India
+
+### CA Foundation Single Subject Direct With Model · May 2026
+- URL: https://pradhica.com/ca-foundation-single-subject-direct-with-model-may-2026.html
+- File: ca-foundation-single-subject-direct-with-model-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Single Subject test series Jan26 - India
+
+### CA Foundation Single Subject Direct Without Model · May 2026
+- URL: https://pradhica.com/ca-foundation-single-subject-direct-without-model-may-2026.html
+- File: ca-foundation-single-subject-direct-without-model-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Single Subject test series Jan26 - India
+
+### CA Foundation Single Subject Online With Model · May 2026
+- URL: https://pradhica.com/ca-foundation-single-subject-online-with-model-may-2026.html
+- File: ca-foundation-single-subject-online-with-model-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Single Subject test series Jan26 - India
+
+### CA Foundation Single Subject Online Without Model · May 2026
+- URL: https://pradhica.com/ca-foundation-single-subject-online-without-model-may-2026.html
+- File: ca-foundation-single-subject-online-without-model-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Single Subject test series Jan26 - India
+
+## CA Intermediate
+
+### CA Intermediate ABC Direct · Jan 2027
+- URL: https://pradhica.com/ca-inter-abc-direct-jan-2027.html
+- File: ca-inter-abc-direct-jan-2027.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate ABC Direct · May 2026
+- URL: https://pradhica.com/ca-inter-abc-direct-may-2026.html
+- File: ca-inter-abc-direct-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate ABC Direct · Sep 2026
+- URL: https://pradhica.com/ca-inter-abc-direct-sep-2026.html
+- File: ca-inter-abc-direct-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate ABC Direct With Model · Jan 2027
+- URL: https://pradhica.com/ca-inter-abc-direct-with-model-jan-2027.html
+- File: ca-inter-abc-direct-with-model-jan-2027.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate ABC Direct With Model · May 2026
+- URL: https://pradhica.com/ca-inter-abc-direct-with-model-may-2026.html
+- File: ca-inter-abc-direct-with-model-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate ABC Direct With Model · Sep 2026
+- URL: https://pradhica.com/ca-inter-abc-direct-with-model-sep-2026.html
+- File: ca-inter-abc-direct-with-model-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate ABC Online · Jan 2027
+- URL: https://pradhica.com/ca-inter-abc-online-jan-2027.html
+- File: ca-inter-abc-online-jan-2027.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate ABC Online · May 2026
+- URL: https://pradhica.com/ca-inter-abc-online-may-2026.html
+- File: ca-inter-abc-online-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate ABC Online · Sep 2026
+- URL: https://pradhica.com/ca-inter-abc-online-sep-2026.html
+- File: ca-inter-abc-online-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate ABC Online With Model · Jan 2027
+- URL: https://pradhica.com/ca-inter-abc-online-with-model-jan-2027.html
+- File: ca-inter-abc-online-with-model-jan-2027.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate ABC Online With Model · May 2026
+- URL: https://pradhica.com/ca-inter-abc-online-with-model-may-2026.html
+- File: ca-inter-abc-online-with-model-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate ABC Online With Model · Sep 2026
+- URL: https://pradhica.com/ca-inter-abc-online-with-model-sep-2026.html
+- File: ca-inter-abc-online-with-model-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate ABC Series · Jan 2027
+- URL: https://pradhica.com/ca-inter-abc-series-jan-2027.html
+- File: ca-inter-abc-series-jan-2027.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate ABC Series · May 2026
+- URL: https://pradhica.com/ca-inter-abc-series-may-2026.html
+- File: ca-inter-abc-series-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate ABC Series · Sep 2026
+- URL: https://pradhica.com/ca-inter-abc-series-sep-2026.html
+- File: ca-inter-abc-series-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate DOT 2.0 Direct · May 2026
+- URL: https://pradhica.com/ca-inter-dot-2-direct-may-2026.html
+- File: ca-inter-dot-2-direct-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate DOT 2.0 Direct · Sep 2026
+- URL: https://pradhica.com/ca-inter-dot-2-direct-sep-2026.html
+- File: ca-inter-dot-2-direct-sep-2026.html
+- Last-modified: 2026-06-21
+- Summary: India
+
+### CA Intermediate DOT 2.0 Online · May 2026
+- URL: https://pradhica.com/ca-inter-dot-2-online-may-2026.html
+- File: ca-inter-dot-2-online-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate DOT 2.0 Online · Sep 2026
+- URL: https://pradhica.com/ca-inter-dot-2-online-sep-2026.html
+- File: ca-inter-dot-2-online-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate DOT 2.0 Series · May 2026
+- URL: https://pradhica.com/ca-inter-dot-2-series-may-2026.html
+- File: ca-inter-dot-2-series-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate DOT 2.0 Series · Sep 2026
+- URL: https://pradhica.com/ca-inter-dot-2-series-sep-2026.html
+- File: ca-inter-dot-2-series-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate DOT 3.0 Direct · Sep 2026
+- URL: https://pradhica.com/ca-inter-dot-3-direct-sep-2026.html
+- File: ca-inter-dot-3-direct-sep-2026.html
+- Last-modified: 2026-07-09
+- Summary: India
+
+### CA Intermediate DOT 3.0 Online · Sep 2026
+- URL: https://pradhica.com/ca-inter-dot-3-online-sep-2026.html
+- File: ca-inter-dot-3-online-sep-2026.html
+- Last-modified: 2026-07-09
+- Summary: India
+
+### CA Intermediate DOT 3.0 Series · Sep 2026
+- URL: https://pradhica.com/ca-inter-dot-3-series-sep-2026.html
+- File: ca-inter-dot-3-series-sep-2026.html
+- Last-modified: 2026-07-09
+- Summary: India
+
+### CA Intermediate DOT Marathon Direct · May 2026
+- URL: https://pradhica.com/ca-inter-dot-marathon-direct-may-2026.html
+- File: ca-inter-dot-marathon-direct-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate DOT Marathon Direct · Sep 2026
+- URL: https://pradhica.com/ca-inter-dot-marathon-direct-sep-2026.html
+- File: ca-inter-dot-marathon-direct-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate DOT Marathon Online · May 2026
+- URL: https://pradhica.com/ca-inter-dot-marathon-online-may-2026.html
+- File: ca-inter-dot-marathon-online-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate DOT Marathon Online · Sep 2026
+- URL: https://pradhica.com/ca-inter-dot-marathon-online-sep-2026.html
+- File: ca-inter-dot-marathon-online-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate DOT Marathon Series · May 2026
+- URL: https://pradhica.com/ca-inter-dot-marathon-series-may-2026.html
+- File: ca-inter-dot-marathon-series-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate DOT Marathon Series · Sep 2026
+- URL: https://pradhica.com/ca-inter-dot-marathon-series-sep-2026.html
+- File: ca-inter-dot-marathon-series-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate Model Set 1 Direct · May 2026
+- URL: https://pradhica.com/ca-inter-model-1-set-direct-may-2026.html
+- File: ca-inter-model-1-set-direct-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate Model Set 1 Online · May 2026
+- URL: https://pradhica.com/ca-inter-model-1-set-online-may-2026.html
+- File: ca-inter-model-1-set-online-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate Model Set 2 Direct · May 2026
+- URL: https://pradhica.com/ca-inter-model-2-set-direct-may-2026.html
+- File: ca-inter-model-2-set-direct-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate Model Set 2 Online · May 2026
+- URL: https://pradhica.com/ca-inter-model-2-set-online-may-2026.html
+- File: ca-inter-model-2-set-online-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate Model Set 3 Direct · May 2026
+- URL: https://pradhica.com/ca-inter-model-3-set-direct-may-2026.html
+- File: ca-inter-model-3-set-direct-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate Model Set 3 Online · May 2026
+- URL: https://pradhica.com/ca-inter-model-3-set-online-may-2026.html
+- File: ca-inter-model-3-set-online-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate Model Registration · May 2026
+- URL: https://pradhica.com/ca-inter-model-registration-may-2026.html
+- File: ca-inter-model-registration-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: Choose 1, 2, or 3 Model Exam sets for CA Intermediate May 2026. Full-syllabus 100-mark mocks — scheduled & unscheduled. Online across India or Direct at Chennai. Group-wise ICAI-style papers.
+
+### CA Intermediate Rapid Revision Direct · Jan 2027
+- URL: https://pradhica.com/ca-inter-rapid-revision-direct-jan-2027.html
+- File: ca-inter-rapid-revision-direct-jan-2027.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate Rapid Revision Direct · May 2026
+- URL: https://pradhica.com/ca-inter-rapid-revision-direct-may-2026.html
+- File: ca-inter-rapid-revision-direct-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate Rapid Revision Direct · Sep 2026
+- URL: https://pradhica.com/ca-inter-rapid-revision-direct-sep-2026.html
+- File: ca-inter-rapid-revision-direct-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate Rapid Revision Online · Jan 2027
+- URL: https://pradhica.com/ca-inter-rapid-revision-online-jan-2027.html
+- File: ca-inter-rapid-revision-online-jan-2027.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate Rapid Revision Online · May 2026
+- URL: https://pradhica.com/ca-inter-rapid-revision-online-may-2026.html
+- File: ca-inter-rapid-revision-online-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate Rapid Revision Online · Sep 2026
+- URL: https://pradhica.com/ca-inter-rapid-revision-online-sep-2026.html
+- File: ca-inter-rapid-revision-online-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Intermediate Rapid Revision Registration · Jan 2027
+- URL: https://pradhica.com/ca-inter-rapid-revision-registration-jan-2027.html
+- File: ca-inter-rapid-revision-registration-jan-2027.html
+- Last-modified: 2026-06-17
+- Summary: Register for India
+
+### CA Intermediate Rapid Revision Registration · May 2026
+- URL: https://pradhica.com/ca-inter-rapid-revision-registration-may-2026.html
+- File: ca-inter-rapid-revision-registration-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: Register for India
+
+### CA Intermediate Rapid Revision Registration · Sep 2026
+- URL: https://pradhica.com/ca-inter-rapid-revision-registration-sep-2026.html
+- File: ca-inter-rapid-revision-registration-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: Register for India
+
+### CA Intermediate Single Subject Direct With Model · Jan 2027
+- URL: https://pradhica.com/ca-inter-single-subject-direct-with-model-jan-2027.html
+- File: ca-inter-single-subject-direct-with-model-jan-2027.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Single Subject test series Jan26 - India
+
+### CA Intermediate Single Subject Direct With Model · May 2026
+- URL: https://pradhica.com/ca-inter-single-subject-direct-with-model-may-2026.html
+- File: ca-inter-single-subject-direct-with-model-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Single Subject test series Jan26 - India
+
+### CA Intermediate Single Subject Direct With Model · Sep 2026
+- URL: https://pradhica.com/ca-inter-single-subject-direct-with-model-sep-2026.html
+- File: ca-inter-single-subject-direct-with-model-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Single Subject test series Jan26 - India
+
+### CA Intermediate Single Subject Direct Without Model · Jan 2027
+- URL: https://pradhica.com/ca-inter-single-subject-direct-without-model-jan-2027.html
+- File: ca-inter-single-subject-direct-without-model-jan-2027.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Single Subject test series Jan26 - India
+
+### CA Intermediate Single Subject Direct Without Model · May 2026
+- URL: https://pradhica.com/ca-inter-single-subject-direct-without-model-may-2026.html
+- File: ca-inter-single-subject-direct-without-model-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Single Subject test series Jan26 - India
+
+### CA Intermediate Single Subject Direct Without Model · Sep 2026
+- URL: https://pradhica.com/ca-inter-single-subject-direct-without-model-sep-2026.html
+- File: ca-inter-single-subject-direct-without-model-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Single Subject test series Jan26 - India
+
+### CA Intermediate Single Subject Online With Model · Jan 2027
+- URL: https://pradhica.com/ca-inter-single-subject-online-with-model-jan-2027.html
+- File: ca-inter-single-subject-online-with-model-jan-2027.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Single Subject test series Jan26 - India
+
+### CA Intermediate Single Subject Online With Model · May 2026
+- URL: https://pradhica.com/ca-inter-single-subject-online-with-model-may-2026.html
+- File: ca-inter-single-subject-online-with-model-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Single Subject test series Jan26 - India
+
+### CA Intermediate Single Subject Online With Model · Sep 2026
+- URL: https://pradhica.com/ca-inter-single-subject-online-with-model-sep-2026.html
+- File: ca-inter-single-subject-online-with-model-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Single Subject test series Jan26 - India
+
+### CA Intermediate Single Subject Online Without Model · Jan 2027
+- URL: https://pradhica.com/ca-inter-single-subject-online-without-model-jan-2027.html
+- File: ca-inter-single-subject-online-without-model-jan-2027.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Single Subject test series Jan26 - India
+
+### CA Intermediate Single Subject Online Without Model · May 2026
+- URL: https://pradhica.com/ca-inter-single-subject-online-without-model-may-2026.html
+- File: ca-inter-single-subject-online-without-model-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Single Subject test series Jan26 - India
+
+### CA Intermediate Single Subject Online Without Model · Sep 2026
+- URL: https://pradhica.com/ca-inter-single-subject-online-without-model-sep-2026.html
+- File: ca-inter-single-subject-online-without-model-sep-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Single Subject test series Jan26 - India
+
+### CA Intermediate Single Subject Registration · Jan 2026
+- URL: https://pradhica.com/ca-inter-single-subject-registration-jan-2026.html
+- File: ca-inter-single-subject-registration-jan-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Single Subject test series Jan26 - India
+
+### CA Intermediate Single Subject Registration · May 2026
+- URL: https://pradhica.com/ca-inter-single-subject-registration-may-2026.html
+- File: ca-inter-single-subject-registration-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Intermediate Single Subject test series Jan26 - India
+
+## CA Final
+
+### CA Final ABC Direct · May 2026
+- URL: https://pradhica.com/ca-final-abc-direct-may-2026.html
+- File: ca-final-abc-direct-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final ABC Direct · May 2027
+- URL: https://pradhica.com/ca-final-abc-direct-may-2027.html
+- File: ca-final-abc-direct-may-2027.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final ABC Direct · Nov 2026
+- URL: https://pradhica.com/ca-final-abc-direct-nov-2026.html
+- File: ca-final-abc-direct-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: India
+
+### CA Final ABC Direct With Model · May 2026
+- URL: https://pradhica.com/ca-final-abc-direct-with-model-may-2026.html
+- File: ca-final-abc-direct-with-model-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final ABC Direct With Model · May 2027
+- URL: https://pradhica.com/ca-final-abc-direct-with-model-may-2027.html
+- File: ca-final-abc-direct-with-model-may-2027.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final ABC Direct With Model · Nov 2026
+- URL: https://pradhica.com/ca-final-abc-direct-with-model-nov-2026.html
+- File: ca-final-abc-direct-with-model-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: India
+
+### CA Final ABC Online · May 2026
+- URL: https://pradhica.com/ca-final-abc-online-may-2026.html
+- File: ca-final-abc-online-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final ABC Online · May 2027
+- URL: https://pradhica.com/ca-final-abc-online-may-2027.html
+- File: ca-final-abc-online-may-2027.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final ABC Online · Nov 2026
+- URL: https://pradhica.com/ca-final-abc-online-nov-2026.html
+- File: ca-final-abc-online-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: India
+
+### CA Final ABC Online With Model · May 2026
+- URL: https://pradhica.com/ca-final-abc-online-with-model-may-2026.html
+- File: ca-final-abc-online-with-model-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final ABC Online With Model · May 2027
+- URL: https://pradhica.com/ca-final-abc-online-with-model-may-2027.html
+- File: ca-final-abc-online-with-model-may-2027.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final ABC Online With Model · Nov 2026
+- URL: https://pradhica.com/ca-final-abc-online-with-model-nov-2026.html
+- File: ca-final-abc-online-with-model-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: India
+
+### CA Final ABC Series · May 2026
+- URL: https://pradhica.com/ca-final-abc-series-may-2026.html
+- File: ca-final-abc-series-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final ABC Series · May 2027
+- URL: https://pradhica.com/ca-final-abc-series-may-2027.html
+- File: ca-final-abc-series-may-2027.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final ABC Series · Nov 2026
+- URL: https://pradhica.com/ca-final-abc-series-nov-2026.html
+- File: ca-final-abc-series-nov-2026.html
+- Last-modified: 2026-06-21
+- Summary: India
+
+### CA Final DOT 2.0-I · May 2026
+- URL: https://pradhica.com/ca-final-dot-2-0-i-may-2026.html
+- File: ca-final-dot-2-0-i-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final DOT 2.0-I · Nov 2026
+- URL: https://pradhica.com/ca-final-dot-2-0-i-nov-2026.html
+- File: ca-final-dot-2-0-i-nov-2026.html
+- Last-modified: 2026-06-20
+- Summary: Pay online for CA Final DOT 2.0 Nov 2026 batch. 9 weekly chapter tests, revisions and model exams. Secure Razorpay checkout from anywhere in India.
+
+### CA Final DOT 2.0-II · May 2026
+- URL: https://pradhica.com/ca-final-dot-2-0-ii-may-2026.html
+- File: ca-final-dot-2-0-ii-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final DOT 2.0-II · Nov 2026
+- URL: https://pradhica.com/ca-final-dot-2-0-ii-nov-2026.html
+- File: ca-final-dot-2-0-ii-nov-2026.html
+- Last-modified: 2026-06-20
+- Summary: Pay at Chennai centre for CA Final DOT 2.0 Nov 2026 batch. 9 weekly chapter tests, revisions and model exams. Secure Razorpay checkout for Direct mode.
+
+### CA Final DOT 2.0 Series · May 2026
+- URL: https://pradhica.com/ca-final-dot-2-series-may-2026.html
+- File: ca-final-dot-2-series-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final DOT 2.0 Series · Nov 2026
+- URL: https://pradhica.com/ca-final-dot-2-series-nov-2026.html
+- File: ca-final-dot-2-series-nov-2026.html
+- Last-modified: 2026-06-20
+- Summary: Register for CA Final DOT 2.0 Nov 2026 batch. 9 weekly chapter tests, 2 monthly revisions and 2 model exams. Choose Direct (Chennai) or Online mode with PradhiCA.
+
+### CA Final DOT 3.0-I · Nov 2026
+- URL: https://pradhica.com/ca-final-dot-3-0-i-nov-2026.html
+- File: ca-final-dot-3-0-i-nov-2026.html
+- Last-modified: 2026-07-09
+- Summary: Pay online for CA Final DOT 3.0 Nov 2026 batch. 6 intensive weekly tests plus a full-syllabus model exam. Secure Razorpay checkout from anywhere in India.
+
+### CA Final DOT 3.0-II · Nov 2026
+- URL: https://pradhica.com/ca-final-dot-3-0-ii-nov-2026.html
+- File: ca-final-dot-3-0-ii-nov-2026.html
+- Last-modified: 2026-07-09
+- Summary: Pay at Chennai centre for CA Final DOT 3.0 Nov 2026 batch. 6 intensive weekly tests plus a full-syllabus model exam. Secure Razorpay checkout for Direct mode.
+
+### CA Final DOT 3.0 Series · Nov 2026
+- URL: https://pradhica.com/ca-final-dot-3-series-nov-2026.html
+- File: ca-final-dot-3-series-nov-2026.html
+- Last-modified: 2026-07-09
+- Summary: Register for CA Final DOT 3.0 Nov 2026 batch. 6 intensive weekly tests plus a full-syllabus model exam. Choose Direct (Chennai) or Online mode with PradhiCA.
+
+### CA Final DOT Marathon Direct · May 2026
+- URL: https://pradhica.com/ca-final-dot-marathon-direct-may-2026.html
+- File: ca-final-dot-marathon-direct-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final DOT Marathon Direct · Nov 2026
+- URL: https://pradhica.com/ca-final-dot-marathon-direct-nov-2026.html
+- File: ca-final-dot-marathon-direct-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: India
+
+### CA Final DOT Marathon Online · May 2026
+- URL: https://pradhica.com/ca-final-dot-marathon-online-may-2026.html
+- File: ca-final-dot-marathon-online-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final DOT Marathon Online · Nov 2026
+- URL: https://pradhica.com/ca-final-dot-marathon-online-nov-2026.html
+- File: ca-final-dot-marathon-online-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: India
+
+### CA Final DOT Marathon Series · May 2026
+- URL: https://pradhica.com/ca-final-dot-marathon-series-may-2026.html
+- File: ca-final-dot-marathon-series-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final DOT Marathon Series · Nov 2026
+- URL: https://pradhica.com/ca-final-dot-marathon-series-nov-2026.html
+- File: ca-final-dot-marathon-series-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: India
+
+### CA Final Model Set 1 Direct · Nov 2026
+- URL: https://pradhica.com/ca-final-model-1-set-direct-nov-2026.html
+- File: ca-final-model-1-set-direct-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: India
+
+### CA Final Model Set 1 Online · Nov 2026
+- URL: https://pradhica.com/ca-final-model-1-set-online-nov-2026.html
+- File: ca-final-model-1-set-online-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: India
+
+### CA Final Model Set 2 Direct · Nov 2026
+- URL: https://pradhica.com/ca-final-model-2-set-direct-nov-2026.html
+- File: ca-final-model-2-set-direct-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: India
+
+### CA Final Model Set 2 Online · Nov 2026
+- URL: https://pradhica.com/ca-final-model-2-set-online-nov-2026.html
+- File: ca-final-model-2-set-online-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: India
+
+### CA Final Model Set 3 Direct · Nov 2026
+- URL: https://pradhica.com/ca-final-model-3-set-direct-nov-2026.html
+- File: ca-final-model-3-set-direct-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: India
+
+### CA Final Model Set 3 Online · Nov 2026
+- URL: https://pradhica.com/ca-final-model-3-set-online-nov-2026.html
+- File: ca-final-model-3-set-online-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: India
+
+### CA Final Model Registration · Nov 2026
+- URL: https://pradhica.com/ca-final-model-registration-nov-2026.html
+- File: ca-final-model-registration-nov-2026.html
+- Last-modified: 2026-06-21
+- Summary: Choose 1, 2, or 3 Model Exam sets for CA Final Nov 2026. PradhiCA — scheduled & unscheduled options, online anywhere in India or Direct at Chennai. ICAI-pattern papers with expert evaluation.
+
+### CA Final Rapid Revision Direct · May 2026
+- URL: https://pradhica.com/ca-final-rapid-revision-direct-may-2026.html
+- File: ca-final-rapid-revision-direct-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final Rapid Revision Direct · May 2027
+- URL: https://pradhica.com/ca-final-rapid-revision-direct-may-2027.html
+- File: ca-final-rapid-revision-direct-may-2027.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final Rapid Revision Direct · Nov 2026
+- URL: https://pradhica.com/ca-final-rapid-revision-direct-nov-2026.html
+- File: ca-final-rapid-revision-direct-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: India
+
+### CA Final Rapid Revision Online · May 2026
+- URL: https://pradhica.com/ca-final-rapid-revision-online-may-2026.html
+- File: ca-final-rapid-revision-online-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final Rapid Revision Online · May 2027
+- URL: https://pradhica.com/ca-final-rapid-revision-online-may-2027.html
+- File: ca-final-rapid-revision-online-may-2027.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### CA Final Rapid Revision Online · Nov 2026
+- URL: https://pradhica.com/ca-final-rapid-revision-online-nov-2026.html
+- File: ca-final-rapid-revision-online-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: India
+
+### CA Final Rapid Revision Registration · May 2026
+- URL: https://pradhica.com/ca-final-rapid-revision-registration-may-2026.html
+- File: ca-final-rapid-revision-registration-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: Register for India
+
+### CA Final Rapid Revision Registration · May 2027
+- URL: https://pradhica.com/ca-final-rapid-revision-registration-may-2027.html
+- File: ca-final-rapid-revision-registration-may-2027.html
+- Last-modified: 2026-06-17
+- Summary: Register for India
+
+### CA Final Rapid Revision Registration · Nov 2026
+- URL: https://pradhica.com/ca-final-rapid-revision-registration-nov-2026.html
+- File: ca-final-rapid-revision-registration-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: Register for India
+
+### CA Final Single Subject Direct With Model · May 2026
+- URL: https://pradhica.com/ca-final-single-subject-direct-with-model-may-2026.html
+- File: ca-final-single-subject-direct-with-model-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Final Single Subject test series Jan26 - India
+
+### CA Final Single Subject Direct With Model · May 2027
+- URL: https://pradhica.com/ca-final-single-subject-direct-with-model-may-2027.html
+- File: ca-final-single-subject-direct-with-model-may-2027.html
+- Last-modified: 2026-06-17
+- Summary: Enroll in PradhiCA CA Final Single Subject Test Series (May 2027) - Direct Venue with model answers, ICAI-style papers, CA evaluator feedback, and fast results.
+
+### CA Final Single Subject Direct With Model · Nov 2026
+- URL: https://pradhica.com/ca-final-single-subject-direct-with-model-nov-2026.html
+- File: ca-final-single-subject-direct-with-model-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: CA Final Single Subject test series Nov 26 - India
+
+### CA Final Single Subject Direct Without Model · Jan 2027
+- URL: https://pradhica.com/ca-final-single-subject-direct-without-model-jan-2027.html
+- File: ca-final-single-subject-direct-without-model-jan-2027.html
+- Last-modified: 2026-06-17
+- Summary: CA Final Single Subject test series Jan26 - India
+
+### CA Final Single Subject Direct Without Model · May 2026
+- URL: https://pradhica.com/ca-final-single-subject-direct-without-model-may-2026.html
+- File: ca-final-single-subject-direct-without-model-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Final Single Subject test series Jan26 - India
+
+### CA Final Single Subject Direct Without Model · Nov 2026
+- URL: https://pradhica.com/ca-final-single-subject-direct-without-model-nov-2026.html
+- File: ca-final-single-subject-direct-without-model-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: CA Final Single Subject test series Nov 26 - India
+
+### CA Final Single Subject Online With Model · Jan 2027
+- URL: https://pradhica.com/ca-final-single-subject-online-with-model-jan-2027.html
+- File: ca-final-single-subject-online-with-model-jan-2027.html
+- Last-modified: 2026-06-17
+- Summary: CA Final Single Subject test series Jan26 - India
+
+### CA Final Single Subject Online With Model · May 2026
+- URL: https://pradhica.com/ca-final-single-subject-online-with-model-may-2026.html
+- File: ca-final-single-subject-online-with-model-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Final Single Subject test series Jan26 - India
+
+### CA Final Single Subject Online With Model · Nov 2026
+- URL: https://pradhica.com/ca-final-single-subject-online-with-model-nov-2026.html
+- File: ca-final-single-subject-online-with-model-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: CA Final Single Subject test series Nov 26 - India
+
+### CA Final Single Subject Online Without Model · Jan 2027
+- URL: https://pradhica.com/ca-final-single-subject-online-without-model-jan-2027.html
+- File: ca-final-single-subject-online-without-model-jan-2027.html
+- Last-modified: 2026-06-17
+- Summary: CA Final Single Subject test series Jan26 - India
+
+### CA Final Single Subject Online Without Model · May 2026
+- URL: https://pradhica.com/ca-final-single-subject-online-without-model-may-2026.html
+- File: ca-final-single-subject-online-without-model-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Final Single Subject test series Jan26 - India
+
+### CA Final Single Subject Online Without Model · Nov 2026
+- URL: https://pradhica.com/ca-final-single-subject-online-without-model-nov-2026.html
+- File: ca-final-single-subject-online-without-model-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: CA Final Single Subject test series Nov 26 - India
+
+### CA Final Single Subject Registration · May 2026
+- URL: https://pradhica.com/ca-final-single-subject-registration-may-2026.html
+- File: ca-final-single-subject-registration-may-2026.html
+- Last-modified: 2026-06-17
+- Summary: CA Final Single Subject test series Sep25 - India
+
+### CA Final Single Subject Registration · Nov 2026
+- URL: https://pradhica.com/ca-final-single-subject-registration-nov-2026.html
+- File: ca-final-single-subject-registration-nov-2026.html
+- Last-modified: 2026-06-22
+- Summary: CA Final Single Subject test series Nov 26 - India
+
+## Guides
+
+### CA Test Series India 2025
+- URL: https://pradhica.com/vs-institute-tests.html
+- File: vs-institute-tests.html
+- Last-modified: 2026-06-17
+- Summary: Why PradhiCA is India
+
+### CA Foundation Test Series India 2025
+- URL: https://pradhica.com/why-institute-tests-fail-ca-students.html
+- File: why-institute-tests-fail-ca-students.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+## Policies
+
+### Privacy Policy
+- URL: https://pradhica.com/privacy-policy.html
+- File: privacy-policy.html
+- Last-modified: 2026-06-17
+- Summary: PradhiCA privacy policy. How we collect, use, and protect your personal data when you use our CA test series services.
+
+### Refund Policy
+- URL: https://pradhica.com/refund-policy.html
+- File: refund-policy.html
+- Last-modified: 2026-06-17
+- Summary: PradhiCA return and refund policy for CA test series purchases.
+
+### Terms and Conditions
+- URL: https://pradhica.com/terms-and-conditions.html
+- File: terms-and-conditions.html
+- Last-modified: 2026-06-17
+- Summary: Terms and conditions for using PradhiCA CA test series, mock exams, and related services.
+
+## Other
+
+### CA Foundation Test Series India 2025
+- URL: https://pradhica.com/scheduled-download.html
+- File: scheduled-download.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+### PradhiCA — HTML Site Map
+- URL: https://pradhica.com/sitemap.html
+- File: sitemap.html
+- Last-modified: 2026-07-09
+- Summary: Complete HTML sitemap of PradhiCA CA test series pages — Foundation, Intermediate, and Final.
+
+### CA Foundation Test Series India 2025
+- URL: https://pradhica.com/switch-from-institute.html
+- File: switch-from-institute.html
+- Last-modified: 2026-06-17
+- Summary: India
+
+## Related discovery files
+
+- https://pradhica.com/llms.txt
+- https://pradhica.com/sitemap.xml
+- https://pradhica.com/sitemap.html
+- https://pradhica.com/urllist.txt
+- https://pradhica.com/robots.txt
+- https://pradhica.com/blog/

@@ -132,4 +132,60 @@
       el.classList.add("is-visible");
     });
   }
+
+  /* DOT 3.0 registration popup (pages with data-ts-dot3-popup) */
+  if (root.hasAttribute("data-ts-dot3-popup")) {
+    var popup = document.getElementById("ts-dot3-popup");
+    var popupKey = "pradhica-foundation-sep26-dot3-popup";
+    var popupDelay = 3000;
+    var popupTimer = null;
+    var lastFocused = null;
+
+    if (popup && !sessionStorage.getItem(popupKey)) {
+      function openPopup() {
+        lastFocused = document.activeElement;
+        popup.removeAttribute("hidden");
+        popup.setAttribute("aria-hidden", "false");
+        root.classList.add("ts-dot3-popup-open");
+        requestAnimationFrame(function () {
+          popup.classList.add("is-visible");
+        });
+        var closeBtn = popup.querySelector(".ts-dot3-popup__close");
+        if (closeBtn) closeBtn.focus();
+      }
+
+      function closePopup(persist) {
+        if (persist) sessionStorage.setItem(popupKey, "1");
+        popup.classList.remove("is-visible");
+        popup.setAttribute("aria-hidden", "true");
+        root.classList.remove("ts-dot3-popup-open");
+        window.setTimeout(function () {
+          popup.setAttribute("hidden", "");
+          if (lastFocused && typeof lastFocused.focus === "function") {
+            lastFocused.focus();
+          }
+        }, 350);
+      }
+
+      popupTimer = window.setTimeout(openPopup, popupDelay);
+
+      popup.querySelectorAll("[data-ts-dot3-close]").forEach(function (el) {
+        el.addEventListener("click", function () {
+          closePopup(true);
+        });
+      });
+
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && popup.classList.contains("is-visible")) {
+          closePopup(true);
+        }
+      });
+
+      popup.addEventListener("click", function (e) {
+        if (e.target === popup.querySelector(".ts-dot3-popup__backdrop")) {
+          closePopup(true);
+        }
+      });
+    }
+  }
 })();
