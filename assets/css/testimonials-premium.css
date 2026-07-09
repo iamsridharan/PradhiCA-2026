@@ -1,0 +1,897 @@
+/**
+ * PradhiCA — Student testimonials gallery (testimonials.html)
+ * Soft Structuralism + trust-first social proof
+ */
+
+.pg-tmon {
+  --tmon-ink: #0b1220;
+  --tmon-ink-soft: #1e293b;
+  --tmon-muted: #64748b;
+  --tmon-paper: #f4f6f9;
+  --tmon-surface: #ffffff;
+  --tmon-line: rgba(15, 23, 42, 0.08);
+  --tmon-accent: #0d9488;
+  --tmon-accent-deep: #0f766e;
+  --tmon-gold: #d4a017;
+  --tmon-ease: cubic-bezier(0.32, 0.72, 0, 1);
+  --tmon-radius: 1.25rem;
+  --tmon-radius-lg: 1.75rem;
+  background: var(--tmon-paper);
+  color: var(--tmon-ink);
+  overflow-x: hidden;
+}
+
+.pg-tmon *,
+.pg-tmon *::before,
+.pg-tmon *::after {
+  box-sizing: border-box;
+}
+
+/* ---------- Hero ---------- */
+.tmon-hero {
+  position: relative;
+  min-height: min(72dvh, 640px);
+  padding: 3.5rem 0 4.5rem;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse 55% 70% at 88% 12%, rgba(13, 148, 136, 0.28), transparent 55%),
+    radial-gradient(ellipse 45% 55% at 8% 88%, rgba(212, 160, 23, 0.12), transparent 50%),
+    linear-gradient(148deg, #070b12 0%, #0c1222 42%, #111827 78%, #0f172a 100%);
+  color: #fff;
+}
+
+.tmon-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, #000 20%, transparent 75%);
+  pointer-events: none;
+  opacity: 0.55;
+}
+
+.tmon-hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 72px;
+  background: linear-gradient(to top, var(--tmon-paper), transparent);
+  pointer-events: none;
+}
+
+.tmon-hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.tmon-hero__crumb {
+  margin: 0 0 1.75rem;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.5rem;
+  font-size: 0.8125rem;
+  opacity: 0.78;
+}
+
+.tmon-hero__crumb a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  transition: color 0.35s var(--tmon-ease);
+}
+
+.tmon-hero__crumb a:hover {
+  color: #fff;
+}
+
+.tmon-hero__crumb li:not(:last-child)::after {
+  content: "/";
+  margin-left: 0.5rem;
+  opacity: 0.45;
+}
+
+.tmon-hero__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  align-items: end;
+}
+
+@media (min-width: 992px) {
+  .tmon-hero__grid {
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    gap: 3rem;
+  }
+}
+
+.tmon-hero__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.tmon-hero__eyebrow i {
+  color: var(--tmon-gold);
+  font-size: 0.75rem;
+}
+
+.tmon-hero__title {
+  font-family: "Maven Pro", "DM Sans", sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.15rem, 5.2vw, 3.65rem);
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  margin: 0 0 1rem;
+  color: #fff;
+  max-width: 14ch;
+}
+
+.tmon-hero__title em {
+  font-style: normal;
+  color: #5eead4;
+}
+
+.tmon-hero__lead {
+  margin: 0 0 1.75rem;
+  max-width: 36rem;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.tmon-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.tmon-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.85rem 1.35rem;
+  border-radius: 999px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition:
+    transform 0.45s var(--tmon-ease),
+    background 0.45s var(--tmon-ease),
+    box-shadow 0.45s var(--tmon-ease),
+    color 0.45s var(--tmon-ease);
+}
+
+.tmon-btn:active {
+  transform: scale(0.98);
+}
+
+.tmon-btn--primary {
+  background: #fff;
+  color: var(--tmon-ink);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.22);
+}
+
+.tmon-btn--primary:hover {
+  background: #f0fdfa;
+  color: var(--tmon-accent-deep);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.tmon-btn--ghost {
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.tmon-btn--ghost:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  text-decoration: none;
+}
+
+.tmon-btn__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.08);
+  font-size: 0.75rem;
+  transition: transform 0.45s var(--tmon-ease);
+}
+
+.tmon-btn--primary:hover .tmon-btn__icon {
+  transform: translateX(2px) translateY(-1px) scale(1.05);
+}
+
+.tmon-btn--ghost .tmon-btn__icon {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* Hero collage preview */
+.tmon-hero__collage {
+  position: relative;
+  height: 280px;
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 992px) {
+  .tmon-hero__collage {
+    height: 360px;
+  }
+}
+
+.tmon-hero__frame {
+  position: absolute;
+  padding: 0.35rem;
+  border-radius: calc(var(--tmon-radius) + 0.2rem);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+  transition: transform 0.7s var(--tmon-ease);
+}
+
+.tmon-hero__frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--tmon-radius);
+}
+
+.tmon-hero__frame--a {
+  width: 58%;
+  height: 78%;
+  left: 0;
+  top: 8%;
+  z-index: 2;
+  transform: rotate(-3.5deg);
+}
+
+.tmon-hero__frame--b {
+  width: 48%;
+  height: 62%;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  transform: rotate(4deg);
+  opacity: 0.92;
+}
+
+.tmon-hero__frame--c {
+  width: 42%;
+  height: 48%;
+  right: 8%;
+  bottom: 0;
+  z-index: 3;
+  transform: rotate(-1.5deg);
+}
+
+@media (hover: hover) {
+  .tmon-hero__collage:hover .tmon-hero__frame--a {
+    transform: rotate(-2deg) translateY(-6px);
+  }
+  .tmon-hero__collage:hover .tmon-hero__frame--b {
+    transform: rotate(2.5deg) translateY(4px);
+  }
+  .tmon-hero__collage:hover .tmon-hero__frame--c {
+    transform: rotate(0deg) translateY(-4px);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .tmon-hero {
+    min-height: 0;
+    padding: 2.5rem 0 3.5rem;
+  }
+  .tmon-hero__title {
+    max-width: none;
+  }
+  .tmon-hero__collage {
+    height: 220px;
+    max-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tmon-hero__frame--a,
+  .tmon-hero__frame--b,
+  .tmon-hero__frame--c {
+    transform: none !important;
+  }
+  .tmon-hero__frame--a {
+    width: 55%;
+    height: 70%;
+    left: 0;
+    top: 12%;
+  }
+  .tmon-hero__frame--b {
+    width: 48%;
+    height: 55%;
+    right: 0;
+    top: 0;
+  }
+  .tmon-hero__frame--c {
+    width: 40%;
+    height: 42%;
+    right: 10%;
+    bottom: 0;
+  }
+}
+
+/* ---------- Trust strip ---------- */
+.tmon-trust {
+  position: relative;
+  z-index: 2;
+  margin-top: -2.5rem;
+  padding: 0 0 1rem;
+}
+
+.tmon-trust__shell {
+  padding: 0.4rem;
+  border-radius: var(--tmon-radius-lg);
+  background: rgba(15, 23, 42, 0.04);
+  border: 1px solid var(--tmon-line);
+}
+
+.tmon-trust__inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  border-radius: calc(var(--tmon-radius-lg) - 0.25rem);
+  background: var(--tmon-surface);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .tmon-trust__inner {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.tmon-trust__item {
+  padding: 1.35rem 1.5rem;
+  text-align: center;
+  border-bottom: 1px solid var(--tmon-line);
+}
+
+@media (min-width: 768px) {
+  .tmon-trust__item {
+    border-bottom: none;
+    border-right: 1px solid var(--tmon-line);
+  }
+  .tmon-trust__item:last-child {
+    border-right: none;
+  }
+}
+
+.tmon-trust__item:last-child {
+  border-bottom: none;
+}
+
+.tmon-trust__num {
+  display: block;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 800;
+  font-size: 1.65rem;
+  letter-spacing: -0.03em;
+  color: var(--tmon-ink);
+  line-height: 1.15;
+  margin-bottom: 0.25rem;
+}
+
+.tmon-trust__label {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--tmon-muted);
+  line-height: 1.45;
+}
+
+/* ---------- Gallery section ---------- */
+.tmon-gallery {
+  padding: 3.5rem 0 5rem;
+}
+
+.tmon-gallery__head {
+  max-width: 40rem;
+  margin: 0 0 2rem;
+}
+
+.tmon-gallery__title {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.65rem, 3.2vw, 2.25rem);
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  margin: 0 0 0.65rem;
+  color: var(--tmon-ink);
+}
+
+.tmon-gallery__sub {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--tmon-muted);
+}
+
+.tmon-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--tmon-line);
+}
+
+.tmon-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.tmon-filter {
+  appearance: none;
+  border: 1px solid var(--tmon-line);
+  background: var(--tmon-surface);
+  color: var(--tmon-ink-soft);
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  padding: 0.5rem 0.95rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition:
+    background 0.4s var(--tmon-ease),
+    color 0.4s var(--tmon-ease),
+    border-color 0.4s var(--tmon-ease),
+    transform 0.35s var(--tmon-ease);
+}
+
+.tmon-filter:hover {
+  border-color: rgba(13, 148, 136, 0.35);
+  color: var(--tmon-accent-deep);
+}
+
+.tmon-filter.is-active {
+  background: var(--tmon-ink);
+  border-color: var(--tmon-ink);
+  color: #fff;
+}
+
+.tmon-filter:active {
+  transform: scale(0.97);
+}
+
+.tmon-count {
+  font-size: 0.875rem;
+  color: var(--tmon-muted);
+  font-weight: 500;
+}
+
+.tmon-count strong {
+  color: var(--tmon-ink);
+  font-weight: 700;
+}
+
+/* Masonry via CSS columns */
+.tmon-masonry {
+  column-count: 1;
+  column-gap: 1rem;
+}
+
+@media (min-width: 576px) {
+  .tmon-masonry {
+    column-count: 2;
+    column-gap: 1.1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .tmon-masonry {
+    column-count: 3;
+    column-gap: 1.25rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .tmon-masonry {
+    column-count: 4;
+    column-gap: 1.35rem;
+  }
+}
+
+.tmon-card {
+  break-inside: avoid;
+  margin: 0 0 1.1rem;
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.75s var(--tmon-ease),
+    transform 0.75s var(--tmon-ease);
+}
+
+.tmon-card.is-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tmon-card.is-hidden {
+  display: none;
+}
+
+.tmon-card__shell {
+  display: block;
+  padding: 0.35rem;
+  border-radius: calc(var(--tmon-radius) + 0.15rem);
+  background: rgba(15, 23, 42, 0.04);
+  border: 1px solid var(--tmon-line);
+  text-decoration: none;
+  color: inherit;
+  cursor: zoom-in;
+  transition:
+    transform 0.55s var(--tmon-ease),
+    box-shadow 0.55s var(--tmon-ease),
+    border-color 0.55s var(--tmon-ease);
+}
+
+.tmon-card__shell:hover,
+.tmon-card__shell:focus {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+  transform: translateY(-4px);
+  border-color: rgba(13, 148, 136, 0.28);
+  box-shadow: 0 18px 48px rgba(15, 23, 42, 0.1);
+}
+
+.tmon-card__shell:focus-visible {
+  box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.35);
+}
+
+.tmon-card__core {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--tmon-radius);
+  background: #0c1222;
+  aspect-ratio: 1 / 1;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.tmon-card__core img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s var(--tmon-ease);
+  will-change: transform;
+}
+
+.tmon-card__shell:hover .tmon-card__core img,
+.tmon-card__shell:focus .tmon-card__core img {
+  transform: scale(1.045);
+}
+
+.tmon-card__veil {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(7, 11, 18, 0.72) 0%,
+    rgba(7, 11, 18, 0.08) 42%,
+    transparent 70%
+  );
+  opacity: 0;
+  transition: opacity 0.5s var(--tmon-ease);
+  pointer-events: none;
+}
+
+.tmon-card__shell:hover .tmon-card__veil,
+.tmon-card__shell:focus .tmon-card__veil {
+  opacity: 1;
+}
+
+.tmon-card__meta {
+  position: absolute;
+  left: 0.85rem;
+  right: 0.85rem;
+  bottom: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  opacity: 0;
+  transform: translateY(8px);
+  transition:
+    opacity 0.5s var(--tmon-ease),
+    transform 0.5s var(--tmon-ease);
+  pointer-events: none;
+}
+
+.tmon-card__shell:hover .tmon-card__meta,
+.tmon-card__shell:focus .tmon-card__meta {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tmon-card__tag {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  padding: 0.3rem 0.55rem;
+  border-radius: 999px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.tmon-card__zoom {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  color: var(--tmon-ink);
+  font-size: 0.75rem;
+}
+
+@media (max-width: 767.98px) {
+  .tmon-card__veil,
+  .tmon-card__meta {
+    opacity: 1;
+    transform: none;
+  }
+  .tmon-card__veil {
+    background: linear-gradient(
+      to top,
+      rgba(7, 11, 18, 0.55) 0%,
+      transparent 45%
+    );
+  }
+}
+
+/* Load more */
+.tmon-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.tmon-more[hidden] {
+  display: none;
+}
+
+.tmon-btn--ink {
+  background: var(--tmon-ink);
+  color: #fff;
+}
+
+.tmon-btn--ink:hover {
+  background: #1e293b;
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.tmon-btn--ink .tmon-btn__icon {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+}
+
+/* ---------- Closing CTA ---------- */
+.tmon-cta {
+  padding: 0 0 5rem;
+}
+
+.tmon-cta__shell {
+  padding: 0.4rem;
+  border-radius: var(--tmon-radius-lg);
+  background: rgba(15, 23, 42, 0.04);
+  border: 1px solid var(--tmon-line);
+}
+
+.tmon-cta__inner {
+  position: relative;
+  overflow: hidden;
+  border-radius: calc(var(--tmon-radius-lg) - 0.25rem);
+  padding: 2.75rem 1.75rem;
+  background:
+    radial-gradient(ellipse 60% 80% at 100% 0%, rgba(13, 148, 136, 0.35), transparent 55%),
+    linear-gradient(135deg, #0b1220 0%, #111827 55%, #0f172a 100%);
+  color: #fff;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .tmon-cta__inner {
+    padding: 3.5rem 3rem;
+  }
+}
+
+.tmon-cta__title {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
+  letter-spacing: -0.03em;
+  margin: 0 0 0.75rem;
+  color: #fff;
+}
+
+.tmon-cta__text {
+  margin: 0 auto 1.75rem;
+  max-width: 34rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.tmon-cta__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+/* ---------- Lightbox ---------- */
+.tmon-lb {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(7, 11, 18, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 0.4s var(--tmon-ease),
+    visibility 0.4s var(--tmon-ease);
+}
+
+.tmon-lb.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.tmon-lb__panel {
+  position: relative;
+  width: min(920px, 100%);
+  max-height: min(92dvh, 920px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tmon-lb__figure {
+  position: relative;
+  width: 100%;
+  max-height: calc(92dvh - 5rem);
+  padding: 0.4rem;
+  border-radius: 1.35rem;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 32px 80px rgba(0, 0, 0, 0.45);
+}
+
+.tmon-lb__figure img {
+  display: block;
+  width: 100%;
+  max-height: calc(92dvh - 5.8rem);
+  height: auto;
+  object-fit: contain;
+  border-radius: 1.1rem;
+  background: #0c1222;
+}
+
+.tmon-lb__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.tmon-lb__nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tmon-lb__btn {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition:
+    background 0.35s var(--tmon-ease),
+    transform 0.35s var(--tmon-ease);
+}
+
+.tmon-lb__btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.tmon-lb__btn:active {
+  transform: scale(0.96);
+}
+
+.tmon-lb__close {
+  position: absolute;
+  top: -0.25rem;
+  right: -0.25rem;
+  z-index: 2;
+}
+
+@media (max-width: 575.98px) {
+  .tmon-lb__close {
+    top: 0.25rem;
+    right: 0.25rem;
+  }
+}
+
+body.tmon-lb-lock {
+  overflow: hidden;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .tmon-card,
+  .tmon-card__core img,
+  .tmon-card__shell,
+  .tmon-card__veil,
+  .tmon-card__meta,
+  .tmon-hero__frame,
+  .tmon-btn,
+  .tmon-lb {
+    transition: none !important;
+    animation: none !important;
+  }
+
+  .tmon-card {
+    opacity: 1;
+    transform: none;
+  }
+}
