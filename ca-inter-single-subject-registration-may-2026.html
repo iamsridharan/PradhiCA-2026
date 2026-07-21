@@ -83,291 +83,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/footer-premium.css">
     <link rel="stylesheet" href="assets/css/header-premium.css">
+    <link rel="stylesheet" href="assets/css/single-subject-premium.css">
     
     <!-- Minimalist Design Styles -->
-    <style>
-      :root {
-        --primary-color: #2563eb;
-        --secondary-color: #0ea5e9;
-        --success-color: #10b981;
-        --text-dark: #1f2937;
-        --text-light: #6b7280;
-        --border-color: #e5e7eb;
-        --bg-light: #f9fafb;
-      }
-
-      /* Clean Typography */
-      body {
-        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-        color: var(--text-dark);
-        line-height: 1.6;
-      }
-
-      /* Minimalist Header */
-      .minimal-hero {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        padding: 80px 0 60px;
-        position: relative;
-        overflow: hidden;
-      }
-
-      .minimal-hero::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><rect width="100" height="100" fill="none"/><circle cx="50" cy="50" r="40" fill="rgba(255,255,255,0.05)"/></svg>');
-        opacity: 0.3;
-      }
-
-      .minimal-hero h1 {
-        font-size: 2.5rem;
-        font-weight: 700;
-        margin-bottom: 1rem;
-        letter-spacing: -0.5px;
-      }
-
-      .minimal-hero p {
-        font-size: 1.125rem;
-        opacity: 0.95;
-      }
-
-      /* Clean Section */
-      .minimal-section {
-        padding: 60px 0;
-        background: #ffffff;
-      }
-
-      .section-title {
-        font-size: 1.875rem;
-        font-weight: 700;
-        color: var(--text-dark);
-        margin-bottom: 0.5rem;
-        letter-spacing: -0.5px;
-      }
-
-      .section-subtitle {
-        color: var(--text-light);
-        font-size: 1.125rem;
-        margin-bottom: 3rem;
-      }
-
-      /* Minimalist Cards */
-      .minimal-card {
-        background: #ffffff;
-        border: 1px solid var(--border-color);
-        border-radius: 16px;
-        padding: 0;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        overflow: hidden;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-      }
-
-      .minimal-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-        border-color: var(--primary-color);
-      }
-
-      .card-badge {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        background: var(--primary-color);
-        color: white;
-        padding: 6px 14px;
-        border-radius: 20px;
-        font-size: 0.75rem;
-        font-weight: 600;
-        letter-spacing: 0.5px;
-        text-transform: uppercase;
-      }
-
-      .card-icon {
-        width: 60px;
-        height: 60px;
-        background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-        border-radius: 16px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 1.5rem;
-        font-size: 1.75rem;
-        color: white;
-      }
-
-      .minimal-card-header {
-        padding: 2rem;
-        background: var(--bg-light);
-        border-bottom: 1px solid var(--border-color);
-        position: relative;
-      }
-
-      .minimal-card-header h3 {
-        font-size: 1.25rem;
-        font-weight: 700;
-        color: var(--text-dark);
-        margin-bottom: 0.5rem;
-        letter-spacing: -0.3px;
-      }
-
-      .minimal-card-header .badge-tag {
-        display: inline-block;
-        background: var(--primary-color);
-        color: white;
-        padding: 4px 12px;
-        border-radius: 12px;
-        font-size: 0.875rem;
-        font-weight: 600;
-      }
-
-      .minimal-card-body {
-        padding: 2rem;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-      }
-
-      .minimal-card-footer {
-        padding: 1.5rem 2rem;
-        background: var(--bg-light);
-        border-top: 1px solid var(--border-color);
-        margin-top: auto;
-      }
-
-      /* Minimalist Button */
-      .btn-minimal {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        padding: 12px 28px;
-        background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-        color: white;
-        border: none;
-        border-radius: 12px;
-        font-weight: 600;
-        font-size: 0.9375rem;
-        transition: all 0.3s ease;
-        text-decoration: none;
-        box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2);
-        width: 100%;
-      }
-
-      .btn-minimal:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.3);
-        color: white;
-        text-decoration: none;
-      }
-
-      .btn-minimal i {
-        margin-left: 8px;
-        transition: transform 0.3s ease;
-      }
-
-      .btn-minimal:hover i {
-        transform: translateX(4px);
-      }
-
-      /* Feature List */
-      .feature-list {
-        list-style: none;
-        padding: 0;
-        margin: 0 0 1.5rem 0;
-      }
-
-      .feature-list li {
-        padding: 0.75rem 0;
-        display: flex;
-        align-items: center;
-        color: var(--text-dark);
-        font-size: 0.9375rem;
-      }
-
-      .feature-list li i {
-        color: var(--success-color);
-        margin-right: 12px;
-        font-size: 1rem;
-      }
-
-      /* Info Box */
-      .info-box {
-        background: linear-gradient(135deg, #e0f2fe 0%, #f0f9ff 100%);
-        border-left: 4px solid var(--primary-color);
-        padding: 1.25rem 1.5rem;
-        border-radius: 12px;
-        margin-bottom: 2rem;
-      }
-
-      .info-box p {
-        margin: 0;
-        color: var(--text-dark);
-        font-size: 0.9375rem;
-        line-height: 1.6;
-      }
-
-      .info-box strong {
-        color: var(--primary-color);
-      }
-
-      /* Grid Layout */
-      .card-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 2rem;
-        margin-top: 2rem;
-      }
-
-      /* Responsive */
-      @media (max-width: 768px) {
-        .minimal-hero h1 {
-          font-size: 2rem;
-        }
-
-        .section-title {
-          font-size: 1.5rem;
-        }
-
-        .card-grid {
-          grid-template-columns: 1fr;
-          gap: 1.5rem;
-        }
-
-        .minimal-card-header,
-        .minimal-card-body,
-        .minimal-card-footer {
-          padding: 1.5rem;
-        }
-      }
-
-      /* Animation */
-      @keyframes fadeInUp {
-        from {
-          opacity: 0;
-          transform: translateY(20px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-
-      .animate-in {
-        animation: fadeInUp 0.6s ease-out forwards;
-      }
-
-      .animate-delay-1 { animation-delay: 0.1s; opacity: 0; }
-      .animate-delay-2 { animation-delay: 0.2s; opacity: 0; }
-      .animate-delay-3 { animation-delay: 0.3s; opacity: 0; }
-      .animate-delay-4 { animation-delay: 0.4s; opacity: 0; }
-    </style>
-	
-  
-    <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -422,11 +141,11 @@
     </script>
 </head>
   
-  <body>  <header class="site-header" role="banner">
+  <body class="pg-ss-hub">  <header class="site-header" role="banner">
     <div class="container">
       <div class="row align-items-center justify-content-between mx-0 flex-wrap">
         <p class="site-header__trust d-none d-lg-flex mb-0">
-          <i class="fas fa-award" aria-hidden="true"></i> 7,500+ successful CAs nationwide
+          <i class="fas fa-award" aria-hidden="true"></i> 7,500+ successful CA's nationwide
         </p>
         <ul class="list-inline d-none d-lg-flex mb-0">
           <li class="list-inline-item">
@@ -508,151 +227,152 @@
       </div>
     </div>
   </nav>
-<div class="minimal-hero">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-8 mx-auto text-center text-white">
-        <nav aria-label="breadcrumb" class="mb-4">
-          <ol class="breadcrumb bg-transparent justify-content-center p-0">  
-            <li class="breadcrumb-item"><a href="index.html" class="text-white-50">Home</a></li>
-            <li class="breadcrumb-item text-white">Single Subject Registration</li>
-          </ol>
-        </nav>
-        <h1 class="text-white mb-3">CA Intermediate Single Subject Test Series</h1>
-        <p class="text-white-50 mb-0">Choose your preferred mode and register for individual subjects | May 2026 Batch</p>
+<header class="ss-hub-hero" aria-labelledby="ss-hub-h1">
+    <div class="container">
+      <nav aria-label="Breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="ca-inter-test-schedule-may-2026.html">CA Intermediate May 26</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Single Subject</li>
+        </ol>
+      </nav>
+      <p class="ss-hub-eyebrow"><i class="fas fa-book-open" aria-hidden="true"></i> CA Intermediate · May 2026 attempt</p>
+      <h1 id="ss-hub-h1" class="ss-hub-title">Pick subjects, not the whole syllabus at once</h1>
+      <p class="ss-hub-lead">Single Subject tests let you target weak papers before Intermediate. Choose <strong>Direct</strong> at Chennai or <strong>Online</strong> nationwide. Add a <strong>model exam</strong> or keep it subject-only.</p>
+      <div class="ss-hub-hero-cta">
+        <a href="ca-inter-test-schedule-may-2026.html" class="ss-hub-hero-btn--primary"><i class="far fa-calendar-alt" aria-hidden="true"></i> Full May 26 schedule</a>
+        <a href="#choose-mode" class="ss-hub-hero-btn--ghost"><i class="fas fa-arrow-down" aria-hidden="true"></i> Compare options</a>
       </div>
-   </div>
+    </div>
+  </header>
+
+  <div class="ss-hub-trust">
+    <div class="container ss-hub-trust__inner">
+      <span class="ss-hub-trust__item"><i class="fas fa-check-circle" aria-hidden="true"></i> Subject-wise flexibility</span>
+      <span class="ss-hub-trust__item"><i class="fas fa-check-circle" aria-hidden="true"></i> ICAI-aligned papers</span>
+      <span class="ss-hub-trust__item"><i class="fas fa-check-circle" aria-hidden="true"></i> Results in 4 days</span>
+      <span class="ss-hub-trust__item"><i class="fas fa-check-circle" aria-hidden="true"></i> 7,500+ students</span>
+    </div>
   </div>
-</div>
 
+  <main class="ss-hub-main" id="choose-mode">
+    <div class="container">
+      <div class="ss-hub-section-head">
+        <h2>How do you want to register?</h2>
+        <p>Filter by exam mode and whether you need a bundled model exam. Open the payment page when you are ready.</p>
+      </div>
 
+      <div class="ss-model-pills" role="group" aria-label="Model exam choice">
+        <button type="button" class="ss-model-pill is-active" data-model="with">With model exam</button>
+        <button type="button" class="ss-model-pill" data-model="without">Without model</button>
+      </div>
 
+      <div class="ss-mode-tabs" role="tablist" aria-label="Exam mode">
+        <button type="button" class="ss-mode-tab is-active" data-mode="compare" role="tab" aria-selected="true">All options</button>
+        <button type="button" class="ss-mode-tab" data-mode="direct" role="tab" aria-selected="false">Direct</button>
+        <button type="button" class="ss-mode-tab" data-mode="online" role="tab" aria-selected="false">Online</button>
+      </div>
 
-<section class="minimal-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto">
-        <div class="text-center mb-5">
-          <h2 class="section-title">Choose Your Registration Mode</h2>
-          <p class="section-subtitle">Select the option that best suits your preparation style</p>
+      <div class="ss-option-grid">
+        <article class="ss-option-card ss-mode-card ss-mode-card--direct" data-mode="direct" data-model="with">
+          <span class="ss-option-card__badge ss-option-card__badge--model">With model</span>
+          <div class="ss-mode-card__icon" aria-hidden="true"><i class="fas fa-building"></i></div>
+          <h3>Direct · With model</h3>
+          <p class="ss-mode-card__tag">Chennai centre</p>
+          <p>Write at PradhiCA with subject-wise tests plus a full-syllabus model exam bundled in.</p>
+          <ul class="ss-mode-card__list">
+            <li><i class="fas fa-check" aria-hidden="true"></i> Physical hall in West Mambalam</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> From ₹775 per paper (excl. GST)</li>
+          </ul>
+          <a class="ss-mode-card__btn" href="ca-inter-single-subject-direct-with-model-may-2026.html"><i class="fas fa-credit-card" aria-hidden="true"></i> View pricing</a>
+        </article>
+        <article class="ss-option-card ss-mode-card ss-mode-card--direct" data-mode="direct" data-model="without">
+          <span class="ss-option-card__badge ss-option-card__badge--plain">Without model</span>
+          <div class="ss-mode-card__icon" aria-hidden="true"><i class="fas fa-building"></i></div>
+          <h3>Direct · Without model</h3>
+          <p class="ss-mode-card__tag">Chennai centre</p>
+          <p>Subject-wise tests only at the centre. Best when you want focused paper practice.</p>
+          <ul class="ss-mode-card__list">
+            <li><i class="fas fa-check" aria-hidden="true"></i> Supervised exam environment</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> From ₹525 per paper (excl. GST)</li>
+          </ul>
+          <a class="ss-mode-card__btn" href="ca-inter-single-subject-direct-without-model-may-2026.html"><i class="fas fa-credit-card" aria-hidden="true"></i> View pricing</a>
+        </article>
+        <article class="ss-option-card ss-mode-card ss-mode-card--online" data-mode="online" data-model="with">
+          <span class="ss-option-card__badge ss-option-card__badge--model">With model</span>
+          <div class="ss-mode-card__icon" aria-hidden="true"><i class="fas fa-laptop"></i></div>
+          <h3>Online · With model</h3>
+          <p class="ss-mode-card__tag">India-wide</p>
+          <p>Upload scanned answers from home. Model exam included with your subject selection.</p>
+          <ul class="ss-mode-card__list">
+            <li><i class="fas fa-check" aria-hidden="true"></i> Write from any city</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> From ₹585 per paper (excl. GST)</li>
+          </ul>
+          <a class="ss-mode-card__btn" href="ca-inter-single-subject-online-with-model-may-2026.html"><i class="fas fa-credit-card" aria-hidden="true"></i> View pricing</a>
+        </article>
+        <article class="ss-option-card ss-mode-card ss-mode-card--online" data-mode="online" data-model="without">
+          <span class="ss-option-card__badge ss-option-card__badge--plain">Without model</span>
+          <div class="ss-mode-card__icon" aria-hidden="true"><i class="fas fa-laptop"></i></div>
+          <h3>Online · Without model</h3>
+          <p class="ss-mode-card__tag">Razorpay secure</p>
+          <p>Lowest per-paper rates for subject-only practice with the same CA evaluation team.</p>
+          <ul class="ss-mode-card__list">
+            <li><i class="fas fa-check" aria-hidden="true"></i> Flexible home timing</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> From ₹385 per paper (excl. GST)</li>
+          </ul>
+          <a class="ss-mode-card__btn" href="ca-inter-single-subject-online-without-model-may-2026.html"><i class="fas fa-credit-card" aria-hidden="true"></i> View pricing</a>
+        </article>
+      </div>
+
+      <div class="ss-bento">
+        <div class="ss-bento__cell ss-bento__cell--accent">
+          <i class="fas fa-bullseye" aria-hidden="true"></i>
+          <h4>Target weak papers</h4>
+          <p>Buy one subject, two papers, a full group, or both groups. Pay only for what you need.</p>
         </div>
-
-        <div class="info-box">
-          <p><strong>Important:</strong> Select whether you want to include model exams with your subject-wise tests. Model exams provide full-syllabus practice to complement your preparation.</p>
+        <div class="ss-bento__cell">
+          <i class="fas fa-percentage" aria-hidden="true"></i>
+          <h4>20% group concession</h4>
+          <p>Group I, Group II, or both groups qualify for automatic concession on the fee.</p>
         </div>
+        <div class="ss-bento__cell">
+          <i class="fas fa-file-signature" aria-hidden="true"></i>
+          <h4>CA-evaluated copies</h4>
+          <p>Detailed feedback and suggested answers within four working days of submission.</p>
+        </div>
+      </div>
 
-        <div class="card-grid">
-          <!-- Direct Venue - With Model -->
-          <div class="minimal-card animate-in animate-delay-1">
-            <div class="minimal-card-header">
-              <div class="card-icon">
-                <i class="fas fa-building"></i>
-              </div>
-              <h3>Direct Venue</h3>
-              <span class="badge-tag">With Model Exams</span>
-            </div>
-            <div class="minimal-card-body">
-              <ul class="feature-list">
-                <li><i class="fas fa-check-circle"></i> Chennai center exam</li>
-                <li><i class="fas fa-check-circle"></i> Physical answer sheets</li>
-                <li><i class="fas fa-check-circle"></i> Subject-wise tests</li>
-                <li><i class="fas fa-check-circle"></i> Full-syllabus model exams</li>
-                <li><i class="fas fa-check-circle"></i> Supervised environment</li>
-              </ul>
-            </div>
-            <div class="minimal-card-footer">
-              <a href="ca-inter-single-subject-direct-with-model-may-2026.html" class="btn-minimal">
-                Register Now <i class="fas fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
+      <div class="ss-faq">
+        <h3>Common questions</h3>
+        <div class="ss-faq__item">
+          <button type="button" class="ss-faq__trigger" aria-expanded="false">What is Single Subject? <i class="fas fa-chevron-down" aria-hidden="true"></i></button>
+          <div class="ss-faq__body"><p>Mock tests for individual Intermediate papers instead of a fixed full-series schedule. You choose how many subjects or groups to cover.</p></div>
+        </div>
+        <div class="ss-faq__item">
+          <button type="button" class="ss-faq__trigger" aria-expanded="false">Should I pick with or without model? <i class="fas fa-chevron-down" aria-hidden="true"></i></button>
+          <div class="ss-faq__body"><p>With model adds a full-syllabus practice exam to your plan. Without model is subject tests only at a lower fee.</p></div>
+        </div>
+        <div class="ss-faq__item">
+          <button type="button" class="ss-faq__trigger" aria-expanded="false">Is GST included? <i class="fas fa-chevron-down" aria-hidden="true"></i></button>
+          <div class="ss-faq__body"><p>Listed fees are exclusive of GST @ 18%. The final amount appears on the Razorpay checkout screen before you pay.</p></div>
+        </div>
+      </div>
 
-          <!-- Direct Venue - Without Model -->
-          <div class="minimal-card animate-in animate-delay-2">
-            <div class="minimal-card-header">
-              <div class="card-icon">
-                <i class="fas fa-building"></i>
-              </div>
-              <h3>Direct Venue</h3>
-              <span class="badge-tag" style="background: #6b7280;">Without Model</span>
-            </div>
-            <div class="minimal-card-body">
-              <ul class="feature-list">
-                <li><i class="fas fa-check-circle"></i> Chennai center exam</li>
-                <li><i class="fas fa-check-circle"></i> Physical answer sheets</li>
-                <li><i class="fas fa-check-circle"></i> Subject-wise tests only</li>
-                <li><i class="fas fa-check-circle"></i> Focused practice</li>
-                <li><i class="fas fa-check-circle"></i> Supervised environment</li>
-              </ul>
-            </div>
-            <div class="minimal-card-footer">
-              <a href="ca-inter-single-subject-direct-without-model-may-2026.html" class="btn-minimal">
-                Register Now <i class="fas fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-
-          <!-- Online Mode - With Model -->
-          <div class="minimal-card animate-in animate-delay-3">
-            <div class="minimal-card-header">
-              <div class="card-icon">
-                <i class="fas fa-laptop"></i>
-              </div>
-              <h3>Online Mode</h3>
-              <span class="badge-tag">With Model Exams</span>
-            </div>
-            <div class="minimal-card-body">
-              <ul class="feature-list">
-                <li><i class="fas fa-check-circle"></i> Study from anywhere</li>
-                <li><i class="fas fa-check-circle"></i> Flexible timing</li>
-                <li><i class="fas fa-check-circle"></i> Subject-wise tests</li>
-                <li><i class="fas fa-check-circle"></i> Full-syllabus model exams</li>
-                <li><i class="fas fa-check-circle"></i> Digital evaluation</li>
-              </ul>
-            </div>
-            <div class="minimal-card-footer">
-              <a href="ca-inter-single-subject-online-with-model-may-2026.html" class="btn-minimal">
-                Register Now <i class="fas fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-
-          <!-- Online Mode - Without Model -->
-          <div class="minimal-card animate-in animate-delay-4">
-            <div class="minimal-card-header">
-              <div class="card-icon">
-                <i class="fas fa-laptop"></i>
-              </div>
-              <h3>Online Mode</h3>
-              <span class="badge-tag" style="background: #6b7280;">Without Model</span>
-            </div>
-            <div class="minimal-card-body">
-              <ul class="feature-list">
-                <li><i class="fas fa-check-circle"></i> Study from anywhere</li>
-                <li><i class="fas fa-check-circle"></i> Flexible timing</li>
-                <li><i class="fas fa-check-circle"></i> Subject-wise tests only</li>
-                <li><i class="fas fa-check-circle"></i> Focused practice</li>
-                <li><i class="fas fa-check-circle"></i> Digital evaluation</li>
-              </ul>
-            </div>
-            <div class="minimal-card-footer">
-              <a href="ca-inter-single-subject-online-without-model-may-2026.html" class="btn-minimal">
-                Register Now <i class="fas fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
+      <div class="ss-hub-bottom">
+        <p>Not sure which tier fits your attempt? Tell us your groups and we will recommend a plan.</p>
+        <div class="ss-hub-bottom__links">
+          <a href="contact-us.html" class="ss-hub-link--dark"><i class="fas fa-phone-alt" aria-hidden="true"></i> Contact us</a>
+          <a href="https://api.whatsapp.com/send?phone=918072653948&amp;text=Hi%20PradhiCA%2C%20I%20need%20help%20with%20CA%20Intermediate%20Single%20Subject%20May%202026." class="ss-hub-link--wa" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
         </div>
       </div>
     </div>
-  </div> <!-- END container-->
-</section>
-   
-   
-   
-   
-   
-   
-   
+  </main>
+
+  <div class="ss-hub-sticky" role="navigation" aria-label="Quick links">
+    <a href="ca-inter-single-subject-direct-with-model-may-2026.html" class="ss-hub-sticky--outline">Direct</a>
+    <a href="ca-inter-single-subject-online-with-model-may-2026.html" class="ss-hub-sticky--amber">Online</a>
+  </div>
+
 <footer class="site-footer">
   <div class="footer-top bg-dark text-white-0_6 pt-5 paddingBottom-100">
     <div class="container"> 
@@ -737,5 +457,6 @@
         <script src="assets/js/header-scroll.js"></script>
     <script src="assets/js/header-nav-dropdown.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/single-subject-premium.js"></script>
   </body>
 </html>

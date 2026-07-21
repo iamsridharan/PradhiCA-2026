@@ -1,0 +1,232 @@
+/**
+ * PradhiCA — DOT Marathon series registration hub (mode picker pages)
+ * Scope: body.pg-marathon-home
+ */
+.pg-marathon-home {
+  scroll-behavior: smooth;
+  font-family: "DM Sans", "Work Sans", system-ui, sans-serif;
+  background: #f8fafc;
+}
+
+.pg-marathon-home .ec-nav {
+  box-shadow: 0 4px 24px rgba(15, 23, 42, 0.06);
+}
+
+.pg-marathon-home .dm-hero {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(2.5rem, 5.5vw, 3.75rem) 0;
+  color: #fff;
+  background: linear-gradient(135deg, #1e40af 0%, #2563eb 45%, #3b82f6 100%);
+}
+
+.pg-marathon-home .dm-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 70% 55% at 90% 0%, rgba(251, 191, 36, 0.15), transparent 55%);
+  pointer-events: none;
+}
+
+.pg-marathon-home .dm-hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.pg-marathon-home .dm-hero .breadcrumb a {
+  color: rgba(255, 255, 255, 0.78) !important;
+}
+
+.pg-marathon-home .dm-hero .breadcrumb-item.active {
+  color: #fff !important;
+}
+
+.pg-marathon-home .dm-hero h1 {
+  font-family: "DM Sans", "Maven Pro", sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.85rem, 4.5vw, 2.35rem);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #fff !important;
+  margin: 0;
+}
+
+.pg-marathon-home .dm-hero .lead {
+  opacity: 0.92;
+  font-size: 1.1rem;
+  max-width: 36rem;
+  color: rgba(255, 255, 255, 0.95) !important;
+}
+
+.pg-marathon-home .dm-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0.25rem 0.25rem 0 0;
+}
+
+.pg-marathon-home .dm-section {
+  background: linear-gradient(180deg, #f8fafc 0%, #fff 40%);
+  padding: 4rem 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.pg-marathon-home .dm-section h2 {
+  font-weight: 800;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+}
+
+.pg-marathon-home .dm-card {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(15, 23, 42, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pg-marathon-home .dm-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(37, 99, 235, 0.18);
+}
+
+.pg-marathon-home .dm-card--featured {
+  box-shadow: 0 16px 48px rgba(37, 99, 235, 0.2);
+  border: 2px solid #3b82f6;
+}
+
+.pg-marathon-home .dm-card__head {
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: #fff;
+  padding: 1.75rem 1.5rem;
+  text-align: center;
+}
+
+.pg-marathon-home .dm-card__head--teal {
+  background: linear-gradient(135deg, #0f766e, #14b8a6);
+}
+
+.pg-marathon-home .dm-card__head h3 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 0;
+  color: #fff !important;
+}
+
+.pg-marathon-home .dm-card__head .dm-mode {
+  font-size: 0.95rem;
+  opacity: 0.95;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  display: block;
+}
+
+.pg-marathon-home .dm-card__body {
+  flex: 1;
+  padding: 1.75rem 1.5rem;
+  text-align: center;
+  background: #fff;
+}
+
+.pg-marathon-home .dm-card__body p {
+  color: #64748b;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.pg-marathon-home .dm-card__foot {
+  padding: 1.25rem 1.5rem 1.75rem;
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+  text-align: center;
+}
+
+.pg-marathon-home .dm-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  padding: 0.85rem 1.75rem;
+  border-radius: 999px;
+  background: #2563eb;
+  color: #fff !important;
+  text-decoration: none !important;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
+  transition: all 0.2s ease;
+}
+
+.pg-marathon-home .dm-btn:hover {
+  background: #1d4ed8;
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(37, 99, 235, 0.45);
+}
+
+.pg-marathon-home .dm-btn--teal {
+  background: #0d9488;
+  box-shadow: 0 4px 14px rgba(13, 148, 136, 0.45);
+}
+
+.pg-marathon-home .dm-btn--teal:hover {
+  background: #0f766e;
+  box-shadow: 0 8px 24px rgba(13, 148, 136, 0.48);
+}
+
+.pg-marathon-home .dm-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 600;
+  color: #2563eb;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.pg-marathon-home .dm-back-link:hover {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+.pg-marathon-home .dm-sticky {
+  position: fixed;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.pg-marathon-home .dm-sticky a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 1.1rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-decoration: none !important;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.15);
+}
+
+.pg-marathon-home .dm-sticky--gold {
+  background: linear-gradient(135deg, #d97706, #f59e0b);
+  color: #fff !important;
+}
+
+.pg-marathon-home .dm-sticky--outline {
+  background: #fff;
+  color: #1e40af !important;
+  border: 2px solid #bfdbfe;
+}

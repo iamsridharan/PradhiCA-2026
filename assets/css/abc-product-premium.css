@@ -231,6 +231,24 @@
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 1.25rem;
   width: 100%;
+  align-items: stretch;
+}
+
+.pg-abc-product .row.abc-price-grid {
+  display: grid !important;
+  flex-wrap: unset !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.pg-abc-product .abc-price-grid .mb-4 {
+  margin-bottom: 0 !important;
+}
+
+@media (min-width: 992px) {
+  .pg-abc-product .abc-price-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 
 .pg-abc-product .abc-price-tier {
@@ -244,6 +262,15 @@
   width: 100%;
   padding: 0;
   margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.pg-abc-product .abc-price-grid > .abc-price-card > .card,
+.pg-abc-product .abc-price-grid > .col-md-4 > .card {
+  flex: 1 1 auto;
+  width: 100%;
 }
 
 .pg-abc-product .card {
@@ -292,6 +319,10 @@
   background: #fff !important;
   padding: 1.75rem 1.15rem !important;
   border-bottom: 1px solid #f1f5f9 !important;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .pg-abc-product .card .display-4 {
@@ -306,6 +337,7 @@
   font-size: 0.82rem;
   color: #64748b;
   margin-bottom: 0.25rem;
+  line-height: 1.5;
 }
 
 .pg-abc-product .card-footer {
@@ -313,6 +345,11 @@
   border-top: 1px solid #e4e4e7 !important;
   padding: 1.15rem !important;
   margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 4.5rem;
+  flex-shrink: 0;
 }
 
 .pg-abc-product .card-footer .razorpay-embed-btn {

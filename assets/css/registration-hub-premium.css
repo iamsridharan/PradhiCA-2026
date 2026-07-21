@@ -294,11 +294,11 @@
 
 @media (min-width: 992px) {
   .pg-reg-hub .reg-hub-card--featured {
-    transform: scale(1.02);
+    transform: none;
   }
 
   .pg-reg-hub .reg-hub-card--featured:hover {
-    transform: scale(1.02) translateY(-4px);
+    transform: translateY(-4px);
   }
 }
 
