@@ -84,7 +84,7 @@
 /* Main band */
 .pg-contact-main {
   padding: 2.5rem 0 3.5rem;
-  margin-top: -1.5rem;
+  margin-top: 0;
   position: relative;
   z-index: 2;
 }

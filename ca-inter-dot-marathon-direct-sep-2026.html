@@ -262,6 +262,10 @@
         box-shadow: 0 4px 6px rgba(15, 23, 42, 0.04), 0 16px 40px rgba(15, 23, 42, 0.08) !important;
         transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
         background: #fff;
+      
+        display: flex;
+        flex-direction: column;
+        height: 100%;
       }
       .pg-price-card::before {
         content: "";
@@ -346,6 +350,8 @@
         background: linear-gradient(180deg, #f8fafc, #f1f5f9) !important;
         border-top: 1px solid #e2e8f0 !important;
         padding: 1.35rem 1.1rem !important;
+      
+        margin-top: auto;
       }
       .pg-price-card .razorpay-embed-btn { display: inline-block; }
 
@@ -431,7 +437,21 @@
         .pg-venue-block__inner { padding: 2.25rem 2.5rem; }
         .pg-venue-block__address { font-size: 1.12rem; }
       }
-    </style>
+    
+      .pg-price-card .card-header:first-child {
+        min-height: 4.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 4.5rem;
+      }
+      .pg-price-card .card-header.py-5 {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+</style>
     
 	
   
@@ -494,7 +514,7 @@
     <div class="container">
       <div class="row align-items-center justify-content-between mx-0 flex-wrap">
         <p class="site-header__trust d-none d-lg-flex mb-0">
-          <i class="fas fa-award" aria-hidden="true"></i> 7,500+ successful CAs nationwide
+          <i class="fas fa-award" aria-hidden="true"></i> 7,500+ successful CA's nationwide
         </p>
         <ul class="list-inline d-none d-lg-flex mb-0">
           <li class="list-inline-item">
@@ -578,7 +598,7 @@
   </nav>
 <div class="pg-pay-hero">
   <div class="container">
-    <div class="row align-items-center">
+    <div class="row align-items-center justify-content-center">
       <div class="col-lg-10 py-2">
         <ol class="breadcrumb breadcrumb-double-angle bg-transparent p-0 mb-3">
           <li class="breadcrumb-item"><a href="index.html"><i class="fas fa-home mr-1"></i>Home</a></li>
@@ -615,8 +635,8 @@
         </div>
       </div>
     </div>
-    <div class="row align-items-center">
-     <div class="col-12 pg-single__tier text-center text-md-left">
+    <div class="row align-items-stretch">
+     <div class="col-12 pg-single__tier text-center">
        <h4>INTER EXAM · <span class="text-primary">DOT WITHOUT MODEL</span></h4>
      </div>
       <div class="col-12">
@@ -639,7 +659,7 @@
            <h2 class="mb-0 display-4 text-success">
              ₹ 3780 
            </h2>
-		    <p>(Exclusive of gst)<br>30% Concession availed	</p>
+		    <p>(Exclusive of GST)<br>30% Concession availed	</p>
          </div>
 		 
          
@@ -676,7 +696,7 @@
            <h2 class="mb-0 display-4 text-success">
              ₹ 1890
            </h2>
-		   <p>(Exclusive of gst)<br>30% Concession availed	</p>
+		   <p>(Exclusive of GST)<br>30% Concession availed	</p>
          </div>
 		 
         
@@ -716,7 +736,7 @@
            <h2 class="mb-0 display-4 text-success">
              ₹ 1260
            </h2>
-		   <p>(Exclusive of gst)<br>30% Concession availed	</p>
+		   <p>(Exclusive of GST)<br>30% Concession availed	</p>
          </div>
 		 
        <div class="card-footer">
@@ -745,7 +765,7 @@
      </div>
 	 
 	 
-	 <div class="col-12 pg-single__tier text-center text-md-left">
+	 <div class="col-12 pg-single__tier text-center">
        <h4>INTER EXAM · <span class="text-primary">DOT WITH 1 MODEL</span></h4>
      </div>
 	 
@@ -759,7 +779,7 @@
            <h2 class="mb-0 display-4 text-success">
              ₹ 4890
            </h2>
-           <p>(Exclusive of gst)<br>30% Concession on DOT Fee & 20% Concession on Model Fee availed</p>
+           <p>(Exclusive of GST)<br>30% Concession on DOT Fee & 20% Concession on Model Fee availed</p>
          </div>
 		 
         <div class="card-footer">
@@ -796,7 +816,7 @@
            <h2 class="mb-0 display-4 text-success">
              ₹ 2490
            </h2>
-           <p>(Exclusive of gst)<br>30% Concession on DOT Fee & 20% Concession on Model Fee availed</p>
+           <p>(Exclusive of GST)<br>30% Concession on DOT Fee & 20% Concession on Model Fee availed</p>
          </div>
 		 
         <div class="card-footer">
@@ -833,7 +853,7 @@
            <h2 class="mb-0 display-4 text-success">
             ₹ 1660
            </h2>
-           <p>(Exclusive of gst)<br>30% Concession on DOT Fee & 20% Concession on Model Fee availed</p>
+           <p>(Exclusive of GST)<br>30% Concession on DOT Fee & 20% Concession on Model Fee availed</p>
          </div>
 		 
         <div class="card-footer">
@@ -862,7 +882,7 @@
      </div>
      
      
-    <div class="col-12 pg-single__tier text-center text-md-left">
+    <div class="col-12 pg-single__tier text-center">
        <h4>INTER EXAM · <span class="text-primary">DOT WITH BOTH MODELS</span></h4>
      </div>
      
@@ -876,7 +896,7 @@
            <h2 class="mb-0 display-4 text-success">
              ₹ 6180
            </h2>
-           <p>(Exclusive of gst)<br>30% Concession on DOT Fee & 20% Concession on Model Fee availed	</p>
+           <p>(Exclusive of GST)<br>30% Concession on DOT Fee & 20% Concession on Model Fee availed	</p>
          </div>
 		 
         <div class="card-footer">
@@ -913,7 +933,7 @@
            <h2 class="mb-0 display-4 text-success">
              ₹ 3960
            </h2>
-           <p>(Exclusive of gst)<br>30% Concession on DOT Fee & 20% Concession on Model Fee availed	</p>
+           <p>(Exclusive of GST)<br>30% Concession on DOT Fee & 20% Concession on Model Fee availed	</p>
          </div>
 		 
         <div class="card-footer">
@@ -950,7 +970,7 @@
            <h2 class="mb-0 display-4 text-success">
              ₹ 2060
            </h2>
-		   <p>(Exclusive of gst)<br>30% Concession on DOT Fee & 20% Concession on Model Fee availed	</p>
+		   <p>(Exclusive of GST)<br>30% Concession on DOT Fee & 20% Concession on Model Fee availed	</p>
          </div>
 		 
         <div class="card-footer">

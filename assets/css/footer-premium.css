@@ -50,7 +50,7 @@
   font-size: 0.95rem;
   line-height: 1.65;
   color: rgba(255, 255, 255, 0.72) !important;
-  max-width: 16rem;
+  max-width: 100%;
   margin-top: 0.75rem;
 }
 
@@ -228,5 +228,19 @@
     width: 3.25rem !important;
     height: 3.25rem !important;
     font-size: 1.5rem !important;
+  }
+}
+
+/* Raise WhatsApp FAB when a bottom sticky bar is present */
+@media (max-width: 767.98px) {
+  body:has(.abc-product-sticky) .site-footer .footer-bottom a.pradhi-wa-float,
+  body:has(.abc-product-sticky) .site-footer .footer-bottom a.float.text-primary,
+  body:has(.model-product-sticky) .site-footer .footer-bottom a.pradhi-wa-float,
+  body:has(.model-product-sticky) .site-footer .footer-bottom a.float.text-primary,
+  body:has(.co-sticky-enroll) .site-footer .footer-bottom a.pradhi-wa-float,
+  body:has(.co-sticky-enroll) .site-footer .footer-bottom a.float.text-primary,
+  body:has(.dm-sticky) .site-footer .footer-bottom a.pradhi-wa-float,
+  body:has(.dm-sticky) .site-footer .footer-bottom a.float.text-primary {
+    bottom: 5.5rem !important;
   }
 }
