@@ -1174,16 +1174,6 @@ body.pg-test-schedule {
   animation: ts-float-m 5.8s ease-in-out infinite 0.25s;
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .pg-test-schedule--hub .ts-hero {
-    overflow: hidden;
-  }
-
-  .pg-test-schedule--hub .ts-hero-3d {
-    overflow: hidden;
-  }
-}
-
 .pg-test-schedule--hub .ts-hero-3d__card--marathon .ts-hero-3d__card-icon {
   background: linear-gradient(135deg, #ea580c, #c2410c);
 }
@@ -1413,21 +1403,6 @@ body.pg-test-schedule {
 
   .pg-test-schedule--hub.ts-series-count-4 .ts-series-grid .nav-pills,
   .pg-test-schedule--hub.ts-series-count-4 .ts-series-grid__list {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .pg-test-schedule--hub.ts-series-count-5 .ts-series-grid .nav-pills,
-  .pg-test-schedule--hub.ts-series-count-5 .ts-series-grid__list {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-  }
-
-  .pg-test-schedule--hub.ts-series-count-6 .ts-series-grid .nav-pills,
-  .pg-test-schedule--hub.ts-series-count-6 .ts-series-grid__list {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-  }
-
-  .pg-test-schedule--hub.ts-series-count-8 .ts-series-grid .nav-pills,
-  .pg-test-schedule--hub.ts-series-count-8 .ts-series-grid__list {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
@@ -1709,7 +1684,7 @@ body.pg-test-schedule {
 
 @media (max-width: 991px) {
   .pg-test-schedule--hub .ts-hero {
-    overflow: hidden;
+    overflow: visible;
     min-height: auto;
     align-items: flex-start;
     padding: 1.35rem 0 2.75rem;
@@ -1744,8 +1719,8 @@ body.pg-test-schedule {
 
   .pg-test-schedule--hub .ts-series-rail-wrap {
     margin-top: -1.25rem;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: -0.25rem;
+    margin-right: -0.25rem;
   }
 
   .pg-test-schedule--hub #ts-series-rail {
@@ -2302,6 +2277,18 @@ body.pg-test-schedule--hub {
   }
 }
 
+@media (max-width: 575.98px) {
+  .pg-test-schedule--foundation-sep26 .ts-hero__jumps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  .pg-test-schedule--foundation-sep26 .ts-hero__jump {
+    justify-content: center;
+    width: 100%;
+  }
+}
 
 @media (prefers-reduced-motion: reduce) {
   .pg-test-schedule--foundation-sep26 .ts-series-grid .nav-link:hover {
@@ -2526,22 +2513,12 @@ body.pg-test-schedule--hub {
   .pg-test-schedule--hub.ts-series-count-6 .ts-series-grid__list {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
-
-  .pg-test-schedule--hub.ts-series-count-8 .ts-series-grid .nav-pills,
-  .pg-test-schedule--hub.ts-series-count-8 .ts-series-grid__list {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
 }
 
 @media (min-width: 576px) and (max-width: 991.98px) {
   .pg-test-schedule--hub.ts-series-count-6 .ts-series-grid .nav-pills,
   .pg-test-schedule--hub.ts-series-count-6 .ts-series-grid__list {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .pg-test-schedule--hub.ts-series-count-8 .ts-series-grid .nav-pills,
-  .pg-test-schedule--hub.ts-series-count-8 .ts-series-grid__list {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 

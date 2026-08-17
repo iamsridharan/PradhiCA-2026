@@ -185,7 +185,7 @@
 
 @media (min-width: 768px) {
   .pg-dot3-pay .pg-single__tier {
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -360,10 +360,6 @@
   padding: 0.25rem 0.55rem;
   border-radius: 6px;
   z-index: 2;
-}
-
-.pg-dot3-pay .pg-price-col--featured .pg-price-card .card-header:first-child {
-  padding-right: 4.75rem !important;
 }
 
 .pg-dot3-pay .pg-price-card .card-header {
@@ -654,13 +650,6 @@
 
 .pg-dot3-pay .pg-price-card:active {
   transform: translateY(-4px) scale(0.995);
-}
-
-
-/* Equal meta slot so 1-line vs 2-line GST/concession cards keep ₹ aligned */
-.pg-dot2-pay .pg-price-card .card-header.py-5,
-.pg-dot3-pay .pg-price-card .card-header.py-5 {
-  min-height: 7.5rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
