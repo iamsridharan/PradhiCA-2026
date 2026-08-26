@@ -2513,11 +2513,18 @@ body.pg-test-schedule--hub {
   .pg-test-schedule--hub.ts-series-count-6 .ts-series-grid__list {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
+
+  .pg-test-schedule--hub.ts-series-count-7 .ts-series-grid .nav-pills,
+  .pg-test-schedule--hub.ts-series-count-7 .ts-series-grid__list {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
 }
 
 @media (min-width: 576px) and (max-width: 991.98px) {
   .pg-test-schedule--hub.ts-series-count-6 .ts-series-grid .nav-pills,
-  .pg-test-schedule--hub.ts-series-count-6 .ts-series-grid__list {
+  .pg-test-schedule--hub.ts-series-count-6 .ts-series-grid__list,
+  .pg-test-schedule--hub.ts-series-count-7 .ts-series-grid .nav-pills,
+  .pg-test-schedule--hub.ts-series-count-7 .ts-series-grid__list {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }

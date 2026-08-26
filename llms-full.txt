@@ -759,6 +759,24 @@ Most product pages follow: `ca-{level}-{type}-{mode}-{batch}.html`
 - Last-modified: 2026-07-09
 - Summary: Register for CA Final DOT 3.0 Nov 2026 batch. 6 intensive weekly tests plus a full-syllabus model exam. Choose Direct (Chennai) or Online mode with PradhiCA.
 
+### CA Final DOT 4.0-I · Nov 2026
+- URL: https://pradhica.com/ca-final-dot-4-0-i-nov-2026.html
+- File: ca-final-dot-4-0-i-nov-2026.html
+- Last-modified: 2026-08-17
+- Summary: Pay online for CA Final DOT 4.0 Nov 2026 batch. 6 intensive weekly tests plus a full-syllabus model exam. Secure Razorpay checkout from anywhere in India.
+
+### CA Final DOT 4.0-II · Nov 2026
+- URL: https://pradhica.com/ca-final-dot-4-0-ii-nov-2026.html
+- File: ca-final-dot-4-0-ii-nov-2026.html
+- Last-modified: 2026-08-17
+- Summary: Pay at Chennai centre for CA Final DOT 4.0 Nov 2026 batch. 6 intensive weekly tests plus a full-syllabus model exam. Secure Razorpay checkout for Direct mode.
+
+### CA Final DOT 4.0 Series · Nov 2026
+- URL: https://pradhica.com/ca-final-dot-4-series-nov-2026.html
+- File: ca-final-dot-4-series-nov-2026.html
+- Last-modified: 2026-08-17
+- Summary: Register for CA Final DOT 4.0 Nov 2026 batch. 6 intensive weekly tests plus a full-syllabus model exam. Choose Direct (Chennai) or Online mode with PradhiCA.
+
 ### CA Final DOT Marathon Direct · May 2026
 - URL: https://pradhica.com/ca-final-dot-marathon-direct-may-2026.html
 - File: ca-final-dot-marathon-direct-may-2026.html
