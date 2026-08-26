@@ -433,34 +433,15 @@
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 1.25rem;
   width: 100%;
-  align-items: stretch;
-}
-
-@media (min-width: 992px) {
-  .pg-model-product .model-price-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-}
-
-.pg-model-product .model-price-grid .mb-4 {
-  margin-bottom: 0 !important;
 }
 
 .pg-model-product .model-price-card {
   position: relative;
   --spot-x: 50%;
   --spot-y: 50%;
-  opacity: 1;
-  transform: none;
+  opacity: 0;
+  transform: translateY(20px);
   transition: opacity 0.55s cubic-bezier(0.16, 1, 0.3, 1), transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
-
-.pg-model-product .model-price-card > .card {
-  flex: 1 1 auto;
-  width: 100%;
 }
 
 .pg-model-product .model-price-card.is-visible {
@@ -548,10 +529,6 @@
   background: #fff !important;
   padding: 1.75rem 1.15rem !important;
   border-bottom: 1px solid #f1f5f9 !important;
-  flex: 1 1 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .pg-model-product .card .display-4 {
@@ -574,11 +551,6 @@
   border-top: 1px solid #e4e4e7 !important;
   padding: 1.15rem !important;
   margin-top: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 4.5rem;
-  flex-shrink: 0;
 }
 
 .pg-model-product .card-footer .razorpay-embed-btn {

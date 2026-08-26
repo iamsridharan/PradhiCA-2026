@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
  <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132037455-1"></script>
 <script>
@@ -71,7 +70,7 @@
     
     
     <!--Google fonts-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800&family=Maven+Pro:wght@400;500;700&family=Work+Sans:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800&family=Maven+Pro:wght@500;600;700;800&family=Work+Sans:wght@400;500;600&display=swap">
     
     
     <!-- Icon fonts -->
@@ -84,9 +83,27 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/footer-premium.css">
     <link rel="stylesheet" href="assets/css/header-premium.css">
-    <link rel="stylesheet" href="assets/css/abc-series-hub-premium.css">
-    <link rel="stylesheet" href="assets/css/abc-product-premium.css">
-<script type="application/ld+json">
+    <style>
+      .pg-hero { background: linear-gradient(135deg, #0d47a1 0%, #1565c0 50%, #1976d2 100%); }
+      .pg-single .card { border-radius: 16px; border: none; box-shadow: 0 8px 24px rgba(0,0,0,0.08); transition: transform .25s ease, box-shadow .25s ease; overflow: hidden; }
+      .pg-single .card:hover { transform: translateY(-6px); box-shadow: 0 16px 40px rgba(0,0,0,0.12); }
+      .pg-single .card-header { background: linear-gradient(135deg, #f8f9fa, #fff); border-bottom: 1px solid rgba(0,0,0,0.06); padding: 1.25rem; }
+      .pg-single .card-header h3 { font-weight: 700; color: #1a237e; }
+      .pg-single .card--featured { border: 2px solid #1976d2; box-shadow: 0 12px 32px rgba(25,118,210,0.2); }
+      .pg-single .card--featured .card-header { background: linear-gradient(135deg, #0d47a1, #1976d2); color: #fff; }
+      .pg-single .card--featured .card-header h3 { color: #fff; }
+      .pg-single .display-4 { font-weight: 700; letter-spacing: -.5px; }
+      .pg-single .card-footer { background: #f8f9fb; border-top: 1px solid rgba(0,0,0,0.06); padding: 1.25rem; }
+      .pg-single .card-footer .razorpay-embed-btn { display: inline-block; }
+      .pg-single__features { max-width: 900px; margin: 0 auto 2rem; padding: 1rem 1.5rem; list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 28px; background: #f8f9fa; border-radius: 12px; }
+      @media (min-width: 992px) { .pg-single__features { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+      .pg-single__features li { display: flex; align-items: flex-start; color: #374151; font-weight: 500; }
+      .pg-single__features i { color: #28a745; margin-right: 10px; margin-top: 3px; font-size: 1.1rem; }
+    </style>
+    
+	
+  
+    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -140,12 +157,12 @@
 }
     </script>
 </head>
-
-<body class="pg-abc-home pg-abc-home--foundation pg-abc-product pg-abc-product--direct">  <header class="site-header" role="banner">
+  
+  <body>  <header class="site-header" role="banner">
     <div class="container">
       <div class="row align-items-center justify-content-between mx-0 flex-wrap">
         <p class="site-header__trust d-none d-lg-flex mb-0">
-          <i class="fas fa-award" aria-hidden="true"></i> 7,500+ successful CA's nationwide
+          <i class="fas fa-award" aria-hidden="true"></i> 7,500+ successful CAs nationwide
         </p>
         <ul class="list-inline d-none d-lg-flex mb-0">
           <li class="list-inline-item">
@@ -227,62 +244,47 @@
       </div>
     </div>
   </nav>
-  <header class="abc-hero" aria-labelledby="abc-product-h1">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-11 py-2">
-          <ol class="breadcrumb breadcrumb-double-angle bg-transparent p-0 mb-3">
-            <li class="breadcrumb-item"><a href="index.html"><i class="fas fa-home mr-1" aria-hidden="true"></i>Home</a></li>
-            <li class="breadcrumb-item"><a href="ca-foundation-test-schedule-may-2026.html">CA Foundation May 26</a></li>
-            <li class="breadcrumb-item"><a href="ca-foundation-abc-series-may-2026.html">ABC Test Series</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Direct · With model</li>
-          </ol>
-          <h1 id="abc-product-h1"><i class="fas fa-building mr-2" aria-hidden="true"></i>CA Foundation ABC Direct · With model · May 2026</h1>
-          <p class="lead">Secure checkout for <strong>Chennai centre</strong> ABC + model packages. In-person exams with invigilation and on-campus support.</p>
-          <div class="abc-hero__badges">
-            <span class="abc-badge"><i class="fas fa-calendar-alt" aria-hidden="true"></i> May 2026 batch</span>
-            <span class="abc-badge"><i class="fas fa-layer-group" aria-hidden="true"></i> ABC + model bundle</span>
-            <span class="abc-badge"><i class="fas fa-lock" aria-hidden="true"></i> Razorpay secure pay</span>
-          </div>
-          <div class="abc-trust">
-            <span><i class="fas fa-check-circle" aria-hidden="true"></i> ICAI-style pattern</span>
-            <span><i class="fas fa-check-circle" aria-hidden="true"></i> Suggested answers</span>
-            <span><i class="fas fa-check-circle" aria-hidden="true"></i> <a href="tel:+918072653948" class="abc-trust__link">+91 80726 53948</a></span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <section class="abc-pricing pg-single" id="pricing">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-11">
-          <div class="abc-pricing__head">
-            <div class="abc-product-actions">
-              <a href="ca-foundation-abc-series-may-2026.html" class="abc-back-link abc-pricing__back"><i class="fas fa-arrow-left" aria-hidden="true"></i>Back to ABC options</a>
-              <a href="ca-foundation-abc-direct-may-2026.html" class="abc-product-actions__pill"><i class="fas fa-file-alt" aria-hidden="true"></i>Switch to without model</a>
-              <a href="ca-foundation-abc-online-with-model-may-2026.html" class="abc-product-actions__pill"><i class="fas fa-laptop" aria-hidden="true"></i>Switch to Online</a>
-            </div>
-            <h2>Select your Direct package · With model</h2>
-            <p>Pay via Razorpay. Centre-based ABC series with model examinations — all fees exclusive of GST.</p>
-          </div>
+<div class="padding-y-60 bg-cover pg-hero" data-dark-overlay="6" style="background:url(assets/img/breadcrumb-bg.jpg) no-repeat center/cover">
+  <div class="container">
+   <div class="row align-items-center">
+     <div class="col-lg-8 my-2 text-white">
+      <ol class="breadcrumb breadcrumb-double-angle bg-transparent p-0">  
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="ca-foundation-abc-series-may-2026.html">ABC Registration</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Direct (Chennai) Payment</li>
+      </ol>
+      <h1 class="h2 font-weight-bold mb-2">
+        CA Foundation ABC <span class="text-warning">+ Model</span> · Direct · May 26
+      </h1>
+      <p class="text-white-0_9 mb-0">Complete ABC with Model Exam at our Chennai centre — 25% concession on Model fee</p>
+     </div>
+   </div>
+  </div>
+</div>
 
-          <ul class="pg-single__features">
-            <li><i class="fas fa-check" aria-hidden="true"></i>Evaluated by Qualified CAs</li>
-            <li><i class="fas fa-check" aria-hidden="true"></i>Results within 4 days</li>
-            <li><i class="fas fa-check" aria-hidden="true"></i>Suggested answers after each exam</li>
-            <li><i class="fas fa-check" aria-hidden="true"></i>ICAI-aligned pattern and timing</li>
-            <li><i class="fas fa-check" aria-hidden="true"></i>Amendments and case-study coverage</li>
-            <li><i class="fas fa-check" aria-hidden="true"></i>Flexible scheduling options</li>
-          </ul>
 
-          <div class="abc-price-tier">
-            <div class="abc-price-block">
-              <h3 class="abc-price-block__title">ABC Direct — <span class="text-primary">With model</span></h3>
-            </div>
-          <div class="abc-price-grid">
-            <div class="abc-price-card abc-price-card--popular">
-<div class="card border-0 mb-4 shadow-v3 text-center height-100p card--featured">
+<section class="padding-y-100 border-bottom border-light pg-single bg-light" id="pricing">
+  <div class="container">
+    <div class="row align-items-center">
+     <div class="col-12 text-center mb-4">
+       <a href="ca-foundation-abc-series-may-2026.html" class="btn btn-outline-primary btn-sm mb-3"><i class="ti-arrow-left mr-1"></i> Back to ABC Options</a>
+       <span class="badge badge-primary px-3 py-2 mb-2 d-block">Direct · Chennai Centre · May 26</span>
+       <h3 class="font-weight-bold mb-2">Choose Your Package</h3>
+       <p class="text-muted">Select the number of papers and proceed to payment</p>
+     </div>
+      <div class="col-12">
+        <ul class="pg-single__features">
+          <li><i class="ti-check"></i>Evaluated by Qualified CAs</li>
+          <li><i class="ti-check"></i>Results within 4 days</li>
+          <li><i class="ti-check"></i>Suggested answers after each exam</li>
+          <li><i class="ti-check"></i>ICAI-aligned pattern and timing</li>
+          <li><i class="ti-check"></i>Amendments and case-study coverage</li>
+          <li><i class="ti-check"></i>Flexible scheduling options</li>
+        </ul>
+      </div> 
+     
+     <div class="col-lg-3 col-md-6 mt-4">
+       <div class="card border-0 mb-4 shadow-v3 text-center height-100p card--featured">
          <div class="card-header border-0">
            <span class="badge badge-warning mb-2">Best Value</span>
            <h3 class="mb-0">ALL SUBJECTS</h3>
@@ -317,9 +319,11 @@
     
     
          </div>
-            </div>
-            <div class="abc-price-card">
-<div class="card border-0 mb-4 shadow-v3 text-center height-100p">
+       </div>
+     </div>
+     
+     <div class="col-lg-3 col-md-6 mt-4">
+       <div class="card border-0 mb-4 shadow-v3 text-center height-100p">
          <div class="card-header border-0">
            <h3 class="mb-0">3 PAPERS</h3>
          </div>
@@ -351,9 +355,13 @@
     
     
          </div>
-            </div>
-            <div class="abc-price-card">
-<div class="card border-0 mb-4 shadow-v3 text-center height-100p">
+       </div>
+     </div>
+	 
+
+	 
+	 <div class="col-lg-3 col-md-6 mt-4">
+       <div class="card border-0 mb-4 shadow-v3 text-center height-100p">
          <div class="card-header border-0">
            <h3 class="mb-0">2 PAPERS</h3>
          </div>
@@ -386,9 +394,11 @@
     
     
          </div>
-            </div>
-            <div class="abc-price-card">
-<div class="card border-0 mb-4 shadow-v3 text-center height-100p">
+       </div>
+     </div>
+	 
+	 <div class="col-lg-3 col-md-6 mt-4">
+       <div class="card border-0 mb-4 shadow-v3 text-center height-100p">
          <div class="card-header border-0">
            <h3 class="mb-0">1 PAPER</h3>
          </div>
@@ -420,30 +430,25 @@
     
     
          </div>
-            </div>
-          </div>
-          </div>
-
-          <div class="pg-venue-block">
-            <div class="pg-venue-block__inner">
-              <p class="pg-venue-block__label mb-0">Direct mode · exam venue</p>
-              <h3 class="pg-venue-block__title"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> PradhiCA Chennai centre</h3>
-              <p class="pg-venue-block__brand mb-0">PradhiCA</p>
-              <p class="pg-venue-block__address">No: 20, <strong>1st floor</strong>, Chakrapani St Ext, Rangarajapuram, West Mambalam, Chennai, Tamil Nadu <strong>600033</strong></p>
-              <a href="https://maps.app.goo.gl/3scL1jiJsRZxtvYd9" class="pg-venue-block__btn" target="_blank" rel="noopener noreferrer"><i class="fas fa-directions" aria-hidden="true"></i>Open in Google Maps</a>
-            </div>
-          </div>
-
-          <p class="abc-pricing__note"><i class="fas fa-info-circle mr-1"></i>GST as applicable · Need help? <a href="registration.html">Enquiry</a> or <a href="https://api.whatsapp.com/send?phone=918072653948">WhatsApp</a></p>
-        </div>
-      </div>
+       </div>
+     </div>
+	 
+	 
+	 
+	 
+     
+     
+     
     </div>
-  </section>
-  <div class="abc-product-sticky" role="navigation" aria-label="Quick links">
-    <a href="#pricing" class="abc-product-sticky--gold">View pricing</a>
-    <a href="ca-foundation-test-schedule-may-2026.html" class="abc-product-sticky--outline">Full schedule</a>
   </div>
-
+</section>
+   
+   
+   
+   
+   
+   
+   
 <footer class="site-footer">
   <div class="footer-top bg-dark text-white-0_6 pt-5 paddingBottom-100">
     <div class="container"> 
@@ -515,20 +520,18 @@
     </a>
   </div>  <!-- END footer-bottom-->
 </footer> <!-- END site-footer -->
-  <script>
-    (function (w, i, d, g, e, t, s) {
-      w[d] = w[d] || []; t = i.createElement(g);
-      t.async = 1; t.src = e; s = i.getElementsByTagName(g)[0]; s.parentNode.insertBefore(t, s);
-    })(window, document, '_gscq', 'script', '//widgets.getsitecontrol.com/171724/script.js');
-  </script>
-  <div class="scroll-top">
-    <i class="ti-angle-up"></i>
-  </div>
-
-  <script src="assets/js/vendors.bundle.js"></script>
-      <script src="assets/js/header-scroll.js"></script>
+<script>
+  (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
+    t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
+  })(window, document, '_gscq','script','//widgets.getsitecontrol.com/171724/script.js');
+</script>
+<div class="scroll-top">
+  <i class="ti-angle-up"></i>
+</div>
+     
+    <script src="assets/js/vendors.bundle.js"></script>
+        <script src="assets/js/header-scroll.js"></script>
     <script src="assets/js/header-nav-dropdown.js"></script>
     <script src="assets/js/scripts.js"></script>
-</body>
-
+  </body>
 </html>

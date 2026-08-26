@@ -267,19 +267,6 @@ body.pg-home {
   position: relative;
 }
 
-.pg-home .welcome-section .row > [class*="col-"] {
-  display: flex;
-  flex-direction: column;
-}
-
-.pg-home .welcome-section .announcements-card {
-  height: 100%;
-}
-
-.pg-home .welcome-content {
-  padding-top: 0.5rem;
-}
-
 .pg-home .welcome-section::before {
   content: "";
   position: absolute;
@@ -411,7 +398,7 @@ body.pg-home {
 
 .pg-home .announcement-item:hover {
   background: linear-gradient(90deg, rgba(13, 148, 136, 0.06), transparent);
-  padding-left: 1.75rem !important;
+  padding-left: 1.5rem !important;
 }
 
 .pg-home .announcement-date {
@@ -949,16 +936,8 @@ body.pg-home {
     max-height: 220px;
   }
 
-  .pg-home .carousel-item,
-  .pg-home .carousel-item.height-90vh {
-    min-height: 78vh !important;
-  }
-
-  .pg-home .carousel-item .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: inherit;
+  .pg-home .carousel-item {
+    min-height: 78vh;
   }
 
   .pg-home .hero-buttons .btn,
