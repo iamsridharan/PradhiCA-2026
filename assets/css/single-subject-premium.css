@@ -350,15 +350,12 @@
   border: 1px solid #e2e8f0;
   box-shadow: 0 12px 40px -12px rgba(15, 23, 42, 0.1);
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
 .pg-ss-hub .ss-mode-card.is-highlighted {
   border-color: #fcd34d;
   box-shadow: 0 16px 48px -12px rgba(217, 119, 6, 0.22);
-  transform: none;
+  transform: translateY(-4px);
 }
 
 .pg-ss-hub .ss-mode-card__icon {
@@ -446,7 +443,6 @@
   font-size: 0.88rem;
   text-decoration: none !important;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  margin-top: auto;
 }
 
 .pg-ss-hub .ss-mode-card--direct .ss-mode-card__btn {
@@ -871,7 +867,7 @@
 }
 
 @media (min-width: 768px) {
-  .pg-ss-pay .pg-single__tier { text-align: center; }
+  .pg-ss-pay .pg-single__tier { text-align: left; }
 }
 
 .pg-ss-pay--direct .pg-single__tier h4 {
@@ -973,8 +969,8 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  opacity: 1;
-  transform: none;
+  opacity: 0;
+  transform: translateY(20px);
 }
 
 .pg-ss-pay .pg-price-card.is-visible {
@@ -983,8 +979,8 @@
 }
 
 .pg-ss-pay .pg-price-card.is-spotlight {
-  transform: none;
-  z-index: 1;
+  transform: translateY(-8px) scale(1.02);
+  z-index: 2;
 }
 
 .pg-ss-pay--direct .pg-price-card::before {
@@ -1028,10 +1024,6 @@
   z-index: 2;
 }
 
-.pg-ss-pay .pg-price-col--featured .pg-price-card .card-header:first-child {
-  padding-right: 4.75rem !important;
-}
-
 .pg-ss-pay .pg-price-card .card-header h3 {
   font-family: "DM Sans", sans-serif;
   font-weight: 800;
@@ -1067,8 +1059,7 @@
 }
 
 .pg-ss-pay .pg-price-card.is-visible.is-spotlight {
-  transform: none;
-  z-index: 1;
+  transform: translateY(-8px) scale(1.02);
 }
 
 .pg-ss-pay .pg-venue-block__inner {
@@ -1205,22 +1196,4 @@
   .pg-ss-pay .ss-faq__body {
     transition: none;
   }
-}
-
-/* Equal-height helpers */
-.pg-ss-pay .pg-price-card .card-header:first-child {
-  min-height: 4.25rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.pg-ss-pay .pg-price-card .card-header.py-5 {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 7.5rem;
-}
-.pg-ss-pay .pg-price-card .razorpay-embed-btn {
-  display: inline-block;
 }
